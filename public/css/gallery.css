@@ -1,0 +1,259 @@
+@font-face {
+   font-family: 'mcharazo';
+   src: url('../TalantaFonts/MR-PUDIDI-DECORATIVE-FONT/MRPUDIDI.ttf') format('truetype');
+ }
+.container{
+    width: 100%;
+    height: fit-content;/*change to fit item content */
+    background-color: #1F202A;
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 100px;
+}
+
+.container .title{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    height: fit-content;
+    align-items: center;
+    flex-flow: row nowrap;
+    color: white;
+    font-family: "Anton",sans-serif;
+    margin: 10% auto 0 auto;
+}
+.container .title h1{
+    font-size: 6rem;
+    font-weight: 900;
+    font-family: "Anton",sans-serif;
+}
+
+.container .title .gallery_links{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.container .title .gallery_links .link_img{
+    color: white;
+    margin: auto 20px;
+    display: flex;
+    flex-flow: row nowrap;
+ }
+
+.container .title .gallery_links .link_img img{
+    width: 40px;
+    height: 70px;
+    transform: scaleX(-1) rotate(-25deg);
+    margin: auto 0;
+}
+
+.container .title .gallery_links .link_img a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    margin: auto 0px;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+ }
+
+ .content{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80%;
+    height: fit-content;
+    margin: 20px auto;
+ }
+ .content-images{
+   margin-top: 40px;
+ }
+
+ .content button{
+    display: flex;
+    flex-flow: column nowrap;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px auto;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    font-family: "Anton",sans-serif;
+    font-weight: 500;
+    color: white;
+ }
+
+ .content button:hover{
+    cursor: pointer;
+    color: orange;
+ }
+
+ .content .small-title{
+    width: 100%;
+    height: fit-content;
+    text-align: start;
+    margin: 50px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+ }
+ .content .small-title h2{
+    font-size: 2rem;
+    font-family: "Anton",sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+ }
+
+ .content .small-title .filters{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+ }
+
+ .content .small-title .filters .filter-btn{
+   font-size: 0.95rem;
+   font-family: "Anton",sans-serif;
+   margin: auto 0px 0px 10px;
+   border: 1px solid grey;
+   border-radius: 25px;
+   color: white;
+   text-decoration: none;
+   list-style: none;
+   padding: 7px 20px;
+   text-transform: capitalize;
+}
+
+.content .small-title .filters .filter-btn:hover{
+   background-color: orange;
+   cursor: pointer;
+   color: #333;
+   border: none;
+}
+
+.content .small-title .filters .filter-btn.active-filter{
+    background-color: orange;
+    cursor: pointer;
+    color: #333;
+    border: none;
+ }
+
+
+ .content .media{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;
+    height: fit-content;
+ }
+
+ .content .content-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+ }
+
+ .content .media .grid-item {
+    height: 250px;
+    background: #bcbcbc;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+ }  
+ 
+ .videos{
+   display: none;
+ }
+ .videos:nth-child(n+1):nth-child(-n+4) {
+   display: block;
+ }
+ .images{
+   display: none;
+ }
+ .images:nth-child(n+1):nth-child(-n+4) {
+   display: block;
+ }
+ 
+ .content .media .grid-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+ }
+
+ /* working with  */
+
+ @media(max-width:768px) {
+   .container{
+      padding-bottom: 20px;
+  }
+   .container .title{
+      flex-flow: column nowrap;
+      align-items: start;
+      margin: 15% auto 0 auto;
+  }
+
+
+  .container .title h1{
+   font-size: 3rem;
+   margin-top: 20px;
+   text-align: start;
+   margin: 0;
+}
+
+.container .title .gallery_links{
+   justify-content: space-between;
+   width: 100%;
+
+}
+
+.container .title .gallery_links .link_img{
+   margin: auto 0px;
+}
+
+.container .title .gallery_links .link_img img{
+   width: 20px;
+   height: 30px;
+}
+
+.container .title .gallery_links .link_img a{
+   font-size: 1rem;
+}
+.content .small-title{
+   margin: 20px auto 10px auto;
+}
+.content .small-title h2{
+   font-size: 1.3rem;
+}
+.content .media .grid-item {
+   height: 170px;
+}  
+.content .content-images{
+   grid-template-columns: repeat(2, 1fr); 
+}
+
+.content-images{
+   margin-top: 0px;
+ }
+
+ .content .small-title{
+   margin: 15px auto 15px auto;
+   flex-flow: column nowrap;
+   justify-content: start;
+}
+.content .small-title h2{
+   font-size: 1.5rem;
+   margin-bottom: 10px;
+}
+
+.content .small-title .filters .filter-btn{
+  font-size: 0.70rem;
+  margin: auto 4px 0px 0px;
+  padding: 5px 10px;
+}
+   
+ }
+ 

@@ -1,0 +1,408 @@
+@font-face {
+  font-family: 'mcharazo';
+  src: url('../TalantaFonts/MR-PUDIDI-DECORATIVE-FONT/MRPUDIDI.ttf') format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body, html {
+    height: 100%;
+    font-family: 'poppins', sans-serif;
+  }
+  body{
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+
+/* Navbar */
+
+ #navbar {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  align-items: center;
+  transition: background-color 0s ease;
+  z-index: 999;
+}
+
+/* Background color when scrolled */
+.scrolled {
+  background-color: #1F202A !important;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: auto 0;
+  }
+
+
+
+  .social-icons {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+  }
+
+  .social-icons a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons .round_border{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-icons a:hover {
+    color: orange;
+  }
+
+
+  .hamburger {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: white;
+    color: #1F202A;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+     padding-left: 10%;
+    flex-direction: column;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  .menu-overlay .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    font-size: 4rem;
+    cursor: pointer;
+  }
+
+  .menu-overlay ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .menu-overlay ul li {
+    margin: 1rem 0;
+    padding: 0;
+  }
+
+  .menu-overlay ul li a {
+    text-decoration: none;
+    font-size: 4rem;
+    color: #1F202A;
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    padding: 0;
+  }
+
+  .menu-overlay ul li a:hover {
+    font-size: 4rem;
+    color: #1F202A;
+    font-weight: 900;
+    font-family: "mcharazo", sans-serif;
+    font-style: italic;
+    padding: 10px;
+  }
+
+  .menu-overlay.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+    @media only screen and (max-width:480px){
+      #navbar{
+        padding: 5px 20px;
+        height: fit-content;
+        width: 100%;
+      }
+      .social-icons {
+        display: none;
+      }
+      .logo{
+        height: 50px;
+        width: 80px;
+        padding-top: 0px;
+      }
+
+      .hamburger {
+        font-size: 18px;
+      }
+
+      .menu-overlay .close-btn {
+        right: 30px;
+        font-size: 2.5rem;
+      }
+
+      .menu-overlay ul li {
+        margin: 0.7rem 0;
+      }
+
+      .menu-overlay ul li a {
+        font-size: 2.5rem;
+      }
+      .menu-overlay ul li a:hover {
+        font-size: 2.5rem;
+      }
+
+    }
+
+    @media only screen and (min-width:480px){
+
+      #navbar{
+        padding: 5px 20px;
+        height: fit-content;
+        width: 100%;
+      }
+      .social-icons {
+        display: none;
+      }
+      .logo{
+        height: 60px;
+        width: 90px;
+        padding-top: 0px;
+      }
+
+      .hamburger {
+        font-size: 18px;
+      }
+
+      .menu-overlay .close-btn {
+        right: 30px;
+        font-size: 2.5rem;
+      }
+
+      .menu-overlay ul li {
+        margin: 0.1rem 0;
+      }
+
+      .menu-overlay ul li a {
+        font-size: 2.6rem;
+      }
+      .menu-overlay ul li a:hover {
+        font-size: 2.6rem;
+      }
+
+
+    }
+
+    @media only screen and (min-width:768px){
+
+      #navbar{
+        padding: 7px 5%;
+        height: 50px;
+        width: 100%;
+      }
+      .social-icons {
+        display: flex;
+      }
+      .logo{
+        height: 50px;
+        width: 110px;
+        padding-top: 0px;
+      }
+
+      .social-icons a {
+        font-size: 15px;
+      }
+
+      .social-icons .round_border{
+        width: 28px;
+        height: 28px;
+      }
+
+      .menu-overlay {
+        align-items: start;
+        padding-left: 5%;
+      }
+
+
+      .hamburger {
+        font-size: 18px;
+      }
+
+      .menu-overlay .close-btn {
+        right: 30px;
+        font-size: 2.5rem;
+      }
+
+      .menu-overlay ul li {
+        margin: 1rem 0;
+      }
+
+      .menu-overlay ul li a {
+        font-size: 3.6rem;
+      }
+      .menu-overlay ul li a:hover {
+        font-size: 3.6rem;
+      }
+
+
+    }
+
+    @media only screen and (min-width:1024px){
+      #navbar{
+        padding: 10px 4%;
+        height: fit-content;
+        width: 100%;
+      }
+      .social-icons {
+        display: flex;
+      }
+      .logo{
+        height: 50px;
+        width: 120px;
+        padding-top: 0px;
+      }
+
+      .social-icons a {
+        font-size: 16px;
+      }
+
+      .social-icons .round_border{
+        width: 30px;
+        height: 30px;
+      }
+
+      .hamburger {
+        font-size: 18px;
+      }
+
+      .menu-overlay .close-btn {
+        right: 30px;
+        font-size: 2.5rem;
+      }
+
+      .menu-overlay ul li {
+        margin: 1rem 0;
+      }
+
+      .menu-overlay ul li a {
+        font-size: 3.8rem;
+      }
+      .menu-overlay ul li a:hover {
+        font-size: 3.8rem;
+      }
+
+    }
+
+    @media only screen and  (min-width:1440px){
+
+    #navbar{
+        padding: 10px 5%;
+        height: fit-content;
+        margin: 0 auto;
+      }
+
+      .logo{
+        height: 50px;
+        width: 100px;
+        padding-top: 0px;
+      }
+
+      .social-icons a {
+        font-size: 16px;
+      }
+
+      .social-icons .round_border{
+        width: 28px;
+        height:28px;
+      }
+
+      .hamburger {
+        font-size:22px;
+      }
+
+      .menu-overlay ul li a {
+        font-size: 4.2rem;
+        line-height: 3.8rem;
+      }
+      .menu-overlay ul li a:hover {
+        font-size: 4.2rem;
+      }
+
+    }
+
+    @media only screen and  (min-width:2560px){
+
+      .logo{
+        height: 100px;
+        width: 200px;
+        padding-top: 0px;
+      }
+
+      .social-icons a {
+        font-size: 25px;
+      }
+
+      .social-icons .round_border{
+        width: 56px;
+        height:56px;
+      }
+
+      .hamburger {
+        font-size:38px;
+      }
+
+      .menu-overlay ul li a {
+        font-size: 6rem;
+        line-height: 6rem;
+      }
+      .menu-overlay ul li a:hover {
+        font-size: 8rem;
+      }
+
+    }
+
+
+
+

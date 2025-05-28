@@ -1,0 +1,587 @@
+@font-face {
+  font-family: 'mcharazo';
+  src: url('../TalantaFonts/MR-PUDIDI-DECORATIVE-FONT/MRPUDIDI.ttf') format('truetype');
+}
+
+.info-section {
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 170vh;
+    background-color: orange;
+    color: #1A202a;
+  }
+
+  .row {
+    display: flex;
+    justify-content:center;
+    flex-wrap: nowrap;
+    margin: 40px auto 0px auto;
+    width: 80%;
+
+  }
+
+  .big-image-text{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin-top: 100px;
+  }
+
+  /* .images {
+    flex: 1;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: end;
+    z-index: 1;
+    border: 2px solid #1A202a;
+    background-color: purple;
+  }
+  .images img {
+    width: 50px;
+    height: 50px;
+    border-radius: 0px;
+    object-fit: contain;
+    margin-right: 0px;
+  } */
+
+  .heading{
+    flex: 1;
+    display: block;
+    position: relative;
+  }
+
+  .heading img{
+   width: 200px;
+   height: 240px;
+   transition: all 0.3s;
+   position: absolute;
+   display: flex;
+   top: -30px;
+  }
+
+  .heading h2{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 6rem;
+    font-family: "Poppins", sans-serif;
+    color: #1A202a;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .heading h2 span{
+    width: 100%;
+    font-size: 6rem;
+    font-family: "mcharazo", sans-serif;
+    color: #fff;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 2px;
+  }
+
+  .description {
+    width: 50%;
+    display: flex;
+    flex-flow: row  nowrap;
+    justify-content: start;
+  }
+
+  .description p {
+    width: 85%;
+    height: fit-content;
+    font-size: 0.95rem;
+    color: #1A202a;
+    text-align: start;
+    margin: auto 0;
+    line-height: 1.4rem;
+    font-weight: 500;
+  }
+
+  .images-reverse {
+    width: fit-content;
+    height: fit-content;
+    overflow: hidden;
+    margin-left: 2%;
+  }
+
+.images-reverse  img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+  }
+
+
+
+  @media only screen and (max-width:480px){
+    .info-section {
+      height: fit-content;
+      padding: 30px 20px;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .big-image-text{
+      flex-flow: column nowrap;
+      width: 100%;
+      margin-top: 40px;
+    }
+
+    .images {
+      display: flex;
+      flex-flow: row nowrap;
+      z-index: 1;
+      justify-content: center;
+      align-items: center;
+    }
+    .images img {
+      width: 180px;
+      height: 150px;
+      margin: 4% auto;
+    }
+
+    .heading{
+      display: block;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+
+    }
+    .heading img{
+     display: none;
+    }
+    .heading h2{
+      font-size: 1.9rem;
+      line-height: 2.5rem;
+      text-align: start;
+      margin: 0px auto 0px 30px;
+      width: 100%;
+    }
+    .heading h2 span{
+      font-size: 3rem;
+    }
+    .row {
+      display: flex;
+      flex-flow: column nowrap;
+      margin-top: 40px;
+    }
+    .description {
+    width: 100%;
+    }
+    .description p {
+      width: 100%;
+      font-size: 0.78rem;
+      line-height: 1.1rem;
+      font-weight: 400;
+    }
+
+    .images-reverse {
+      flex: 1;
+      width: 100%;
+      overflow: hidden;
+      margin:20px auto 0px auto;
+      aspect-ratio:9/5;
+    }
+  }
+
+  @media only screen and (min-width:480px){
+    .info-section {
+      height: fit-content;
+      padding: 20px auto 20px auto;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+
+    .big-image-text{
+      flex-flow: column nowrap;
+      width: 100%;
+      margin-top: 0px;
+    }
+
+    .images {
+      display: flex;
+      flex-flow: row nowrap;
+      z-index: 1;
+      justify-content: center;
+      align-items: center;
+    }
+    .images img {
+      width: 200px;
+      height: 170px;
+      margin: 4% auto;
+    }
+
+    .heading{
+      z-index: 2;
+      bottom: 0;
+      width: 90%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    .heading img{
+     display: none;
+    }
+    .heading h2{
+      font-size: 2.0rem;
+      line-height:2.5rem;
+      text-align: start;
+      width: 80%;
+      margin-left: 40px;
+    }
+    .heading h2 span{
+      font-size: 3.7rem;
+    }
+
+    .row {
+      display: flex;
+      flex-flow: column nowrap;
+      margin-top: 50px;
+    }
+    .description{
+        width: 100%;
+    }
+    .description p {
+      font-size: 0.81rem;
+      line-height: 1.25rem;
+      font-weight: 400;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .images-reverse {
+      width: 80%;
+      overflow: hidden;
+      margin:20px auto 0px auto;
+      aspect-ratio:8/5;
+    }
+
+  }
+
+  @media only screen and (min-width:768px){
+
+    .info-section {
+    padding: 10px 20px;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .big-image-text{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90%;
+    margin-top: 0px;
+  }
+
+    .images {
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    flex-flow: row;
+    }
+
+    #myImage {
+    width: 160px;
+    height: 180px;
+    display: block;
+    margin-top: 50%;
+    margin-right: 50px;
+    z-index: 1;
+    }
+
+    .heading{
+      width: 60%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      margin-top: 60px;
+      margin-left: -5px;
+      position: relative;
+    }
+    .heading img{
+     width: 120px;
+     height: 200px;
+     margin-left: 40%;
+     display: flex;
+    }
+    .heading h2{
+      font-size: 2.05rem;
+      line-height: 3rem;
+      width: 100%;
+      text-align: start;
+      margin-left: -10px;
+
+    }
+    .heading h2 span{
+      font-size: 3.2rem;
+    }
+    .row {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      margin-top: 15%;
+      width: 80%;
+      padding-top: 30px;
+    }
+
+    .description {
+      width: 50%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+    }
+    .description p {
+      width: 100%;
+      font-size: 0.78rem;
+      line-height: 1.2rem;
+      font-weight: 400;
+    }
+
+    .images-reverse {
+      width: 200px;
+      height: 200px;
+      aspect-ratio: 1/1;
+    }
+  }
+
+  @media only screen and (min-width:1024px){
+    .info-section {
+        padding: 20px 20px 0px 20px;
+        height: 150vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .big-image-text{
+    background-color: transparent;
+  }
+      .images {
+    width: 42%;
+    }
+
+        .heading{
+      display: block;
+      width: 58%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      margin-top: 60px;
+      z-index: 2;
+    }
+
+    .heading img{
+     width: 130px;
+     height: 210px;
+     margin-left: 50%;
+     top: -60px;
+    }
+
+    #myImage {
+        width: 190px;
+        height: 230px;
+        display: block;
+        margin-top: 50%;
+        margin-right: 40px;
+        z-index: 1;
+    }
+    .heading h2{
+      font-size: 3.3rem;
+      line-height:4.5rem;
+      width: 100%;
+      text-align: start;
+      z-index: 2;
+      margin-left: -10px;
+    }
+    .heading h2 span{
+      font-size: 6rem;
+    }
+    .row {
+      margin-top: 10%;
+      width: 70%;
+
+    }
+    .description {
+      width: 60%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      padding-top: 0;
+    }
+    .description p {
+      font-size: 0.8rem;
+      line-height: 1.4rem;
+      font-weight: 400;
+    }
+
+    .images-reverse {
+      height: 300px;
+      width: 270px;
+      margin-left: 10%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+
+
+    }
+
+  }
+
+  @media only screen and (min-width:1440px){
+    .info-section {
+        padding: 20px 20px;
+        height: 200vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .images{
+        background-color: transparent;
+        width: 45%;
+    }
+
+    .big-image-text{
+        background-color: transparent;
+    }
+    .heading{
+        background-color: transparent;
+    }
+
+    .heading img{
+     width: 200px;
+     height: 250px;
+     margin-left: 50%;
+     top: -50px;
+    }
+
+
+    #myImage {
+        width: 250px;
+        height: 280px;
+        display: block;
+        margin-top: 50%;
+        margin-right: 40px;
+        z-index: 1;
+    }
+    .heading h2{
+      font-size: 4rem;
+      line-height: 5.5rem;
+      width: 100%;
+      text-align: start;
+      z-index: 2;
+    }
+    .heading h2 span{
+      font-size: 7rem;
+    }
+    .row {
+      margin-top: 10%;
+      width: 70%;
+      padding-top: 50px;
+    }
+    .description {
+      width: 50%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      padding-top: 0;
+    }
+    .description p {
+      font-size: 0.92rem;
+      line-height: 1.4rem;
+      font-weight: 400;
+      margin-top: 0;
+    }
+
+    .images-reverse {
+      height:320px;
+      width: 320px;
+    }
+
+  }
+
+  @media only screen and (min-width:2560px){
+    .info-section {
+        padding: 20px 20px;
+        height: 190vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+        .images{
+        background-color: transparent;
+        width: 43%;
+    }
+
+    .big-image-text{
+        background-color: transparent;
+    }
+    .heading{
+        background-color: transparent;
+    }
+
+    .heading img{
+     width: 400px;
+     height: 450px;
+     margin-left: 50%;
+     top: -50px;
+    }
+
+
+    #myImage {
+        width: 430px;
+        height: 500px;
+        display: block;
+        margin-top: 50%;
+        margin-right: 60px;
+        z-index: 1;
+    }
+    .heading h2{
+      font-size: 7rem;
+      line-height: 8.5rem;
+      width: 100%;
+      text-align: start;
+      z-index: 2;
+    }
+    .heading h2 span{
+      font-size: 12rem;
+    }
+    .row {
+      margin-top: 10%;
+      width: 70%;
+      padding-top: 50px;
+    }
+    .description {
+      width: 50%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+    }
+    .description p {
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+      font-weight: 400;
+      margin-top: 0;
+    }
+
+    .images-reverse {
+      height: 500px;
+      width: 500px;
+    }
+
+  }
+
+
+
+
+
+
+

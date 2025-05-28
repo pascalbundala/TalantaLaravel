@@ -1,0 +1,184 @@
+@font-face {
+   font-family: 'mcharazo';
+   src: url('../TalantaFonts/MR-PUDIDI-DECORATIVE-FONT/MRPUDIDI.ttf') format('truetype');
+ }
+.links-to-pages{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+ }
+ .links-to-pages .image-with-links{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+ }
+ .links-to-pages .image-with-links .divs{
+    width: 100%;
+    background-image: url('../images/masaai.jpg');
+    background-attachment: fixed;     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+ .links-to-pages .image-with-links .divs:nth-child(2){
+    background-image: url('../images/madogo-wanaoga.jpg');
+ }
+
+ .links-to-pages .divs .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    left: 0;
+    z-index: 9;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+ }
+
+ .links-to-pages .divs .overlay a{
+    font-size: 3.5rem;
+    color: white;
+    font-family: "Anton",sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: capitalize;
+ }
+
+ .links-to-pages .divs .overlay:hover a{
+    font-size: 3.5rem;
+    color: orange;
+    font-family: "mcharazo",sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    cursor: pointer;
+ }
+ .links-to-pages .divs .overlay p{
+    font-size: 0.95rem;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+ }
+
+
+ @media(max-width:767px){
+
+   .links-to-pages{
+      width: 100%;
+      height: 60vh;
+      position: relative;
+   }
+   .links-to-pages .image-with-links{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+   }
+   .links-to-pages .image-with-links .divs{
+      flex: 1;
+      height: 100%;
+   }
+  
+   .links-to-pages .divs .overlay a{
+      font-size: 2.5rem;
+      font-weight: 600;
+      letter-spacing: 0.03rem;
+   }
+  
+   .links-to-pages .divs .overlay:hover a{
+      font-size: 2.5rem;
+      font-weight: 300;
+      
+   }
+   .links-to-pages .divs .overlay p{
+      font-size: 0.78rem;
+      width: 60%;
+      font-weight: 400;
+      text-align: start;
+   }
+  
+ }
+
+
+ @media (min-width:768px) and (max-width:1023px){
+
+   .links-to-pages{
+      width: 100%;
+      height: 100vh;
+      position: relative;
+   }
+   .links-to-pages .image-with-links{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+   }
+   .links-to-pages .image-with-links .divs{
+      flex: 1;
+      height: 100%;
+   }
+  
+   .links-to-pages .divs .overlay a{
+      font-size: 3.4rem;
+      font-weight: 600;
+
+   }
+  
+   .links-to-pages .divs .overlay:hover a{
+      font-size: 3.4rem;
+      font-weight: 300;
+   }
+   .links-to-pages .divs .overlay p{
+      font-size: 0.8rem;
+      width: 70%;
+      font-weight: 400;
+      text-align: start;
+   }
+  
+ }
+
+
+ @media (min-width:1024px) {
+
+   .links-to-pages{
+      width: 100%;
+      height: 90vh;
+      position: relative;
+   }
+   .links-to-pages .image-with-links{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+   }
+   .links-to-pages .image-with-links .divs{
+      flex: 1;
+      height: 100%;
+   }
+  
+   .links-to-pages .divs .overlay a{
+      font-size: 4rem;
+      font-weight: 600;
+   }
+  
+   .links-to-pages .divs .overlay:hover a{
+      font-size: 4rem;
+      font-weight: 600;
+   }
+   .links-to-pages .divs .overlay p{
+      font-size: 0.9rem;
+      width: 70%;
+      font-weight: 500;
+      text-align: start;
+   }
+  
+ }
