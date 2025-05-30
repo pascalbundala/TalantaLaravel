@@ -42,7 +42,7 @@
     <section class="info-section">
         <div class="big-image-text">
         <div class="images">
-            <img id="myImage" src="{{asset('Talanta-changing-images.jpg')}}" alt="Talanta images of people">
+            <img id="myImage" src="{{asset('images/Talanta-changing-images.jpg')}}" alt="Talanta images of people">
         </div>
         <div class="heading">
             <h2>Empowering NGOs,<br> Amplifying Impact <br> and Creating <br> <span>Awareness</span></h2>
