@@ -42,7 +42,7 @@
     <section class="info-section">
         <div class="big-image-text">
         <div class="images">
-            <img id="myImage" src="{{asset('images/old_black_man.jpg')}}" alt="Image 1">
+            <img id="myImage" src="{{asset('Talanta-changing-images.jpg')}}" alt="Talanta changing images of people">
         </div>
         <div class="heading">
             <h2>Empowering NGOs,<br> Amplifying Impact <br> and Creating <br> <span>Awareness</span></h2>
@@ -69,27 +69,27 @@
     <section class="multi-slider">
         <div class="slider-track" id="sliderTrack">
 
-            <img src="{{asset('images/home-gallery/Talanta-trust(1).jpg')}}"  alt="Talanta Trust Image 1">
-            <img src="{{asset('images/home-gallery/Talanta-trust(5).jpg')}}"  alt="Talanta Trust Image 5">
-            <img src="{{asset('images/home-gallery/Talanta-trust(2).jpg')}}"  alt="Talanta Trust Image 2">
-            <img src="{{asset('images/home-gallery/Talanta-trust(6).jpg')}}"  alt="Talanta Trust Image 6">
-            <img src="{{asset('images/home-gallery/Talanta-trust(3).jpg')}}"  alt="Talanta Trust Image 3">
-            <img src="{{asset('images/home-gallery/Talanta-trust(14).jpg')}}" alt="Talanta Trust Image 14">
-            <img src="{{asset('images/home-gallery/Talanta-trust(4).jpg')}}"  alt="Talanta Trust Image 4">
-            <img src="{{asset('images/home-gallery/Talanta-trust(16).jpg')}}" alt="Talanta Trust Image 16">
-            <img src="{{asset('images/home-gallery/Talanta-trust(7).jpg')}}"  alt="Talanta Trust Image 7">
-            <img src="{{asset('images/home-gallery/Talanta-trust(17).jpg')}}" alt="Talanta Trust Image 17">
-            <img src="{{asset('images/home-gallery/Talanta-trust(8).jpg')}}"  alt="Talanta Trust Image 8">
-            <img src="{{asset('images/home-gallery/Talanta-trust(18).jpg')}}" alt="Talanta Trust Image 18">
-            <img src="{{asset('images/home-gallery/Talanta-trust(9).jpg')}}"  alt="Talanta Trust Image 9">
-            <img src="{{asset('images/home-gallery/Talanta-trust(19).jpg')}}" alt="Talanta Trust Image 19">
-            <img src="{{asset('images/home-gallery/Talanta-trust(10).jpg')}}" alt="Talanta Trust Image 10">
-            <img src="{{asset('images/home-gallery/Talanta-trust(20).jpg')}}" alt="Talanta Trust Image 20">
-            <img src="{{asset('images/home-gallery/Talanta-trust(11).jpg')}}" alt="Talanta Trust Image 11">
-            <img src="{{asset('images/home-gallery/Talanta-trust(12).jpg')}}" alt="Talanta Trust Image 12">
-            <img src="{{asset('images/home-gallery/Talanta-trust(13).jpg')}}" alt="Talanta Trust Image 13">
-            <img src="{{asset('images/home-gallery/Talanta-trust(15).jpg')}}" alt="Talanta Trust Image 15">
-            <img src="{{asset('images/home-gallery/Talanta-trust(21).jpg')}}" alt="Talanta Trust Image 21">
+            <img src="{{asset('images/home-gallery/Talanta-trust-1.jpg')}}"  alt="Talanta Trust Image 1">
+            <img src="{{asset('images/home-gallery/Talanta-trust-5.jpg')}}"  alt="Talanta Trust Image 5">
+            <img src="{{asset('images/home-gallery/Talanta-trust-2.jpg')}}"  alt="Talanta Trust Image 2">
+            <img src="{{asset('images/home-gallery/Talanta-trust-6.jpg')}}"  alt="Talanta Trust Image 6">
+            <img src="{{asset('images/home-gallery/Talanta-trust-3.jpg')}}"  alt="Talanta Trust Image 3">
+            <img src="{{asset('images/home-gallery/Talanta-trust-14.jpg')}}" alt="Talanta Trust Image 14">
+            <img src="{{asset('images/home-gallery/Talanta-trust-4.jpg')}}"  alt="Talanta Trust Image 4">
+            <img src="{{asset('images/home-gallery/Talanta-trust-16.jpg')}}" alt="Talanta Trust Image 16">
+            <img src="{{asset('images/home-gallery/Talanta-trust-7.jpg')}}"  alt="Talanta Trust Image 7">
+            <img src="{{asset('images/home-gallery/Talanta-trust-17.jpg')}}" alt="Talanta Trust Image 17">
+            <img src="{{asset('images/home-gallery/Talanta-trust-8.jpg')}}"  alt="Talanta Trust Image 8">
+            <img src="{{asset('images/home-gallery/Talanta-trust-18.jpg')}}" alt="Talanta Trust Image 18">
+            <img src="{{asset('images/home-gallery/Talanta-trust-9.jpg')}}"  alt="Talanta Trust Image 9">
+            <img src="{{asset('images/home-gallery/Talanta-trust-19.jpg')}}" alt="Talanta Trust Image 19">
+            <img src="{{asset('images/home-gallery/Talanta-trust-10.jpg')}}" alt="Talanta Trust Image 10">
+            <img src="{{asset('images/home-gallery/Talanta-trust-20.jpg')}}" alt="Talanta Trust Image 20">
+            <img src="{{asset('images/home-gallery/Talanta-trust-11.jpg')}}" alt="Talanta Trust Image 11">
+            <img src="{{asset('images/home-gallery/Talanta-trust-12.jpg')}}" alt="Talanta Trust Image 12">
+            <img src="{{asset('images/home-gallery/Talanta-trust-13.jpg')}}" alt="Talanta Trust Image 13">
+            <img src="{{asset('images/home-gallery/Talanta-trust-15.jpg')}}" alt="Talanta Trust Image 15">
+            <img src="{{asset('images/home-gallery/Talanta-trust-21.jpg')}}" alt="Talanta Trust Image 21">
         </div>
         <h1>We are <span>Storytellers</span></h1>
         <a href="{{route('gallery')}}">Visit our gallery</a>
