@@ -370,8 +370,8 @@
     }
 
     #myImage {
-        width: 190px;
-        height: 230px;
+        width: 200px;
+        height: 250px;
         display: block;
         margin-top: 50%;
         margin-right: 40px;
@@ -403,14 +403,14 @@
       padding-top: 0;
     }
     .description p {
-      font-size: 0.8rem;
-      line-height: 1.4rem;
+      font-size: 0.90rem;
+      line-height: 1.6rem;
       font-weight: 400;
     }
 
     .images-reverse {
-      height: 300px;
-      width: 270px;
+      height: 330px;
+      width: 330px;
       margin-left: 10%;
       display: flex;
       flex-flow: column nowrap;
@@ -449,8 +449,8 @@
 
 
     #myImage {
-        width: 250px;
-        height: 280px;
+        width: 270px;
+        height: 300px;
         display: block;
         margin-top: 50%;
         margin-right: 40px;
@@ -479,15 +479,15 @@
       padding-top: 0;
     }
     .description p {
-      font-size: 0.92rem;
-      line-height: 1.4rem;
+      font-size: 1.0rem;
+      line-height: 1.9rem;
       font-weight: 400;
       margin-top: 0;
     }
 
     .images-reverse {
-      height:320px;
-      width: 320px;
+      height:350px;
+      width: 350px;
     }
 
   }
@@ -521,8 +521,8 @@
 
 
     #myImage {
-        width: 430px;
-        height: 500px;
+        width: 470px;
+        height: 550px;
         display: block;
         margin-top: 50%;
         margin-right: 60px;
@@ -539,33 +539,103 @@
       font-size: 12rem;
     }
     .row {
-      margin-top: 10%;
-      width: 70%;
-      padding-top: 50px;
+      margin-top: 15%;
+      width: 75%;
+      padding-top: 0px;
     }
     .description {
-      width: 50%;
+      width: 45%;
       display: flex;
       flex-flow: column nowrap;
       justify-content: center;
     }
     .description p {
       font-size: 1.8rem;
-      line-height: 2.8rem;
+      line-height: 3.8rem;
       font-weight: 400;
       margin-top: 0;
     }
 
     .images-reverse {
-      height: 500px;
-      width: 500px;
+      width: 40%;
+      height: 600px;
+      aspect-ratio: 1;
     }
 
   }
 
 
+  /* for larger dimension  */
+  @media only screen and (min-width:3200px){
+    .info-section {
+        padding: 20px 20px;
+        height: 200vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+        .images{
+        background-color: transparent;
+        width: 43%;
+    }
+
+    .big-image-text{
+        background-color: transparent;
+    }
+    .heading{
+        background-color: transparent;
+    }
+
+    .heading img{
+     width: 400px;
+     height: 450px;
+     margin-left: 50%;
+     top: -50px;
+    }
 
 
+    #myImage {
+        width: 550px;
+        height: 750px;
+        display: block;
+        margin-top: 50%;
+        margin-right: 60px;
+        z-index: 1;
+    }
+    .heading h2{
+      font-size: 10rem;
+      line-height: 10rem;
+      width: 100%;
+      text-align: start;
+      z-index: 2;
+    }
+    .heading h2 span{
+      font-size: 12rem;
+    }
+    .row {
+      margin-top: 15%;
+      width: 80%;
+      padding-top: 0px;
+    }
+    .description {
+      width: 45%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+    }
+    .description p {
+      font-size: 2rem;
+      line-height: 3.95rem;
+      font-weight: 400;
+      margin-top: 0;
+    }
 
+    .images-reverse {
+      width: 40%;
+      height: 700px;
+      aspect-ratio: 1;
+    }
+
+  }
 
 

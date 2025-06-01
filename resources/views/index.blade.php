@@ -61,7 +61,7 @@
             challenges.</p>
         </div>
         <div class="images-reverse">
-            <img  src="{{asset('images/Talantatrustwildlifephotography.jpg')}}" alt="Talanta Trust Wildlife Photography">
+            <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography46.webp')}}" alt="Talanta Trust Wildlife Photography">
         </div>
         </div>
     </section>
@@ -69,27 +69,23 @@
     <section class="multi-slider">
         <div class="slider-track" id="sliderTrack">
 
-            <img src="{{asset('images/home-gallery/Talanta-trust-1.jpg')}}"  alt="Talanta Trust Image 1">
-            <img src="{{asset('images/home-gallery/Talanta-trust-5.jpg')}}"  alt="Talanta Trust Image 5">
-            <img src="{{asset('images/home-gallery/Talanta-trust-2.jpg')}}"  alt="Talanta Trust Image 2">
-            <img src="{{asset('images/home-gallery/Talanta-trust-6.jpg')}}"  alt="Talanta Trust Image 6">
-            <img src="{{asset('images/home-gallery/Talanta-trust-3.jpg')}}"  alt="Talanta Trust Image 3">
-            <img src="{{asset('images/home-gallery/Talanta-trust-14.jpg')}}" alt="Talanta Trust Image 14">
-            <img src="{{asset('images/home-gallery/Talanta-trust-4.jpg')}}"  alt="Talanta Trust Image 4">
-            <img src="{{asset('images/home-gallery/Talanta-trust-16.jpg')}}" alt="Talanta Trust Image 16">
-            <img src="{{asset('images/home-gallery/Talanta-trust-7.jpg')}}"  alt="Talanta Trust Image 7">
-            <img src="{{asset('images/home-gallery/Talanta-trust-17.jpg')}}" alt="Talanta Trust Image 17">
-            <img src="{{asset('images/home-gallery/Talanta-trust-8.jpg')}}"  alt="Talanta Trust Image 8">
-            <img src="{{asset('images/home-gallery/Talanta-trust-18.jpg')}}" alt="Talanta Trust Image 18">
-            <img src="{{asset('images/home-gallery/Talanta-trust-9.jpg')}}"  alt="Talanta Trust Image 9">
-            <img src="{{asset('images/home-gallery/Talanta-trust-19.jpg')}}" alt="Talanta Trust Image 19">
-            <img src="{{asset('images/home-gallery/Talanta-trust-10.jpg')}}" alt="Talanta Trust Image 10">
-            <img src="{{asset('images/home-gallery/Talanta-trust-20.jpg')}}" alt="Talanta Trust Image 20">
-            <img src="{{asset('images/home-gallery/Talanta-trust-11.jpg')}}" alt="Talanta Trust Image 11">
-            <img src="{{asset('images/home-gallery/Talanta-trust-12.jpg')}}" alt="Talanta Trust Image 12">
-            <img src="{{asset('images/home-gallery/Talanta-trust-13.jpg')}}" alt="Talanta Trust Image 13">
-            <img src="{{asset('images/home-gallery/Talanta-trust-15.jpg')}}" alt="Talanta Trust Image 15">
-            <img src="{{asset('images/home-gallery/Talanta-trust-21.jpg')}}" alt="Talanta Trust Image 21">
+            <img src="{{asset('images/home-gallery/Talanta-trust-culture1.webp')}}"  alt="Talanta Trust Image culture">
+            <img src="{{asset('images/home-gallery/Talanta-trust-nature4.webp')}}"  alt="Talanta Trust Image nature ">
+            <img src="{{asset('images/home-gallery/Talanta-trust-people9.webp')}}"  alt="Talanta Trust Image people ">
+            <img src="{{asset('images/home-gallery/Talanta-trust-wildlife12.webp')}}"  alt="Talanta Trust Image wildlife">
+            <img src="{{asset('images/home-gallery/Talanta-trust-nature5.webp')}}" alt="Talanta Trust Image 14">
+            <img src="{{asset('images/home-gallery/Talanta-trust-people10.webp')}}"  alt="Talanta Trust Image 4">
+            <img src="{{asset('images/home-gallery/Talanta-trust-wildlife13.webp')}}" alt="Talanta Trust Image 16">
+            <img src="{{asset('images/home-gallery/Talanta-trust-culture3.webp')}}"  alt="Talanta Trust Image 7">
+            <img src="{{asset('images/home-gallery/Talanta-trust-nature6.webp')}}" alt="Talanta Trust Image 17">
+            <img src="{{asset('images/home-gallery/Talanta-trust-people11.webp')}}"  alt="Talanta Trust Image 8">
+            <img src="{{asset('images/home-gallery/Talanta-trust-wildlife14.webp')}}" alt="Talanta Trust Image 18">
+            <img src="{{asset('images/home-gallery/Talanta-trust-nature7.webp')}}"  alt="Talanta Trust Image 9">
+            <img src="{{asset('images/home-gallery/Talanta-trust-wildlife15.webp')}}" alt="Talanta Trust Image 19">
+            <img src="{{asset('images/home-gallery/Talanta-trust-nature8.webp')}}" alt="Talanta Trust Image 10">
+            <img src="{{asset('images/home-gallery/Talanta-trust-wildlife16.webp')}}" alt="Talanta Trust Image 20">
+            <img src="{{asset('images/home-gallery/Talanta-trust-wildlife17.webp')}}" alt="Talanta Trust Image 11">
+
         </div>
         <h1>We are <span>Storytellers</span></h1>
         <a href="{{route('gallery')}}">Visit our gallery</a>

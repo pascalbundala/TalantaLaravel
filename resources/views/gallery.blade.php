@@ -27,18 +27,18 @@
             <h1>Gallery</h1>
             <div class="gallery_links">
                 <div class="link_img">
-                    <a href="">originals</a>
-                    <img src="{{asset('images/down-arrow.svg')}}" alt="" srcset="">
+                    <a href="#video-holder">originals</a>
+                    <img src="{{asset('images/svg/talanta-trust-vector-01.svg')}}" alt="">
                 </div>
 
                 <div class="link_img">
-                    <a href="">stories</a>
-                    <img src="{{asset('images/down-arrow.svg')}}" alt="" srcset="">
+                    <a href="#image-holder">stories</a>
+                   <img src="{{asset('images/svg/talanta-trust-vector-01.svg')}}" alt="">
                 </div>
             </div>
         </div>
 
-        <div class="content">
+        <div class="content" id="video-holder">
             <div class="small-title"><h2>TalantTrust originals</h2></div>
             <div class="media">
                 <div class="grid-item videos">
@@ -64,35 +64,175 @@
             <button id="show-more-btn">Load More</button>
         </div>
 
-        <div class="content content-images">
+        <div class="content content-images" id="image-holder">
             <div class="small-title"><h2>TalantTrust stories</h2>
                 <div class="filters">
                     <button class="filter-btn active-filter" data-category="all">All</button>
                     <button class="filter-btn" data-category="nature">Nature</button>
-                    <button class="filter-btn" data-category="animals">Animals</button>
-                    <button class="filter-btn" data-category="cities">Cities</button>
+                    <button class="filter-btn" data-category="culture">Culture</button>
+                    <button class="filter-btn" data-category="people">People</button>
+                    <button class="filter-btn" data-category="wildlife">Wildlife</button>
                </div>
            </div>
 
             <div class="media content-images">
                 <div class="grid-item images image-wrapper">
-                    <img  src="{{asset('images/madogo-wanaoga.jpg')}}" data-category="nature" >
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography1.webp')}}" data-category="people" >
                 </div>
                 <div class="grid-item images image-wrapper">
-                    <img  src="{{asset('images/madogo-wanaoga.jpg')}}"  data-category="nature" >
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography2.webp')}}"  data-category="people" >
                 </div>
                 <div class="grid-item images image-wrapper">
-                    <img  src="{{asset('images/madogo-wanaoga.jpg')}}" data-category="animals">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography3.webp')}}" data-category="people">
                 </div>
                 <div class="grid-item images image-wrapper">
-                    <img  src="{{asset('images/masaai.jpg')}}"  data-category="animals">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography4.webp')}}"  data-category="people">
                 </div>
                 <div class="grid-item images image-wrapper">
-                    <img  src="{{asset('images/ngombe.jpg')}}" data-category="cities">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography5.webp')}}" data-category="wildlife">
                 </div>
                 <div class="grid-item images image-wrapper">
-                    <img src="{{asset('images/indian_small_image.jpg')}}" data-category="cities">
+                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography6.webp')}}" data-category="wildlife">
                 </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography7.webp')}}" data-category="wildlife" >
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography8.webp')}}"  data-category="wildlife" >
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography9.webp')}}" data-category="wildlife">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography10.webp')}}"  data-category="wildlife">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography11.webp')}}" data-category="wildlife">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography12.webp')}}" data-category="culture">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography13.webp')}}" data-category="culture">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography14.webp')}}"  data-category="culture">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography15.webp')}}" data-category="culture">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography16.webp')}}"  data-category="wildlife">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography17.webp')}}" data-category="wildlife">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography18.webp')}}" data-category="wildlife">
+                </div>
+
+                <div class="grid-item images image-wrapper">
+                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography19.webp')}}" data-category="people">
+                </div>
+
+                <div class="grid-item images image-wrapper">
+                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography20.webp')}}" data-category="nature">
+                </div>
+
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography21.webp')}}" data-category="nature" >
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography22.webp')}}"  data-category="culture" >
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography23.webp')}}" data-category="culture">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography24.webp')}}"  data-category="nature">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography25.webp')}}" data-category="culture">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography26.webp')}}" data-category="culture">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography27.webp')}}" data-category="wildlife" >
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography28.webp')}}"  data-category="culture" >
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography29.webp')}}" data-category="culture">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography30.webp')}}"  data-category="culture">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography31.webp')}}" data-category="culture">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography32.webp')}}" data-category="culture">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography33.webp')}}" data-category="culture">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography34.webp')}}"  data-category="wildlife">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography35.webp')}}" data-category="nature">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography36.webp')}}"  data-category="wildlife">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography37.webp')}}" data-category="people">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography38.webp')}}" data-category="people">
+                </div>
+
+                <div class="grid-item images image-wrapper">
+                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography39.webp')}}" data-category="nature">
+                </div>
+
+                <div class="grid-item images image-wrapper">
+                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography40.webp')}}" data-category="nature">
+                </div>
+
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography41.webp')}}"  data-category="wildlife">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography42.webp')}}" data-category="wildlife">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography43.webp')}}"  data-category="wildlife">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography44.webp')}}" data-category="wildlife">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography45.webp')}}" data-category="wildlife">
+                </div>
+
+                <div class="grid-item images image-wrapper">
+                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography46.webp')}}" data-category="people">
+                </div>
+
+                <div class="grid-item images image-wrapper">
+                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography47.webp')}}" data-category="people">
+                </div>
+
+
+
+
+
+
+
+
             </div>
             <button id="show-more-btn-images">Load More</button>
         </div>
@@ -118,7 +258,7 @@
 
     @include('footer')
 
-    <script>
+    {{-- <script>
             document.addEventListener('DOMContentLoaded', () => {
                 const showMoreBtnVideos = document.getElementById('show-more-btn');
                 const showMoreBtnImages = document.getElementById('show-more-btn-images');
@@ -162,6 +302,21 @@
                     }
                 }
             });
+    </script> --}}
+
+    {{-- display more images --}}
+    <script>
+        const images = document.querySelectorAll('.images');
+        const showMoreImagesBtn = document.getElementById('show-more-btn-images');
+        showMoreImagesBtn.addEventListener('click', () => {
+            images.forEach(element => {
+               if(element.style.display !== 'block'){
+                element.style.display ='block';
+               }
+            });
+            showMoreImagesBtn.style.display = 'none';
+        });
+
     </script>
 
     <script>
