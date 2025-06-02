@@ -446,6 +446,7 @@
      height: 250px;
      margin-left: 50%;
      top: 0px;
+     background-color: green;
     }
 
 
@@ -484,11 +485,13 @@
       line-height: 1.9rem;
       font-weight: 400;
       margin-top: 0;
+      color: blue;
     }
 
     .images-reverse {
       height:350px;
       width: 350px;
+
     }
 
   }
