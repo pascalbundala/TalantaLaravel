@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'mcharazo';
+  src: url('../TalantaFonts/MR-PUDIDI-DECORATIVE-FONT/MRPUDIDI.ttf') format('truetype');
+}
+
+.info-section {
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 170vh;
+    background-color: orange;
+    color: #1A202a;
+  }
+
+
+
+
+
+  @media only screen and (max-width:480px){
+
+  }
+
+  @media only screen and (min-width:480px){
+
+
+  }
+
+  @media only screen and (min-width:768px){
+
+
+  }
+
+  @media only screen and (min-width:1024px){
+
+
+  }
+
+  @media only screen and (min-width:1440px){
+
+  }
+
+  @media only screen and (min-width:2560px){
+
+
+  }
+
+
+  /* for larger dimension  */
+  @media only screen and (min-width:3200px){
+
+  }
+
+

@@ -367,7 +367,6 @@
      height: 210px;
      margin-left: 50%;
      top: 0px;
-     background-color: red;
     }
 
     #myImage {
@@ -407,6 +406,7 @@
       font-size: 0.80rem;
       line-height: 1.6rem;
       font-weight: 400;
+      color: green;
     }
 
     .images-reverse {
@@ -446,7 +446,6 @@
      height: 250px;
      margin-left: 50%;
      top: 0px;
-     background-color: green;
     }
 
 
