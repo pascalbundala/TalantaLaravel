@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="{{asset('css/nav.css')}}">
   <link rel="stylesheet" href="{{asset('css/hero.css')}}"/>
   <link rel="stylesheet" href="{{asset('css/second.css')}}"/>
+  <link rel="stylesheet" href="{{asset('css/secondextra.css')}}"/>
   <link rel="stylesheet" href="{{asset('css/slider.css')}}" />
   <link rel="stylesheet" href="{{asset('css/join.css')}}" />
   <link rel="stylesheet" href="{{asset('css/footer.css')}}" />
@@ -40,7 +41,60 @@
     </section>
 
     <section class="info-section">
-        <div class="big-image-text">
+        <h1>Empowering NGOs,Amplifying Impact and Creating <span>Awareness</span></h1>
+        <div class="how-we-work">
+            <div class="text-description">
+                <h2>How We Work</h2>
+                <p>Talanta Trust is committed to providing exceptional services to NGOs. We pride ourselves on our dedication to quality, creativity, and integrity. Our approach is client-focused, ensuring that every project we undertake aligns with your mission and contributes to your organization's success. We are passionate about making a difference and are driven by the belief that our work can help NGOs maximize their impact and create lasting change.</p>
+            </div>
+
+            <div class="image-container">
+                <div class="card">
+                    <h2 class="txt-number">01</h2>
+                    <img class="img-icon" src="" alt="">
+                    <h3 class="txt-heading">Strategy</h3>
+                    <p class="txt-p">
+                        We plan with you,not just for you. <br> We know the work you do and how to help. <br>
+                     Our ideas are fresh and practical</p>
+                </div>
+
+                <div class="card">
+                    <h2 class="txt-number">02</h2>
+                    <img class="img-icon" src="" alt="">
+                    <h3 class="txt-heading">Design</h3>
+                    <p class="txt-p">We create designs that speak for you <br> From your logo to your website,<br>
+we make sure your message stands out.</p>
+                </div>
+
+
+                <div class="card">
+                    <h2 class="txt-number">03</h2>
+                    <img class="img-icon" src="" alt="">
+                    <h3 class="txt-heading">Development</h3>
+                    <p class="txt-p">We turn plans into real work.<br>
+Websites, videos, print – you name it.<br>
+We use smart tools and know-how.</p>
+                </div>
+
+                <div class="card">
+                    <h2 class="txt-number">04</h2>
+                    <img class="img-icon" src="" alt="">
+                    <h3 class="txt-heading">Quality Check</h3>
+                    <p class="txt-p">We check, test, and polish.<br> Every word,every image, every step.<br>
+We make sure it’s all ready to shine.</p>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+        {{-- <div class="big-image-text">
         <div class="images">
             <img id="myImage" src="{{asset('images/Talanta-changing-images.jpg')}}" alt="Talanta images of people">
         </div>
@@ -63,7 +117,7 @@
         <div class="images-reverse">
             <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography46.webp')}}" alt="Talanta Trust Wildlife Photography">
         </div>
-        </div>
+        </div> --}}
     </section>
 
     <section class="multi-slider">
