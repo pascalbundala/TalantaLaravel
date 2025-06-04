@@ -44,8 +44,6 @@
         <h1>Empowering NGOs,Amplifying Impact and Creating <span>Awareness</span></h1>
     </section>
 
-
-
     <section class="how-we-work">
         <div class="text-description">
             <h2>How We Work</h2>
@@ -168,18 +166,7 @@
   <script src="{{asset('js/script.js')}}"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-  <script>
-      gsap.registerPlugin(ScrollTrigger);
-      gsap.to("#myImage", {
-      scale: 2,
-      scrollTrigger: {
-          trigger: ".info-section",
-          start: "top 50%",
-          end: "center 50%",
-          scrub: true
-      }
-      });
-  </script>
+
   <script>
       const sliderTrack = document.getElementById('sliderTrack');
       const scrollContent= Array.from(sliderTrack.children);
