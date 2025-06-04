@@ -49,7 +49,7 @@
     <section class="how-we-work">
         <div class="text-description">
             <h2>How We Work</h2>
-            {{-- <p>Talanta Trust is committed to providing exceptional services to NGOs. We pride ourselves on our dedication to quality, creativity, and integrity. Our approach is client-focused, ensuring that every project we undertake aligns with your mission and contributes to your organization's success. We are passionate about making a difference and are driven by the belief that our work can help NGOs maximize their impact and create lasting change.</p> --}}
+            <p>Talanta Trust is committed to providing exceptional services to NGOs. We pride ourselves on our dedication to quality, creativity, and integrity. Our approach is client-focused, ensuring that every project we undertake aligns with your mission and contributes to your organization's success. We are passionate about making a difference and are driven by the belief that our work can help NGOs maximize their impact and create lasting change.</p>
         </div>
         <div class="image-container">
             <div class="card">

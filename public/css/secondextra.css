@@ -45,14 +45,15 @@
     justify-content: center;
     align-items: center;
     height: fit-content;
-    background-color: #ebebeb;
+    background-color: #fff;
     color: #1A202a;
 }
 .text-description {
     width: 90%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: fit-content;
+    align-items: center;
     justify-content: center;
 }
 
@@ -61,9 +62,9 @@
 }
 .text-description p {
     font-size: 0.82rem;
-    line-height: 1.6;
+    line-height: 1.3rem;
     margin-bottom: 20px;
-    width: 50%;
+    width: 80%;
     margin-left: 10%;
 }
 
@@ -91,38 +92,22 @@
     padding-left: 50px;
 }
 
-
-
-/* .image-container .card .txt-number{
-    font-size: 2rem;
-    font-weight: bold;
-    color: #3333337e;
-    text-align: right;
-    font-family: "Oswald", sans-serif;
-    width: 100%;
-}
-
-.image-container .card .img-icon {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 10px;
-} */
-
 .image-container .card .txt-heading {
     font-size:1.8rem ;
-    color: rgb(41, 41, 41);
     font-weight: 600;
     width: 100%;
     margin-bottom: 10px;
     font-family: "Oswald", sans-serif;
 }
+.image-container .card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease;
+}
 
-/* .image-container .card .txt-p{
-    font-size:0.70rem ;
-    color: rgb(75, 75, 75);
-    font-weight: 400;
-    line-height: 1rem;
-} */
+
 
 .image-container .card ul{
     width: fit-content;
@@ -133,8 +118,7 @@
 
 .image-container .card ul li{
     font-size: 1rem;
-    color: black;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.2rem;
     margin: 10px;
 }
@@ -171,69 +155,45 @@
     }
 
     .info-section h1 span {
-        text-decoration-thickness:6px;
-
+    text-decoration-thickness:6px;
     }
 
     .how-we-work {
     padding: 50px 20px;
     }
     .text-description {
-      margin-top: 20px;
+    margin-top: 20px;
     }
 
     .text-description h2 {
-        font-size: 5rem;
+    font-size: 5rem;
     }
     .text-description p {
-        font-size: 2rem;
-        line-height: 2.6;
-        /* margin-bottom: 20px;
-        width: 50%;
-        margin-left: 10%; */
+    width: 100%;
+    font-size: 2.3rem;
+    line-height: 3.6rem;
+    text-align: start;
+    font-weight: 300;
+    margin-bottom: 30px;
     }
 
-    /* .image-container {
-        width: 90%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
-        height: fit-content;
-    } */
-
     .image-container .card {
-        width: 47%;
-        height: fit-content;
-        border-radius: 30px;
-        margin: 20px;
-        padding: 20px;
-        padding-left: 50px;
+    width: 47%;
+    height: fit-content;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 50px;
     }
 
     .image-container .card .txt-heading {
-        font-size:3.8rem ;
-        /* color: rgb(41, 41, 41);
-        font-weight: 600;
-        width: 100%;
-        margin-bottom: 10px;
-        font-family: "Oswald", sans-serif; */
+    font-size:3.8rem ;
     }
-    /* .image-container .card ul{
-        width: fit-content;
-        height: fit-content;
-        padding: 0px;
-        margin-left: 8px;
-    } */
 
     .image-container .card ul li{
-        font-size: 2.5rem;
-        line-height: 2.5rem;
-        margin: 50px;
-        /* color: black;
-        font-weight: 400;
-        line-height: 1.2rem;
-        margin: 10px; */
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin: 50px;
     }
 
 
