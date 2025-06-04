@@ -223,18 +223,52 @@
   @media only screen and (min-width:2560px){
 
     .hero-content h1 span {
-      font-size: 10rem;
+      font-size: 8rem;
       line-height: 10rem;
       font-weight: 800;
     }
 
     .hero-content h1 span:nth-child(3) {
-      font-size: 12rem;
+      font-size: 11rem;
       margin-top: 15px;
+    }
+
+    .hero-content img {
+      width: 130px;
+      height: fit-content;
+      padding: 0;
+      margin: 0 auto;
     }
     .btn {
       margin-top: 20px;
       font-size: 2rem;
+    }
+
+  }
+
+
+    @media only screen and (min-width:3840px){
+
+    .hero-content h1 span {
+      font-size: 15rem;
+      line-height: 17rem;
+      font-weight: 800;
+    }
+
+    .hero-content h1 span:nth-child(3) {
+      font-size: 17rem;
+      margin-top: 20px;
+    }
+
+    .hero-content img {
+      width: 250px;
+      height: fit-content;
+      padding: 0;
+      margin: 0 auto;
+    }
+    .btn {
+      margin-top: 20px;
+      font-size:5rem;
     }
 
   }

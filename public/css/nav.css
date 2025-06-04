@@ -369,6 +369,11 @@
       .menu-overlay ul li a:hover {
         font-size: 4.2rem;
       }
+    .menu-overlay .close-btn {
+        top: 50px;
+        right: 80px;
+        font-size: 3rem;
+    }
 
     }
 
@@ -401,8 +406,48 @@
         font-size: 8rem;
       }
 
+    .menu-overlay .close-btn {
+        top: 70px;
+        right: 160px;
+        font-size: 8rem;
     }
 
 
+    }
 
+    @media only screen and  (min-width:3840px){
+
+      .logo{
+        height: 300px;
+        width: 400px;
+        padding-top: 0px;
+      }
+
+      .social-icons a {
+        font-size: 50px;
+      }
+
+      .social-icons .round_border{
+        width: 120px;
+        height:120px;
+      }
+
+      .hamburger {
+        font-size:70px;
+      }
+
+      .menu-overlay ul li a {
+        font-size: 12rem;
+        line-height: 12rem;
+      }
+      .menu-overlay ul li a:hover {
+        font-size: 12rem;
+      }
+
+    .menu-overlay .close-btn {
+        top: 100px;
+        right: 250px;
+        font-size: 15rem;
+    }
+    }
 

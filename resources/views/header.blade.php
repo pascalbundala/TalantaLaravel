@@ -19,7 +19,7 @@
         </div>
     </header>
     <div class="menu-overlay" id="menu">
-        <div class="close-btn" id="closeBtn">x</div>
+        <div class="close-btn" id="closeBtn">&times;</div>
         <ul>
             <li><a href="{{route('index')}}">Home</a></li>
             <li><a href="{{route('gallery')}}">Gallery</a></li>

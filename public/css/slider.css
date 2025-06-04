@@ -110,7 +110,7 @@
   }
 
   .multi-slider a:hover{
-    margin: 20px auto;
+    margin: 20px auto 0px auto;
     font-size: 1rem;
   }
 
@@ -121,9 +121,9 @@
 
     .multi-slider {
       height: fit-content;
-      padding: 10% 0px;
-    }
+      padding: 50px 0px 30px 0px;
 
+    }
     .slider-track img {
       width: 220px;
       height: 340px;
@@ -139,7 +139,7 @@
     }
 
     .multi-slider a{
-      margin: 20px auto;
+      margin: 20px auto 0px auto;
       font-size: 1.0rem;
     }
 
@@ -151,6 +151,8 @@
 
    /* device greater than 768 */
  @media only screen and (min-width:768px){
+
+
   .slider-track img {
     width: 270px;
     height: 370px;
@@ -166,13 +168,14 @@
   }
 
   .multi-slider a{
-    margin: 20px auto;
+    margin: 20px auto 0px auto;
     font-size: 1.5rem;
   }
  }
 
   /* greater than 1024px */
   @media only screen and (min-width:1024px){
+
     .slider-track img {
       width: 310px;
       height: 450px;
@@ -190,6 +193,7 @@
 
   /* greater than 1440px   */
  @media only screen and (min-width:1440px){
+
   .slider-track img {
     width: 370px;
     height: 540px;
@@ -206,7 +210,7 @@
   }
 
   .multi-slider a{
-    margin: 20px auto;
+    margin: 20px auto 0px auto;
     font-size: 1.7rem;
   }
  }
@@ -241,15 +245,28 @@
   }
  }
 
- @media only screen and (min-width:3200px){
+ @media only screen and (min-width:3840px){
   .multi-slider a{
-    margin: 40px auto 0px auto;
+    margin: 100px auto 0px auto;
     font-size: 3rem;
   }
     .slider-track img {
-    width: 700px;
-    height: 900px;
+    width: 900px;
+    height: 1200px;
     margin:auto 20px;
+  }
+
+    .multi-slider a{
+    margin: 80px auto 0px auto;
+    font-size: 5rem;
+  }
+
+    .multi-slider h1{
+    font-size:11rem;
+  }
+
+  .multi-slider h1 span{
+    font-size:15rem;
   }
 
  }

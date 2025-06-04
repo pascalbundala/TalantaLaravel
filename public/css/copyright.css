@@ -49,7 +49,7 @@
 /* medium devices 480px-768px */
 @media only screen and (min-width: 480px){
    footer{
-      padding: 15px 0px;
+      padding: 0px 0px 5px 0px;
    }
 
    footer .row a{
@@ -60,6 +60,15 @@
 
 /* device between 768px-992px */
 @media only screen and (min-width: 768px){
+    footer{
+    padding: 0px;
+   }
+
+    footer .row{
+        margin: 0px 1%;
+        height: fit-content;
+        padding: 10px 0px;
+    }
    footer .row a{
       font-size: 0.77rem;
       font-weight: 400;
@@ -76,10 +85,6 @@
 
 /* device more than 1440px */
 @media only screen and (min-width: 1440px){
-   footer{
-      padding: 15px 7%;
-   }
-
    footer .row a{
       font-size: 1rem;
    }
@@ -87,11 +92,14 @@
 
 /* device more than 2560px */
 @media only screen and (min-width: 2560px){
-   footer{
-      padding: 15px 7%;
-   }
-
    footer .row a{
       font-size: 1.8rem;
    }
 }
+
+@media only screen and (min-width: 3840px){
+   footer .row a{
+      font-size: 3rem;
+   }
+}
+
