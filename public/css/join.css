@@ -60,6 +60,15 @@
     font-family: "Anton", sans-serif;
 }
 
+.row-join h4:hover{
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: "mcharazo", sans-serif;
+    cursor: pointer;
+    color: white;
+    font-style: italic;
+}
+
 
 
 
@@ -276,7 +285,7 @@
 @media only screen and (min-width:2560px){
 
   .join-section{
-    height: 50vh;
+    height: 30vh;
   }
   .row-join h1{
       font-size: 6rem;
@@ -285,18 +294,22 @@
   }
 
   .row-join p{
-      font-size: 1.8rem;
+      font-size: 2.2rem;
       width: 40%;
       margin-top: 60px;
       font-weight: 300;
-      line-height: 2.4rem;
+      line-height: 3rem;
   }
 
   .row-join h4{
-      font-size: 2.8rem;
+      font-size: 3rem;
       font-weight: 500;
       margin-top: 0px;
       text-align: center;
+    }
+
+      .row-join h4:hover{
+      font-size: 3.5rem;
     }
 }
 

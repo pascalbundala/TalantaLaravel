@@ -42,82 +42,53 @@
 
     <section class="info-section">
         <h1>Empowering NGOs,Amplifying Impact and Creating <span>Awareness</span></h1>
-        <div class="how-we-work">
-            <div class="text-description">
-                <h2>How We Work</h2>
-                <p>Talanta Trust is committed to providing exceptional services to NGOs. We pride ourselves on our dedication to quality, creativity, and integrity. Our approach is client-focused, ensuring that every project we undertake aligns with your mission and contributes to your organization's success. We are passionate about making a difference and are driven by the belief that our work can help NGOs maximize their impact and create lasting change.</p>
+    </section>
+
+
+
+    <section class="how-we-work">
+        <div class="text-description">
+            <h2>How We Work</h2>
+            {{-- <p>Talanta Trust is committed to providing exceptional services to NGOs. We pride ourselves on our dedication to quality, creativity, and integrity. Our approach is client-focused, ensuring that every project we undertake aligns with your mission and contributes to your organization's success. We are passionate about making a difference and are driven by the belief that our work can help NGOs maximize their impact and create lasting change.</p> --}}
+        </div>
+        <div class="image-container">
+            <div class="card">
+                <h3 class="txt-heading">01.Strategy</h3>
+                <ul>
+                    <li>We plan with you, not just for you.</li>
+                    <li>We know the work you do and how to help.</li>
+                    <li>Our ideas are fresh and practical.</li>
+                </ul>
             </div>
 
-            <div class="image-container">
-                <div class="card">
-                    <h2 class="txt-number">01</h2>
-                    <img class="img-icon" src="" alt="">
-                    <h3 class="txt-heading">Strategy</h3>
-                    <p class="txt-p">
-                        We plan with you,not just for you. <br> We know the work you do and how to help. <br>
-                     Our ideas are fresh and practical</p>
-                </div>
+            <div class="card">
+                <h3 class="txt-heading">02.Design</h3>
+                <ul>
+                    <li>We create designs that speak for you.</li>
+                    <li>From your logo to your website,</li>
+                    <li>we make sure your message stands out.</li>
+                </ul>
+            </div>
 
-                <div class="card">
-                    <h2 class="txt-number">02</h2>
-                    <img class="img-icon" src="" alt="">
-                    <h3 class="txt-heading">Design</h3>
-                    <p class="txt-p">We create designs that speak for you <br> From your logo to your website,<br>
-we make sure your message stands out.</p>
-                </div>
-
-
-                <div class="card">
-                    <h2 class="txt-number">03</h2>
-                    <img class="img-icon" src="" alt="">
-                    <h3 class="txt-heading">Development</h3>
-                    <p class="txt-p">We turn plans into real work.<br>
-Websites, videos, print – you name it.<br>
-We use smart tools and know-how.</p>
-                </div>
-
-                <div class="card">
-                    <h2 class="txt-number">04</h2>
-                    <img class="img-icon" src="" alt="">
-                    <h3 class="txt-heading">Quality Check</h3>
-                    <p class="txt-p">We check, test, and polish.<br> Every word,every image, every step.<br>
-We make sure it’s all ready to shine.</p>
-                </div>
-
-
+            <div class="card">
+                <h3 class="txt-heading"> 03.Development</h3>
+                <ul>
+                    <li>We turn plans into real work.</li>
+                    <li>Websites, videos, print you name it.</li>
+                    <li>We use smart tools and know-how.</li>
+                </ul>
 
             </div>
 
-
+            <div class="card">
+                <h3 class="txt-heading">04.Quality Check</h3>
+                <ul>
+                    <li>We check, test, and polish.</li>
+                    <li>Every word, every image, every step.</li>
+                    <li>We make sure it's all ready to shine.</li>
+                </ul>
+            </div>
         </div>
-
-
-
-
-        {{-- <div class="big-image-text">
-        <div class="images">
-            <img id="myImage" src="{{asset('images/Talanta-changing-images.jpg')}}" alt="Talanta images of people">
-        </div>
-        <div class="heading">
-            <h2>Empowering NGOs,<br> Amplifying Impact <br> and Creating <br> <span>Awareness</span></h2>
-            <img  src="{{asset('images/svg/talanta-trust-vector-02.svg')}}" alt="">
-        </div>
-        </div>
-
-        <div class="row ">
-        <div class="description">
-            <p>Talanta Trust is a dedicated NGO consultancy firm
-            committed to empowering non-governmental organizations by offering a range of tailored services designed to
-            enhance their visibility, effectiveness, and overall impact.
-            With a team of experts in various fields, we are driven
-            by a passion for social change and the belief that NGOs
-            play a crucial role in addressing the world's most pressing
-            challenges.</p>
-        </div>
-        <div class="images-reverse">
-            <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography46.webp')}}" alt="Talanta Trust Wildlife Photography">
-        </div>
-        </div> --}}
     </section>
 
     <section class="multi-slider">

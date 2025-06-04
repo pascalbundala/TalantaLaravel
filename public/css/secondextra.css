@@ -4,7 +4,7 @@
 }
 
 .info-section {
-    padding: 100px 20px;
+    padding: 0px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +18,6 @@
     font-family: 'Oswald', sans-serif;
     font-size: 3.8rem;
     text-align: center;
-    margin-bottom: 60px;
     line-height: 4.5rem;
 }
 
@@ -40,31 +39,36 @@
     transition: background-color 0.3s ease;
 }
 .how-we-work {
-    display: flex;
-    width: 90%;
-    flex-direction: row;
-    margin-top: 50px;
-}
-.text-description {
-    width: 40%;
+    padding: 50px 20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: fit-content;
+    background-color: #ebebeb;
+    color: #1A202a;
+}
+.text-description {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    justify-content: center;
 }
 
 .text-description h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
+    font-size: 3rem;
 }
 .text-description p {
     font-size: 0.82rem;
     line-height: 1.6;
     margin-bottom: 20px;
-    width: 80%;
+    width: 50%;
+    margin-left: 10%;
 }
 
 .image-container {
-    width: 60%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,37 +77,23 @@
 }
 
 .image-container .card {
-    width: 40%;
-    height: fit-content;
+    width: 45%;
+    height: 200px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 10px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     transition: transform 0.3s ease;
-}
-
-.image-container .card:nth-last-child(1) {
-    background-color: palegreen;
-}
-
-.image-container .card:nth-last-child(2) {
-    background-color: palegoldenrod;
-}
-
-.image-container .card:nth-last-child(3) {
-    background-color: paleturquoise;
-}
-
-.image-container .card:nth-last-child(4) {
-    background-color: palevioletred;
+    background-color: white;
+    padding-left: 50px;
 }
 
 
-.image-container .card .txt-number{
+
+/* .image-container .card .txt-number{
     font-size: 2rem;
     font-weight: bold;
     color: #3333337e;
@@ -116,21 +106,38 @@
     width: 60px;
     height: 60px;
     margin-bottom: 10px;
-}
+} */
 
 .image-container .card .txt-heading {
-    font-size:1.4rem ;
-    color: black;
+    font-size:1.8rem ;
+    color: rgb(41, 41, 41);
     font-weight: 600;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: "Oswald", sans-serif;
 }
 
-.image-container .card .txt-p{
+/* .image-container .card .txt-p{
     font-size:0.70rem ;
-    color: black;
+    color: rgb(75, 75, 75);
     font-weight: 400;
     line-height: 1rem;
+} */
+
+.image-container .card ul{
+    width: fit-content;
+    height: fit-content;
+    padding: 0px;
+    margin-left: 8px;
 }
 
+.image-container .card ul li{
+    font-size: 1rem;
+    color: black;
+    font-weight: 400;
+    line-height: 1.2rem;
+    margin: 10px;
+}
 
 
   @media only screen and (max-width:480px){
@@ -157,6 +164,77 @@
   }
 
   @media only screen and (min-width:2560px){
+    .info-section h1 {
+    font-size: 7rem;
+    line-height: 9rem;
+    width: 75%;
+    }
+
+    .info-section h1 span {
+        text-decoration-thickness:6px;
+
+    }
+
+    .how-we-work {
+    padding: 50px 20px;
+    }
+    .text-description {
+      margin-top: 20px;
+    }
+
+    .text-description h2 {
+        font-size: 5rem;
+    }
+    .text-description p {
+        font-size: 2rem;
+        line-height: 2.6;
+        /* margin-bottom: 20px;
+        width: 50%;
+        margin-left: 10%; */
+    }
+
+    /* .image-container {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        height: fit-content;
+    } */
+
+    .image-container .card {
+        width: 47%;
+        height: fit-content;
+        border-radius: 30px;
+        margin: 20px;
+        padding: 20px;
+        padding-left: 50px;
+    }
+
+    .image-container .card .txt-heading {
+        font-size:3.8rem ;
+        /* color: rgb(41, 41, 41);
+        font-weight: 600;
+        width: 100%;
+        margin-bottom: 10px;
+        font-family: "Oswald", sans-serif; */
+    }
+    /* .image-container .card ul{
+        width: fit-content;
+        height: fit-content;
+        padding: 0px;
+        margin-left: 8px;
+    } */
+
+    .image-container .card ul li{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        margin: 50px;
+        /* color: black;
+        font-weight: 400;
+        line-height: 1.2rem;
+        margin: 10px; */
+    }
 
 
   }
