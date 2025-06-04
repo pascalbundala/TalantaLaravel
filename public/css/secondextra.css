@@ -178,10 +178,10 @@
     }
 
     .image-container .card {
-    width: 47%;
+    width: 46%;
     height: fit-content;
     border-radius: 30px;
-    margin: 20px;
+    margin:50px 20px;
     padding: 20px;
     padding-left: 50px;
     }
@@ -191,9 +191,9 @@
     }
 
     .image-container .card ul li{
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    margin: 50px;
+    font-size: 2.3rem;
+    line-height: 2.3rem;
+    margin: 30px;
     }
 
 
