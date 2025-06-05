@@ -11,10 +11,11 @@
     overflow: hidden;
 }
   .content:hover  {
-    background-color:orange;
+    background-color:#fbaf28;
     transition: all 0.3s ease;
-    color: white;
+    color: #1f202a;
     border-bottom: 1px solid #1f202a37;
+    cursor: pointer;
   }
 
 
@@ -26,7 +27,7 @@
     display: flex;
     background-color: #90be41;
     flex-flow: column nowrap;
-    color: #1f202a;
+    color: white;
     width: 100%;
     height: 100%;
     justify-content: space-evenly;

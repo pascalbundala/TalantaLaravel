@@ -41,7 +41,7 @@
     </section>
 
     <section class="info-section">
-        <h1>Empowering NGOs,Amplifying Impact and Creating Awareness</h1>
+        <h1>Empowering NGOs,Amplifying Impact and <span>Creating Awareness</span> </h1>
     </section>
 
     <section class="how-we-work">
@@ -133,11 +133,11 @@
             <div class="big-head">
                 <h1>Welcome To<br> <span>talantatrust</span></h1>
                 <div class="social">
-                    <div class="round_border" ><a href="#"><i class="fab fa-facebook-f"></i></a></div>
-                    <div class="round_border" ><a href="#"><i class="fab fa-twitter"></i></a></div>
-                    <div class="round_border" ><a href="#"><i class="fab fa-instagram"></i></a></div>
-                    <div class="round_border" ><a href="#"><i class="fa-brands fa-youtube"></i></a></div>
-                    <div class="round_border" ><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
+                    <div class="round_border" ><a href="https://web.facebook.com/talantatrust"><i class="fab fa-facebook-f"></i></a></div>
+                    <div class="round_border" ><a href="https://x.com/talantatrust"><i class="fa-brands fa-x-twitter"></i></a></div>
+                    <div class="round_border" ><a href="https://www.instagram.com/talantatrust"><i class="fab fa-instagram"></i></a></div>
+                    <div class="round_border" ><a href="https://www.linkedin.com/company/talantatrust"><i class="fa-brands fa-linkedin"></i></a></div>
+                    <div class="round_border" ><a href="https://www.youtube.com/@talantatrust"><i class="fa-brands fa-youtube"></i></a></div>
                 </div>
             </div>
             <div class="other-data">
