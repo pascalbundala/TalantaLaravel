@@ -1,10 +1,5 @@
     <header id="navbar">
-        {{-- <a href="{{route('index')}}">
-            <div class="logo"><img src="{{asset('images/Talanta Trust official logo-01.png')}}" alt="" srcset=""></div>
-        </a> --}}
-
         <a href="{{route('index')}}" class="logo"><img src="{{asset('images/Talanta Trust official logo-01.png')}}" alt="" srcset=""></a>
-
 
         <div class="social-icons">
             <div class="round_border" ><a href="https://web.facebook.com/talantatrust" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></div>

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="{{asset('css/aboutus.css')}}">
     <link rel="stylesheet" href="{{asset('css/copyright.css')}}">
     <link rel="stylesheet" href="{{asset('css/links-to-pages.css')}}">
+     <link rel="stylesheet" href="{{asset('css/secondextra.css')}}"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-...your-integrity-code..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,10 +36,11 @@
             <span> A difference</span>
           </h1>
 
-          <img src="{{asset('/images/down-arrow.svg')}}" alt="">
+          <img src="{{asset('images/svg/talanta-trust-vector-01.svg')}}" alt="">
           <a href="#" class="btn">Get to know us</a>
         </div>
     </section>
+
     <section class="container-about">
         <div class="mission">
             <div class="title">
@@ -59,50 +61,56 @@
             </div>
         </div>
     </section>
-    <section class="container-beyond">
-        <div class="holder"><div class="title"><h2>What You Can Expect from Us</h2><p> <strong>At Talanta Trust</strong>, we offer a full suite of services designed to meet the specific needs of non-profits, companies, and individuals committed to social impact</p></div></div>
-        <div class="holder">
-            <div class="description">
-                <p><strong>Content Creation</strong><br>
-                    We write clear, powerful stories that speak directly to your audience. From websites to campaigns, we deliver content that informs, engages, and inspires.</p>
-                <p><strong>Photography & Videography</strong><br>
-                    We capture real stories and moments through professional visuals—whether in the field, at events, or during interviews—helping you show the world your impact.</p>
-            </div>
-        </div>
-        <div class="holder">
-            <div class="description">
-                <p><strong>Branding & Graphic Design</strong><br>
-                    We build visual identities that reflect your mission and values. From logos to infographics, we ensure everything looks sharp, consistent, and on-brand.</p>
-                <p><strong>Documentary & Storytelling</strong> <br>
-                    Through thoughtful interviews and real-life footage, we create compelling documentaries that highlight your work and move your audience to act.</p>
-            </div>
-        </div>
-        <div class="holder">
-            <div class="text-slide">
-                <p class="text-left">What You Can</p>
-                <p class="text-right"><span>Expect</span> from Us</p>
-                <p class="text-common">What You Can <br><span>Expect</span> from Us</p>
-            </div>
-        </div>
 
-        <div class="holder">
-            <div class="description">
-                <p><strong>Writing Services</strong><br>
-                    We prepare polished grant proposals, reports, and strategic documents that communicate your goals and achievements with clarity and purpose.</p>
-                <p><strong> Website Development</strong> <br>
-                    We design and develop user-friendly websites that are visually appealing, easy to navigate, and aligned with your brand and objectives.</p>
-            </div>
-        </div>
-        <div class="holder">
-            <div class="description">
-                <p><strong>Social Media Management</strong><br>
-                    We manage your platforms with strategic content, timely posts, and active engagement—building a strong online presence for your cause.</p>
-                <p><strong>NGO Consultancy</strong> <br>
-                    We offer expert advice in planning, monitoring and evaluation, capacity building, and project management—helping your organisation grow and thrive.</p>
-            </div>
-        </div>
-
+    <section class="info-section">
+      <h1>What You Can <br>
+         <span>Expect from Us</span></h1>
     </section>
+
+    <section class="how-we-work">
+        <div class="text-description">
+            <p>At Talanta Trust</strong>, we offer a full suite of services designed to meet the specific needs of non-profits, companies, and individuals committed to social impact</p>
+        </div>
+        <div class="image-container">
+            <div class="card">
+                <h3 class="txt-heading">Content Creation</h3>
+                <p>We write clear, powerful stories that speak directly to your audience. From websites to campaigns, we deliver content that informs, engages, and inspires</p>
+            </div>
+
+            <div class="card">
+                <h3 class="txt-heading">Photography & Videography</h3>
+                <p>We capture real stories and moments through professional visuals—whether in the field, at events, or during interviews—helping you show the world your impact.</p>
+            </div>
+            <div class="card">
+                <h3 class="txt-heading">Documentary & Storytelling</h3>
+                    <p>Through thoughtful interviews and real-life footage, we create compelling documentaries that highlight your work and move your audience to act.</p>
+            </div>
+            <div class="card">
+                <h3 class="txt-heading">Branding & Graphic Design</h3>
+                <p>We build visual identities that reflect your mission and values. From logos to infographics, we ensure everything looks sharp, consistent, and on-brand.</p>
+            </div>
+
+            <div class="card">
+                <h3 class="txt-heading">Writing Services</h3>
+                <p>We prepare polished grant proposals, reports, and strategic documents that communicate your goals and achievements with clarity and purpose.</p>
+            </div>
+            <div class="card">
+                <h3 class="txt-heading">Website Development</h3>
+                <p>We design and develop user-friendly websites that are visually appealing, easy to navigate, and aligned with your brand and objectives.</p>
+            </div>
+
+            <div class="card">
+                <h3 class="txt-heading">Social Media Management</h3>
+             <p>We manage your platforms with strategic content, timely posts, and active engagement—building a strong online presence for your cause.</p>
+            </div>
+
+            <div class="card">
+                <h3 class="txt-heading">NGO Consultancy</h3>
+                 <p>We offer expert advice in planning, monitoring and evaluation, capacity building, and project management—helping your organisation grow and thrive.</p>
+            </div>
+        </div>
+    </section>
+
     <section class="links-to-pages">
         <div class="image-with-links">
             <div class="divs">
@@ -123,29 +131,5 @@
     @include('footer')
 
     <script src="{{asset('js/script.js')}}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script>
-        gsap.registerPlugin(ScrollTrigger);
-        gsap.from(".text-left", {
-        x:500,
-        scrollTrigger: {
-        trigger: ".container-beyond",
-        start: "top 100%",
-        end: "bottom 50%",
-        scrub: true,
-        }
-    });
-
-    gsap.from(".text-right", {
-        x: -500,
-        scrollTrigger: {
-        trigger: ".container-beyond",
-        start: "top 100%",
-        end: "bottom 50%",
-        scrub: true,
-        }
-    });
-    </script>
 </body>
 </html>

@@ -4,7 +4,8 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    background-color: rgb(88, 238, 193);
+    background-color: #90be41;
+    color:#1a202a;
 }
 
 
@@ -12,10 +13,9 @@
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
+    justify-content: start;
     height: fit-content;
     margin: 0 auto;
-    padding: 50px auto;
 }
 
 .mission .title{
@@ -25,10 +25,9 @@
 
 .mission .title h3{
     font-weight: 900;
-    color: #1f202a; 
     font-family: "Anton",sans-serif;
     font-size: 4rem;
-    line-height: 4rem;
+    line-height: 4.5rem;
 }
 
 .mission .descr{
@@ -44,8 +43,8 @@
    font-weight: 400;
    width: 45%;
    line-height: 1.5rem;
-  
-   
+
+
  }
 
  .mission .descr p strong{
@@ -53,20 +52,19 @@
    font-weight: 900;
    width: 100%;
    font-family: "Anton",sans-serif;
-   color: #1f202a;
-   
+
  }
 
  .container-beyond{
     width: 100%;
     height: fit-content;
-    background-image: url("../images/ocean-diver.jpg");
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-flow: column;
     padding-bottom: 50px;
-    color: white;
+    color: #1a202a;
  }
 
  .container-beyond .holder{
@@ -84,7 +82,7 @@
     position: relative;
     display: flex;
     flex-flow: column nowrap;
-    
+
  }
 
  .container-beyond .holder .title h2{
@@ -160,7 +158,7 @@
    font-family: "mcharazo",sans-serif;
    margin: 0px 10px;
    line-height: 5rem;
-   color: orange;
+   color: #fba228;
    font-style: italic;
    text-decoration: underline;
    font-weight: 900;
@@ -193,13 +191,13 @@
   .mission{
       flex-flow: column nowrap;
   }
-  
+
   .mission .title{
       width: 80%;
       margin: 5px auto;
-     
+
   }
-  
+
   .mission .title h3{
       font-size: 2.5rem;
       font-weight: 500;
@@ -214,7 +212,7 @@
    justify-content: space-between;
 
 }
-  
+
   .mission .descr p{
    font-size: 0.70rem;
    width: 100%;
@@ -263,7 +261,7 @@
    margin: 0px 0px 10px 0px;
    font-size: 2.5rem;
    line-height: 2.5rem;
-   width: 80%;   
+   width: 80%;
 }
 
 .container-beyond .holder .description{
@@ -278,7 +276,7 @@
    font-size: 0.70rem;
    line-height: 1.3rem;
    width: 100%;
-   margin: 10px 0px;   
+   margin: 10px 0px;
 
 }
 
@@ -291,11 +289,11 @@
       font-size: 3.4rem;
       line-height: 3rem;
    }
-   
+
    .container-beyond .holder  .text-slide .text-common{
        display: none;
      }
-   
+
    .container-beyond .holder  .text-slide .text-right{
       font-size: 2rem;
       line-height: 2rem;
@@ -339,19 +337,17 @@
 
    .container-about{
       height: fit-content;
-      padding-bottom: 20px;
-      padding-top: 40px;
-     
+
   }
   .mission{
       flex-flow: column nowrap;
   }
-  
+
   .mission .title{
       width: 80%;
       margin: 5px auto;
   }
-  
+
   .mission .title h3{
       font-size: 2.5rem;
       font-weight: 600;
@@ -366,7 +362,7 @@
    justify-content: space-between;
 
 }
-  
+
   .mission .descr p{
    font-size: 0.73rem;
    width: 48%;
@@ -431,7 +427,7 @@
    margin: 10px 0px;
 }
 
-.container-beyond .holder  .text-slide{
+/* .container-beyond .holder  .text-slide{
    width: 100%;
    margin: 10px auto;
    height: fit-content;
@@ -454,7 +450,7 @@
 
 .container-beyond .holder  .text-slide .text-common{
    display: none;
-}
+} */
 
     /* extra css */
     .container-beyond .holder .description p strong{
@@ -467,7 +463,7 @@
       margin: 0px 10px;
       line-height: 2rem;
    }
-   
+
    .container-beyond .holder .title p{
       display: block;
       font-size: 0.73rem;
@@ -476,7 +472,7 @@
       width: 90%;
       margin: 10px 0px;
    }
-   
+
    .container-beyond .holder .title p strong{
       font-size: 0.9rem;
       font-weight: 900;
@@ -489,29 +485,25 @@
    .container-about{
       height: fit-content;
       justify-content: start;
-      padding-top: 20px;
-      padding-bottom: 20px;
   }
 
   .mission{
    justify-content: start;
-   padding-top: 10px;
-   padding-bottom: 10px;
 }
-  
+
 
    .mission .title{
       width: 80%;
       margin: 0px auto;
   }
-  
+
   .mission .title h3{
       font-size: 2.7rem;
       line-height: 2.7rem;
   }
-  
+
   .mission .descr p{
-     font-size: 0.76rem;  
+     font-size: 0.76rem;
    }
 
    .mission .descr p strong
@@ -528,16 +520,16 @@
       padding-top:30px;
       padding-bottom: 40px;
    }
-  
+
    .container-beyond .holder{
       justify-content: center;
    }
-  
+
    .container-beyond .holder .title{
       margin-top: 1rem;
       width: 80%;
    }
-  
+
    .container-beyond .holder .title h2{
       font-size: 2.7rem;
       text-align: start;
@@ -553,13 +545,13 @@
       margin: 10px 0px;
       line-height: 1.2rem;
    }
-   
+
    .container-beyond .holder .title p strong{
       font-size: .9rem;
       font-weight: 900;
    }
-   
-  
+
+
    .container-beyond .holder .description{
       margin-top: 1.5rem;
       width: 80%;
@@ -571,7 +563,7 @@
       padding-right: 0px;
       margin-top: 10px;
    }
-  
+
    .container-beyond .holder .description p{
       font-size: 0.71rem;
       line-height: 1.3rem;
@@ -583,20 +575,20 @@
       width: 100%;
       margin-bottom: 10px;
    }
-  
-   .container-beyond .holder  .text-slide{
+
+   /* .container-beyond .holder  .text-slide{
       width: 100%;
    }
-  
+
    .container-beyond .holder  .text-slide .text-left{
       font-size: 5rem;
       line-height: 6rem;
    }
-  
+
    .container-beyond .holder  .text-slide .text-common{
        display: none;
      }
-  
+
    .container-beyond .holder  .text-slide .text-right{
       font-size: 3.5rem;
       line-height:4rem;
@@ -607,19 +599,19 @@
       font-size: 3.6rem;
       margin: 0px 10px;
       line-height: 2rem;
-   }
+   } */
  }
 
  /* Desktops (1025px - 1200px): Cover standard desktop screens. */
-@media only screen and (min-width:992px)  {
-  
+@media only screen and (min-width:1024px)  {
+
   .mission .title h3{
       font-size: 2.7rem;
-      line-height: 2.7rem;
+      line-height: 3.5rem;
   }
-  
+
   .mission .descr p{
-     font-size: 0.78rem;  
+     font-size: 0.78rem;
    }
 
    .mission .descr p strong
@@ -630,7 +622,7 @@
    }
 
    /* beyond section */
-  
+
    .container-beyond .holder .title h2{
       width: 50%;
    }
@@ -640,12 +632,12 @@
       width: 60%;
       line-height: 1.2rem;
    }
-   
+
    .container-beyond .holder .title p strong{
       font-size: .92rem;
       font-weight: 900;
    }
-   
+
    .container-beyond .holder .description p{
       font-size: 0.73rem;
       line-height: 1.3rem;
@@ -654,21 +646,21 @@
    .container-beyond .holder .description p strong{
       font-size: 1.02rem;
    }
-  
-   .container-beyond .holder  .text-slide{
+
+   /* .container-beyond .holder  .text-slide{
       width: 100%;
       margin: 20px 0px;
    }
-  
+
    .container-beyond .holder  .text-slide .text-left{
       font-size: 6.5rem;
       line-height: 6rem;
    }
-  
+
    .container-beyond .holder  .text-slide .text-common{
        display: none;
      }
-  
+
    .container-beyond .holder  .text-slide .text-right{
       font-size: 4rem;
       line-height:4rem;
@@ -679,12 +671,12 @@
       font-size: 4rem;
       margin: 0px 10px;
       line-height: 2rem;
-   }
+   } */
 
 }
 
 /* Extra Large Screens (1201px+): Target large desktops, */
-@media only screen and (min-width:1200px)  {
+@media only screen and (min-width:1440px)  {
    .hero{
       height: 100vh;
    }
@@ -692,9 +684,9 @@
       font-size: 2.7rem;
       line-height: 2.7rem;
   }
-  
+
   .mission .descr p{
-     font-size: 0.78rem;  
+     font-size: 0.78rem;
    }
 
    .mission .descr p strong
@@ -705,7 +697,7 @@
    }
 
    /* beyond section */
-  
+
    .container-beyond .holder .title h2{
       width: 40%;
    }
@@ -714,20 +706,20 @@
       font-size: 0.85rem;
       width: 50%;
       line-height: 1.2rem;
-      
+
    }
-   
+
    .container-beyond .holder .title p strong{
       font-size: .95rem;
       font-weight: 900;
    }
-   
-  
+
+
    .container-beyond .holder .description{
       width: 80%;
       margin-bottom: 20px;
    }
-  
+
    .container-beyond .holder .description p{
       font-size: 0.75rem;
       width: 40%;
@@ -737,21 +729,21 @@
    .container-beyond .holder .description p strong{
       font-size: 1.1rem;
    }
-  
-   .container-beyond .holder  .text-slide{
+
+   /* .container-beyond .holder  .text-slide{
       width: 100%;
       margin: 40px 0px;
    }
-  
+
    .container-beyond .holder  .text-slide .text-left{
       font-size: 10rem;
       line-height: 10rem;
    }
-  
+
    .container-beyond .holder  .text-slide .text-common{
        display: none;
      }
-  
+
    .container-beyond .holder  .text-slide .text-right{
       font-size: 5rem;
       line-height:5rem;
@@ -762,7 +754,15 @@
       font-size: 7rem;
       margin: 0px 10px;
       line-height: 2rem;
-   }
+   } */
 
+
+}
+
+@media only screen and (min-width:2560px){
+
+}
+
+@media only screen and (min-width:3840px){
 
 }

@@ -105,25 +105,25 @@
 }
 
 .image-container .card:nth-child(
-1):hover {
+4n+1):hover {
     background-color: #f15b27;;
     color: white;
 }
 
 .image-container .card:nth-child(
-2):hover {
+4n+2):hover {
     background-color: #732f40;
     color: white;
 }
 
 .image-container .card:nth-child(
-3):hover {
+4n+3):hover {
     background-color: #fbaf28;
     color: white;
 }
 
 .image-container .card:nth-child(
-4):hover {
+4n):hover {
     background-color: #90be41;
     color: white;
 }
@@ -143,6 +143,7 @@
     line-height: 1.2rem;
     margin: 10px;
 }
+
 
 
   @media only screen and (max-width:480px){
@@ -359,6 +360,11 @@
     .image-container .card ul li{
     font-size: 0.85rem;
     line-height: 1rem;
+    }
+
+    .image-container .card p{
+    font-size: 0.85rem;
+    line-height: 1.3rem;
     }
   }
 
