@@ -185,9 +185,6 @@
       .menu-overlay ul li a {
         font-size: 2.5rem;
       }
-      .menu-overlay ul li a:hover {
-        font-size: 2.5rem;
-      }
 
     }
 
@@ -223,10 +220,6 @@
       .menu-overlay ul li a {
         font-size: 2.6rem;
       }
-      .menu-overlay ul li a:hover {
-        font-size: 2.6rem;
-      }
-
 
     }
 
@@ -398,9 +391,7 @@
         font-size: 6rem;
         line-height: 6rem;
       }
-      .menu-overlay ul li a:hover {
-        font-size: 8rem;
-      }
+
 
     .menu-overlay .close-btn {
         top: 70px;
@@ -440,9 +431,7 @@
         font-size: 10rem;
         line-height: 9rem;
       }
-      .menu-overlay ul li a:hover {
-        font-size: 12rem;
-      }
+
 
     .menu-overlay .close-btn {
         top: 100px;
