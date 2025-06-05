@@ -67,12 +67,11 @@
   }
 
   .hero-content img {
-   width: 90px;
+   width: 60px;
    height: fit-content;
    padding: 0;
    margin: 0 auto;
   }
-
 
   .btn {
     padding: 0px 24px;
@@ -82,20 +81,6 @@
     text-decoration: none;
     border-radius: 5px;
   }
-
-  /* .btn:hover {
-    background: ;
-  } */
-
-  /* Content below hero
-  .content {
-    padding: 100px 20px;
-    background: #f4f4f4;
-  } */
-
-
-
-
 
   /* small media less than 480px */
   @media only screen and (max-width:480px){
@@ -218,8 +203,7 @@
 
   }
 
-
-    /*  greater  than 2560px */
+  /*  greater  than 2560px */
   @media only screen and (min-width:2560px){
 
     .hero-content h1 span {
@@ -234,7 +218,7 @@
     }
 
     .hero-content img {
-      width: 130px;
+      width: 90px;
       height: fit-content;
       padding: 0;
       margin: 0 auto;
@@ -246,8 +230,7 @@
 
   }
 
-
-    @media only screen and (min-width:3840px){
+  @media only screen and (min-width:3840px){
 
     .hero-content h1 span {
       font-size: 15rem;

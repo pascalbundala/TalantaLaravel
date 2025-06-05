@@ -41,7 +41,7 @@
     </section>
 
     <section class="info-section">
-        <h1>Empowering NGOs,Amplifying Impact and Creating <span>Awareness</span></h1>
+        <h1>Empowering NGOs,Amplifying Impact and Creating Awareness</h1>
     </section>
 
     <section class="how-we-work">
