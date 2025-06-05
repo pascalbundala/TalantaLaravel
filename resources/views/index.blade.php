@@ -123,7 +123,7 @@
                 Boards, and Individuals Across Industries
                 Ready to Collaborate with Us.</p>
 
-            <h4>Connect with Us Today!</h4>
+            <a href="{{route('work-with-us')}}">Connect with Us Today!</a>
         </div>
         </div>
     </section>
@@ -133,11 +133,11 @@
             <div class="big-head">
                 <h1>Welcome To<br> <span>talantatrust</span></h1>
                 <div class="social">
-                    <div class="round_border" ><a href="https://web.facebook.com/talantatrust"><i class="fab fa-facebook-f"></i></a></div>
-                    <div class="round_border" ><a href="https://x.com/talantatrust"><i class="fa-brands fa-x-twitter"></i></a></div>
-                    <div class="round_border" ><a href="https://www.instagram.com/talantatrust"><i class="fab fa-instagram"></i></a></div>
-                    <div class="round_border" ><a href="https://www.linkedin.com/company/talantatrust"><i class="fa-brands fa-linkedin"></i></a></div>
-                    <div class="round_border" ><a href="https://www.youtube.com/@talantatrust"><i class="fa-brands fa-youtube"></i></a></div>
+                    <div class="round_border" ><a href="https://web.facebook.com/talantatrust" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></div>
+                    <div class="round_border" ><a href="https://x.com/talantatrust" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a></div>
+                    <div class="round_border" ><a href="https://www.instagram.com/talantatrust" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></div>
+                    <div class="round_border" ><a href="https://www.linkedin.com/company/talantatrust" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a></div>
+                    <div class="round_border" ><a href="https://www.youtube.com/@talantatrust" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a></div>
                 </div>
             </div>
             <div class="other-data">

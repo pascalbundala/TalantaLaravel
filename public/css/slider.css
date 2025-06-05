@@ -54,7 +54,7 @@
 
   .multi-slider h1 span{
     font-size:6rem;
-    color: orange;
+    color: #fbaf28;
     font-family: "mcharazo", sans-serif;
     font-style: italic;
     font-weight: 900;
@@ -75,10 +75,8 @@
   }
 
   .multi-slider a:hover{
-    color: orange;
-    font-style: italic;
+    color:#fbaf28 ;
     font-weight: 400;
-    text-decoration: underline;
   }
 
 

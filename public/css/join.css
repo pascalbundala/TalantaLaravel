@@ -14,8 +14,11 @@
     background-color:#fbaf28;
     transition: all 0.3s ease;
     color: #1f202a;
-    border-bottom: 1px solid #1f202a37;
     cursor: pointer;
+  }
+
+    .content:hover a {
+    color: #1f202a;
   }
 
 
@@ -55,11 +58,19 @@
     text-align: start;
 }
 
-.row-join h4{
+.row-join  a{
     font-size: 1.2rem;
     font-weight: 500;
     font-family: "Anton", sans-serif;
+    text-decoration: none;
+    color: white;
 }
+
+.row-join a:hover{
+    color: white;
+}
+
+
 
 /* small devices with less than 480px */
 @media only screen and (max-width:480px){
@@ -87,7 +98,7 @@
       margin-top: 10px;
   }
 
-  .row-join h4{
+  .row-join a{
       font-size: 0.96rem;
       font-weight: 500;
       margin-top: 10px;
@@ -122,7 +133,7 @@
       margin-top: 20px;
   }
 
-  .row-join h4{
+  .row-join a{
       font-size: 0.96rem;
       font-weight: 500;
       margin-top: 10px;
@@ -145,7 +156,7 @@
       margin-top: 20px;
   }
 
-  .row-join h4{
+  .row-join a{
       font-size: 1.2rem;
       font-weight: 500;
       margin-top: 0px;
@@ -169,7 +180,7 @@
       margin-top: 20px;
   }
 
-  .row-join h4{
+  .row-join a{
       font-size: 1.2rem;
       font-weight: 500;
       margin-top: 0px;
@@ -194,7 +205,7 @@
       line-height: 1.2rem;
   }
 
-  .row-join h4{
+  .row-join a{
       font-size: 1.4rem;
       font-weight: 500;
       margin-top: 0px;
@@ -219,14 +230,14 @@
       line-height: 3rem;
   }
 
-  .row-join h4{
+  .row-join a{
       font-size: 3rem;
       font-weight: 500;
       margin-top: 0px;
       text-align: center;
     }
 
-      .row-join h4:hover{
+      .row-join a:hover{
       font-size: 3.5rem;
     }
 }
@@ -248,14 +259,14 @@
       line-height: 5rem;
   }
 
-  .row-join h4{
+  .row-join a{
       font-size: 4rem;
       font-weight: 500;
       margin-top: 0px;
       text-align: center;
     }
 
-  .row-join h4:hover{
+  .row-join a:hover{
       font-size: 4rem;
     }
 }
