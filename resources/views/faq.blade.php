@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="{{asset('css/privacy-cookie.css')}}">
     <link rel="stylesheet" href="{{asset('css/copyright.css')}}">
     <link rel="stylesheet" href="{{asset('css/links-to-pages.css')}}">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-...your-integrity-code..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -104,54 +104,7 @@
         </div>
     </div>
      @include('footer')
+     <script src="{{asset('js/script.js')}}"></script>
 
-    <script >
-        window.addEventListener("scroll", function () {
-        const navbar = document.getElementById("navbar");
-        if (window.scrollY > 50) {
-            navbar.classList.add("border-shadow");
-        } else {
-            navbar.classList.remove("border-shadow");
-        }
-        });
-
-        const hamburger = document.getElementById('hamburger');
-        const menu = document.getElementById('menu');
-
-        hamburger.addEventListener('click', () => {
-        menu.classList.toggle('active');
-        });
-        closeBtn.addEventListener('click', () => {
-            menu.classList.remove('active');
-        });
-    </script>
-
-    <script>
-        const menuItems = document.querySelectorAll('.text-item');
-
-        menuItems.forEach(item => {
-          const button = item.querySelector('.fa-plus');
-          const buttonMinus = item.querySelector('.fa-minus');
-
-          button.addEventListener('click', () => {
-            item.classList.add('open');
-
-            button.style.display = 'none';
-            buttonMinus.style.display='block';
-          });
-
-          buttonMinus.addEventListener('click',()=>{
-            item.classList.remove('open');
-            button.style.display = 'block';
-            buttonMinus.style.display='none';
-          });
-        });
-
-        document.addEventListener('click', e => {
-          if (!e.target.closest('.text-item')) {
-            menuItems.forEach(i => i.classList.remove('open'));
-          }
-        });
-    </script>
 </body>
 </html>

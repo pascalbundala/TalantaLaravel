@@ -81,26 +81,6 @@
     </div>
 
 @include('footer')
-
-    <script>
-        window.addEventListener("scroll", function () {
-        const navbar = document.getElementById("navbar");
-        if (window.scrollY > 50) {
-            navbar.classList.add("border-shadow");
-        } else {
-            navbar.classList.remove("border-shadow");
-        }
-        });
-
-        const hamburger = document.getElementById('hamburger');
-        const menu = document.getElementById('menu');
-
-        hamburger.addEventListener('click', () => {
-        menu.classList.toggle('active');
-        });
-        closeBtn.addEventListener('click', () => {
-            menu.classList.remove('active');
-        });
-    </script>
+<script src="{{asset('js/script.js')}}"></script>
 </body>
 </html>

@@ -23,3 +23,41 @@ closeBtn.addEventListener('click', () => {
 const currentYear = new Date().getFullYear();
 const year = document.getElementById('currentYear');
 year.textContent = currentYear;
+
+
+
+        window.addEventListener("scroll", function () {
+        const navbar = document.getElementById("navbar");
+        if (window.scrollY > 50) {
+            navbar.classList.add("border-shadow");
+        } else {
+            navbar.classList.remove("border-shadow");
+        }
+        });
+
+
+        const menuItems = document.querySelectorAll('.text-item');
+
+        menuItems.forEach(item => {
+          const button = item.querySelector('.fa-plus');
+          const buttonMinus = item.querySelector('.fa-minus');
+
+          button.addEventListener('click', () => {
+            item.classList.add('open');
+
+            button.style.display = 'none';
+            buttonMinus.style.display='block';
+          });
+
+          buttonMinus.addEventListener('click',()=>{
+            item.classList.remove('open');
+            button.style.display = 'block';
+            buttonMinus.style.display='none';
+          });
+        });
+
+        document.addEventListener('click', e => {
+          if (!e.target.closest('.text-item')) {
+            menuItems.forEach(i => i.classList.remove('open'));
+          }
+        });

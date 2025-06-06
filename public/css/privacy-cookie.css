@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'mcharazo';
-  src: url('../TalantaFonts/MR-PUDIDI-DECORATIVE-FONT/MRPUDIDI.ttf') format('truetype');
-}
-
 
   * {
     margin: 0;
@@ -43,7 +38,7 @@
 
 .logo {
     height: 10px;
-    width: 200px;
+    width: 50px;
     font-weight: bold;
     color: white;
     position: relative;
@@ -79,10 +74,11 @@
   }
 
   .social-icons .round_border{
-    width: 40px;
-    height: 40px;
-    /* border: 1px solid #1F202A; */
-    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    /*         .menu-overlay ul li {
+        margin: 5rem 0;
+      } */
     border-radius: 50%;
     display: flex;
     flex-flow: column nowrap;
@@ -447,9 +443,7 @@
 .menu-overlay ul li a {
   font-size: 2.5rem;
 }
-.menu-overlay ul li a:hover {
-  font-size: 2.5rem;
-}
+
 
        .contents-pc .contents .content-text .text-item .dropdown .plus-minus i{
     font-size: 0.72rem;
@@ -566,9 +560,6 @@
 }
 
 .menu-overlay ul li a {
-  font-size: 2.2rem;
-}
-.menu-overlay ul li a:hover {
   font-size: 2.2rem;
 }
 
@@ -696,9 +687,6 @@
   font-size: 3rem;
   line-height: 4rem;
 }
-.menu-overlay ul li a:hover {
-  font-size: 3rem;
-}
 
 }
 
@@ -796,10 +784,6 @@
   .menu-overlay ul li a {
     font-size: 3.5rem;
   }
-  .menu-overlay ul li a:hover {
-    font-size: 3.5rem;
-  }
-
 
 }
 
@@ -908,9 +892,6 @@
 
 .menu-overlay ul li a {
   font-size:4rem;
-}
-.menu-overlay ul li a:hover {
-  font-size: 4rem;
 }
 
 
@@ -1109,7 +1090,7 @@
 
 .social-icons .round_border{
   width: 130px;
-  height: 120px;
+  height: 160px;
 }
 
 .logo {
@@ -1127,10 +1108,14 @@
   font-size: 8rem;
 }
 
-.menu-overlay ul li a {
-  font-size:7rem;
-  line-height: 8rem;
-}
+      .menu-overlay ul li a {
+        font-size: 10rem;
+        line-height: 9rem;
+      }
+
+              .menu-overlay ul li {
+        margin: 5rem 0;
+      }
 
 
 
