@@ -23,7 +23,7 @@
 
     <section id="hero" class="hero">
         <video autoplay muted loop playsinline class="background-video">
-           <source src="{{asset('images/Talanta-Trust-People.mp4')}}" type="video/mp4"/>
+           <source src="{{asset('images/Talanta-Trust-Contact.mp4')}}" type="video/mp4"/>
           Your browser does not support the video tag.
         </video>
 

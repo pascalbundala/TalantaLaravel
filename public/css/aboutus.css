@@ -36,14 +36,14 @@
     height: 100%;
     position: relative;
     width: 50%;
-    background-image: url('../images/FooterImages/AboutTalantaTrust10.webp');
+    background-image: url('../images/FooterImages/AboutTalantaTrust9.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
  }
 
   .links-to-pages .image-with-links .divs:nth-child(2){
-    background-image: url('../images/FooterImages/AboutTalantaTrust9.webp');
+    background-image: url('../images/FooterImages/AboutTalantaTrust10.webp');
  }
 
 

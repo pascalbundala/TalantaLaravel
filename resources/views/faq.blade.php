@@ -16,8 +16,7 @@
 </head>
 
 <body>
-@include('header')
-
+    @include('header')
     <div class="contents-pc">
         <div class="title">
             <h2>Frequently asked questions</h2>
@@ -104,8 +103,7 @@
             </div>
         </div>
     </div>
-
-@include('footer')
+     @include('footer')
 
     <script >
         window.addEventListener("scroll", function () {
