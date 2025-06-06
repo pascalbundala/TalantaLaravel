@@ -168,16 +168,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
-  <script>
-      const sliderTrack = document.getElementById('sliderTrack');
-      const scrollContent= Array.from(sliderTrack.children);
+    <script>
+        const sliderTrack = document.getElementById('sliderTrack');
+        const scrollContent= Array.from(sliderTrack.children);
 
-      scrollContent.forEach(element => {
-          const duplicatedElement = element.cloneNode(true);
-          duplicatedElement.setAttribute('aria-hidden', 'true');
-          sliderTrack.appendChild(duplicatedElement);
-      });
-  </script>
+        scrollContent.forEach(element => {
+            const duplicatedElement = element.cloneNode(true);
+            duplicatedElement.setAttribute('aria-hidden', 'true');
+            sliderTrack.appendChild(duplicatedElement);
+        });
+    </script>
 
 </body>
 </html>

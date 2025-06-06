@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-...your-integrity-code..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -25,7 +25,7 @@
 
     <section id="hero" class="hero">
         <video autoplay muted loop playsinline class="background-video">
-          <source src="{{asset('images/Talanta-Trust-Introduction.mp4')}}" type="video/mp4" />
+          <source src="{{asset('images/Talanta-Trust-People.mp4')}}" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
@@ -41,13 +41,11 @@
         </div>
     </section>
 
+    <section class="info-section">
+        <h1>Our Mission & Commitment</h1>
+    </section>
+
     <section class="container-about">
-        <div class="mission">
-            <div class="title">
-                <h3>Our Mission & <br>
-                    Commitment
-                </h3>
-            </div>
             <div class="descr">
                 <p><strong>About Us</strong><br>
                     Talanta Trust is a dynamic consultancy firm committed to empowering non-governmental organisations, private sector companies, and purpose-driven individuals who are working to create meaningful change. We provide customised services that enhance visibility, improve operational effectiveness, and increase long-term impact.<br>
@@ -59,12 +57,10 @@
                 <p><strong>Mission</strong><br>
                     To empower non-governmental organisations, socially responsible companies, and visionary individuals with creative, strategic, and high-quality solutions that elevate their work, communicate their purpose, and create lasting impact. Talanta Trust exists to support those who are committed to making a difference, helping them grow, thrive, and lead the way towards a more just and equitable world.</p>
             </div>
-        </div>
     </section>
 
     <section class="info-section">
-      <h1>What You Can <br>
-         <span>Expect from Us</span></h1>
+      <h1>What You Can Expect from Us</h1>
     </section>
 
     <section class="how-we-work">
@@ -113,12 +109,12 @@
 
     <section class="links-to-pages">
         <div class="image-with-links">
-            <div class="divs">
+           <div class="divs">
                 <div class="overlay">
                 <a href="{{route('gallery')}}">Gallery</a>
-                <p style="width:70%;margin:0 auto">Visit our images and videos of what we do and how we can create impact to your organisation </p>
+                <p>Visit our images and videos of what we do and how we can create impact to your organisation </p>
+               </div>
             </div>
-        </div>
             <div class="divs">
                 <div class="overlay">
                     <a href="{{route('work-with-us')}}">Connect with us</a>

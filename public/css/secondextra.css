@@ -15,11 +15,12 @@
   }
 
 .info-section h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-size: 3.8rem;
     text-align: center;
     line-height: 4.5rem;
     padding: 2px 0px;
+    font-weight: 900;
 }
 
 .info-section h1 span {
@@ -93,12 +94,12 @@
 
 .image-container .card .txt-heading {
     font-size:1.8rem ;
-    font-weight: 600;
+    font-weight: 400;
     width: 100%;
     margin-bottom: 10px;
-    font-family: "Oswald", sans-serif;
+    font-family: "Anton", sans-serif;
 }
-.image-container .card :hover {
+.image-container .card:hover {
     transform: scale(1.1);
     cursor: pointer;
     transition: all 0.3s ease;
@@ -145,8 +146,13 @@
 }
 
 
-
   @media only screen and (max-width:480px){
+
+    .image-container .card p{
+        font-size: 0.85rem;
+        line-height: 1.3rem;
+    }
+
     .info-section h1 {
     font-size: 1.4rem;
     line-height: 2rem;
@@ -200,6 +206,11 @@
   }
 
   @media only screen and (min-width:480px){
+        .image-container .card p{
+   font-size: 0.88rem;
+   line-height: 1.4rem;
+    }
+
     .info-section h1 {
     font-size: 2rem;
     line-height: 3rem;
@@ -255,6 +266,12 @@
   }
 
   @media only screen and (min-width:768px){
+
+    .image-container .card p{
+     font-size: 0.88rem;
+     line-height: 1.5rem;
+    }
+
     .info-section h1 {
     font-size: 2.4rem;
     line-height: 3.5rem;
@@ -267,7 +284,7 @@
 
     .how-we-work {
     padding: 0px 20px 20px 0px;
-    width: 90%;
+    width: 100%;
     max-width: 1100px;
     margin: 0 auto;
     }
@@ -281,7 +298,7 @@
     }
     .text-description p {
     width: 100%;
-    font-size: 0.90rem;
+    font-size: 0.92rem;
     line-height: 1.6rem;
     text-align: start;
     font-weight: 300;
@@ -289,17 +306,17 @@
     }
 
     .image-container .card {
-    width: 41%;
+    width: 42%;
     height: fit-content;
     border-radius: 20px;
     margin:20px 20px 0px 20px;
     padding: 20px;
-    padding-left: 50px;
+    padding-left:10px;
     border: 1px solid #ccc;
     }
 
     .image-container .card .txt-heading {
-    font-size:1.4rem ;
+    font-size:1.2rem ;
     }
 
     .image-container .card ul li{
@@ -336,7 +353,7 @@
     }
     .text-description p {
     width: 100%;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     line-height: 1.6rem;
     text-align: start;
     font-weight: 300;
@@ -363,12 +380,18 @@
     }
 
     .image-container .card p{
-    font-size: 0.85rem;
-    line-height: 1.3rem;
+     font-size: 0.92rem;
+     line-height: 1.6rem;
     }
   }
 
   @media only screen and (min-width:1440px){
+
+    .image-container .card p{
+     font-size: 0.96rem;
+     line-height: 1.7rem;
+    }
+
     .info-section h1 {
     font-size: 3.5rem;
     line-height: 4rem;
@@ -392,7 +415,7 @@
     }
     .text-description p {
     width: 100%;
-    font-size: 0.90rem;
+    font-size: 0.95rem;
     line-height: 1.8rem;
     text-align: start;
     font-weight: 300;
@@ -421,6 +444,13 @@
   }
 
   @media only screen and (min-width:2560px){
+
+    .image-container .card p{
+     font-size: 1.7rem;
+     line-height: 3.1rem;
+    }
+
+
     .info-section h1 {
     font-size: 6rem;
     line-height: 9rem;
@@ -433,8 +463,8 @@
 
     .how-we-work {
     padding: 20px 0px 50px 0px ;
-    width: 80%;
-    max-width: 2700px;
+    width: 90%;
+    max-width: 3300px;
     }
     .text-description {
     margin-top: 0px;
@@ -445,7 +475,7 @@
     }
     .text-description p {
     width: 100%;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     line-height: 3.2rem;
     text-align: start;
     font-weight: 300;
@@ -461,7 +491,7 @@
     }
 
     .image-container .card .txt-heading {
-    font-size:3.8rem ;
+    font-size:2.8rem ;
     }
 
     .image-container .card ul li{
@@ -476,10 +506,15 @@
   /* for larger dimension  */
   @media only screen and (min-width:3840px){
 
+    .image-container .card p{
+     font-size: 2.7rem;
+     line-height: 4.9rem;
+    }
+
     .info-section h1 {
     font-size: 10rem;
     line-height: 12rem;
-    width: 2600px;
+    width: 3800px;
     }
 
     .info-section h1 span {
@@ -500,7 +535,7 @@
     margin: 30px 20px 20px 20px;
     }
    .image-container .card .txt-heading {
-    font-size:5rem ;
+    font-size:4rem ;
     }
 
 

@@ -54,7 +54,7 @@
     font-weight: 700;
     width: 40%;
     margin: auto 0;
-    
+
 }
 
 .content-form .maelezo p{
@@ -126,7 +126,7 @@
     font-family: "Poppins",sans-serif;
     color: #eee;
     margin-bottom: 10px;
-    
+
 }
 
 .content-form .forms .form-multiple .divs  .checkboxes{
@@ -210,7 +210,7 @@
     text-align: left;
     resize: vertical;
     border: 1px solid #ccc;
-    background: #1e1f29; 
+    background: #1e1f29;
     color: #f0f0f0;
     outline: none;
     padding: 10px;
@@ -235,6 +235,20 @@
     color: #1f202a;
 }
 
+  .links-to-pages .image-with-links .divs{
+    height: 100%;
+    position: relative;
+    width: 50%;
+    background-image: url('../images/FooterImages/AboutTalantaTrust10.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+
+  .links-to-pages .image-with-links .divs:nth-child(2){
+    background-image: url('../images/FooterImages/AboutTalantaTrust9.webp');
+ }
+
 
 /* @media (max-width:768px){
     .contents{
@@ -247,7 +261,7 @@
         background-color: #1f202a;
         color: white;
     }
-    
+
     .contents .titles{
         width: 100%;
         height: fit-content;
@@ -260,18 +274,18 @@
         font-weight: 500;
         text-align: center;
     }
-    
+
     .content-form{
         padding-bottom: 30px;
     }
-    
+
     .content-form .imgs{
         width: 10%;
         height: fit-content;
         margin-top: 50px;
         display: none;
     }
-        
+
     .form-holder{
         display: flex;
         flex-flow: column nowrap;
@@ -288,7 +302,7 @@
         justify-content: space-between;
         margin: 0px 0px 0px 0px;
     }
-    
+
     .content-form .maelezo h2{
         font-size: 1.2rem;
         font-family: "Anton",sans-serif;
@@ -296,21 +310,21 @@
         width: 80%;
         margin: 10px auto 0px auto;
     }
-    
+
     .content-form .maelezo p{
         font-size: 0.70rem;
         font-weight: 200;
         width: 80%;
         margin: 15px auto;
     }
-    
+
     .content-form .forms {
         width: 100%;
         display: flex;
         flex-flow: column nowrap;
         margin: 10px auto;
     }
-    
+
     .content-form .forms .form-input{
         width: 100%;
         display: flex;
@@ -318,12 +332,12 @@
         justify-content: space-between;
         margin-bottom: 0px;
     }
-    
+
     .content-form .forms .form-input .divs {
         width: 80%;
         margin: 5px auto 0px auto;
     }
-    
+
     .content-form .forms .form-input .divs label{
         font-size: 0.6rem;
         font-weight: 900;
@@ -335,43 +349,43 @@
     .content-form .forms .form-input .divs  .checkboxes .checkbox-label{
         margin: 10px 0px;
     }
-    
+
     .content-form .forms .form-input .divs  .checkboxes .checkbox-label label{
         font-size: 0.65rem;
     }
-    
+
     .content-form .forms .form-input .divs  .checkboxes .checkbox-label label strong{
         margin-right: 2px;
         font-size: 0.70rem;
-    
+
     }
-    
+
     .content-form .forms .form-input .divs  .checkboxes .checkbox-label input[type="checkbox"]{
         margin-right: 10px;
         font-size: 5px;
     }
-    
+
     .content-form .forms .big-message{
         font-size: 1rem;
         font-family: "Anton",sans-serif;
         margin: 20px auto 5px auto;
         width: 80%;
     }
-    
+
     .content-form .forms  textarea{
         width: 80%;
         height: 100px;
         font-size: 12px;
         margin: 0 auto;
     }
-    
+
     .content-form .forms  input[type="submit"]{
         padding: 4px 10px;
         font-size: 12px;
         margin: 10px auto 0px auto;
     }
 
-    
+
 
 } */
 
@@ -395,8 +409,8 @@ Extra Large Screens (1201px+): Target large desktops,  */
         font-size: 1.7rem;
         line-height: 1.6rem;
     }
-    
-    
+
+
     .form-holder{
         width: 85%;
         margin: 10px auto 0px auto;
@@ -406,16 +420,16 @@ Extra Large Screens (1201px+): Target large desktops,  */
         width: 100%;
         margin: 0px 0px 20px 0px;
     }
-    
+
     .content-form .maelezo h2{
         font-size: 0.90rem;
         line-height: 1rem;
         font-weight: 600;
         width: 100%;
         margin: 10px auto;
-        
+
     }
-    
+
     .content-form .maelezo p{
         font-size: 0.7rem;
         line-height: 0.75rem;
@@ -451,7 +465,7 @@ Extra Large Screens (1201px+): Target large desktops,  */
     line-height: 0.72rem;
     margin-bottom: 10px;
     font-weight: 500;
-    
+
 }
 
 .content-form .forms .form-multiple .divs  .checkboxes{
@@ -536,16 +550,16 @@ Extra Large Screens (1201px+): Target large desktops,  */
         width: 100%;
         margin: 10px 0px 20px 0px;
     }
-    
+
     .content-form .maelezo h2{
         font-size: 1.2rem;
         line-height: 1rem;
         font-weight: 600;
         width: 100%;
         margin: 10px auto;
-        
+
     }
-    
+
     .content-form .maelezo p{
         font-size: 0.8rem;
         line-height: 1rem;
@@ -583,7 +597,7 @@ Extra Large Screens (1201px+): Target large desktops,  */
     line-height: 0.82rem;
     margin-bottom: 10px;
     font-weight: 900;
-    
+
 }
 
 .content-form .forms .form-multiple .divs  .checkboxes{
@@ -667,7 +681,7 @@ Extra Large Screens (1201px+): Target large desktops,  */
         width: 100%;
         margin: 10px 0px 20px 0px;
     }
-    
+
     .content-form .maelezo h2{
         font-size: 1.2rem;
         line-height: 1.5rem;
@@ -675,7 +689,7 @@ Extra Large Screens (1201px+): Target large desktops,  */
         width: 40%;
         margin: 20px 0px;
     }
-    
+
     .content-form .maelezo p{
         font-size: 0.85rem;
         line-height: 1.2rem;
@@ -714,7 +728,7 @@ Extra Large Screens (1201px+): Target large desktops,  */
     line-height: 1.1rem;
     margin-bottom: 10px;
     font-weight: 500;
-    
+
 }
 
 .content-form .forms .form-multiple .divs  .checkboxes{
@@ -793,16 +807,16 @@ Extra Large Screens (1201px+): Target large desktops,  */
         width: 100%;
         margin: 40px 0px 20px 0px;
     }
-    
+
     .content-form .maelezo h2{
         font-size: 1.6rem;
         line-height: 1.6rem;
         font-weight: 600;
         width: 40%;
         margin: 10px 0px;
-        
+
     }
-    
+
     .content-form .maelezo p{
         font-size: 0.88rem;
         line-height: 1.1rem;
@@ -841,7 +855,7 @@ Extra Large Screens (1201px+): Target large desktops,  */
     line-height: 1.1rem;
     margin-bottom: 10px;
     font-weight: 900;
-    
+
 }
 
 .content-form .forms .form-multiple .divs  .checkboxes{
@@ -921,16 +935,16 @@ Extra Large Screens (1201px+): Target large desktops,  */
         width: 80%;
         margin: 40px auto 20px auto;
     }
-    
+
     .content-form .maelezo h2{
         font-size: 1.6rem;
         line-height: 1.6rem;
         font-weight: 900;
         width: 40%;
         margin: 10px 0px;
-        
+
     }
-    
+
     .content-form .maelezo p{
         font-size: 0.90rem;
         line-height: 1.2rem;
@@ -969,7 +983,7 @@ Extra Large Screens (1201px+): Target large desktops,  */
     line-height: 1.1rem;
     margin-bottom: 10px;
     font-weight: 900;
-    
+
 }
 
 .content-form .forms .form-multiple .divs  .checkboxes{
@@ -1023,7 +1037,7 @@ Extra Large Screens (1201px+): Target large desktops,  */
     margin-top: 15px;
     width: 40%;
 }
-    
+
 }
 
 

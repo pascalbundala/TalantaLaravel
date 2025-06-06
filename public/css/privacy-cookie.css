@@ -7,7 +7,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   html {
     font-family: 'Poppins', sans-serif;
     padding: 0;
@@ -27,7 +27,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   body, html {
     height: 100%;
     font-family: 'Poppins', sans-serif;
@@ -75,7 +75,7 @@
     display: block;
     margin: auto 0;
   }
-  
+
   .social-icons {
     position: absolute;
     left: 50%;
@@ -85,7 +85,7 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .social-icons a {
     color: #1F202A;
     font-size: 18px;
@@ -104,11 +104,11 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .social-icons a:hover {
     color: orange;
   }
-  
+
   .hamburger {
     font-size: 24px;
     color: #1F202A;
@@ -140,17 +140,17 @@
     font-size: 4rem;
     cursor: pointer;
   }
-  
+
   .menu-overlay ul {
     list-style: none;
     padding: 0;
   }
-  
+
   .menu-overlay ul li {
     margin: 0.3rem 0;
     padding: 0;
   }
-  
+
   .menu-overlay ul li a {
     text-decoration: none;
     font-size: 4rem;
@@ -162,14 +162,9 @@
   }
 
   .menu-overlay ul li a:hover {
-    font-size: 4rem;
-    color: #1F202A;
-    font-weight: 900;
-    font-family: "mcharazo", sans-serif;
-    font-style: italic;
-    padding: 10px;
+    color: #fbaf28;
   }
-  
+
   .menu-overlay.active {
     opacity: 1;
     visibility: visible;
@@ -192,14 +187,14 @@
     margin: 20px 0px;
 }
 
-.contents-pc .title h2{ 
+.contents-pc .title h2{
     font-size: 5rem;
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     text-transform: capitalize;
 }
 
-.contents-pc .contents{ 
+.contents-pc .contents{
     display: flex;
     flex-flow: row nowrap;
     justify-content: start;
@@ -207,29 +202,29 @@
     height: fit-content;
 }
 
-.contents-pc .contents .content-img{ 
+.contents-pc .contents .content-img{
     flex: 1;
 }
 
-.contents-pc .contents .content-img img{ 
+.contents-pc .contents .content-img img{
     width: 100%;
     height: fit-content;
     margin: 0 auto;
     transform: scaleX(-1);
 }
 
-.contents-pc .contents .content-text{ 
+.contents-pc .contents .content-text{
     flex: 1;
     height: fit-content;
 }
-.contents-pc .contents .content-text .text-item{ 
+.contents-pc .contents .content-text .text-item{
     display: flex;
     flex-flow: column;
     margin: 20px 0px;
     position: relative;
     text-transform: capitalize;
 }
-.contents-pc .contents .content-text .text-item h2{ 
+.contents-pc .contents .content-text .text-item h2{
     font-size: 1.2rem;
     font-family: "Poppins",sans-serif;
     font-weight: 900;
@@ -238,7 +233,7 @@
 }
 
 
-.contents-pc .contents .content-text .text-item ul{ 
+.contents-pc .contents .content-text .text-item ul{
 
   width: 80%;
   height: fit-content;
@@ -246,38 +241,38 @@
 
 }
 
-.contents-pc .contents .content-text .text-item ul li{ 
+.contents-pc .contents .content-text .text-item ul li{
   list-style: none;
   margin-top: 10px;
   height: fit-content;
   width: 100%;
 }
 
-.contents-pc .contents .content-text .text-item ul li .list-type{ 
+.contents-pc .contents .content-text .text-item ul li .list-type{
   height: fit-content;
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
 }
 
-.contents-pc .contents .content-text .text-item ul li .list-type h3{ 
+.contents-pc .contents .content-text .text-item ul li .list-type h3{
   font-size: 0.90rem;
   line-height: 0.90rem;
   font-weight: 700;
   font-family: "Poppins",sans-serif;
 }
 
-.contents-pc .contents .content-text .text-item ul li .list-type p{ 
+.contents-pc .contents .content-text .text-item ul li .list-type p{
   font-size: 0.90rem;
 }
 
-.contents-pc .contents .content-text .text-item p{ 
+.contents-pc .contents .content-text .text-item p{
     font-size: 0.9rem;
     font-weight: 300;
     text-align: start;
 }
 
-.contents-pc .contents .content-text .text-item p strong{ 
+.contents-pc .contents .content-text .text-item p strong{
   font-size: 0.9rem;
   font-weight: 900;
   font-family: "Poppins",sans-serif;
@@ -320,7 +315,7 @@
     text-align: start;
     margin-bottom: 10px;
     cursor: pointer;
-  
+
 }
 
 .contents-pc .contents .content-text .text-item:hover .dropdown h2{
@@ -367,47 +362,47 @@
   margin:20px 0px 0px 0px;
 }
 
-.contents-pc .title h2{ 
+.contents-pc .title h2{
   font-size: 1.8rem;
   font-weight: 900;
   line-height: 1.5rem;
 }
 
-.contents-pc .contents .content-img{ 
+.contents-pc .contents .content-img{
   display: none;
 }
 
-.contents-pc .contents .content-text{ 
+.contents-pc .contents .content-text{
   flex: 1;
   height: fit-content;
   padding-top: 0px;
 }
-.contents-pc .contents .content-text .text-item{ 
+.contents-pc .contents .content-text .text-item{
   margin: 17px 0px;
 }
-.contents-pc .contents .content-text .text-item h2{ 
+.contents-pc .contents .content-text .text-item h2{
   font-size: .89rem;
   font-weight: 900;
   margin-bottom: 0px;
 }
 
-.contents-pc .contents .content-text .text-item p{ 
+.contents-pc .contents .content-text .text-item p{
   font-size: 0.70rem;
   font-weight: 300;
 }
 
-.contents-pc .contents .content-text .text-item p strong{ 
+.contents-pc .contents .content-text .text-item p strong{
   font-size: 0.75rem;
   font-weight: 500;
 }
 
-.contents-pc .contents .content-text .text-item ul li .list-type h3{ 
+.contents-pc .contents .content-text .text-item ul li .list-type h3{
   font-size: 0.75rem;
   line-height: 0.90rem;
   font-weight: 600;
 }
 
-.contents-pc .contents .content-text .text-item ul li .list-type p{ 
+.contents-pc .contents .content-text .text-item ul li .list-type p{
   font-size: 0.70rem;
   line-height: 1.1rem;
 }
@@ -478,48 +473,48 @@
   .contents-pc{
     width: 80%;
   }
-  
+
   .contents-pc .title{
     margin: 20px 0px 0px 0px;
   }
-  
-  .contents-pc .title h2{ 
+
+  .contents-pc .title h2{
     font-size: 1.9rem;
     font-weight: 900;
   }
-  
-  .contents-pc .contents .content-img{ 
+
+  .contents-pc .contents .content-img{
     display: none;
   }
-  .contents-pc .contents .content-text .text-item{ 
+  .contents-pc .contents .content-text .text-item{
     margin: 20px 0px;
   }
-  .contents-pc .contents .content-text .text-item h2{ 
+  .contents-pc .contents .content-text .text-item h2{
     font-size: .89rem;
     font-weight: 900;
     margin-bottom: 0px;
   }
-  
-  .contents-pc .contents .content-text .text-item p{ 
+
+  .contents-pc .contents .content-text .text-item p{
     font-size: 0.70rem;
     line-height: 1.1rem;
     font-weight: 300;
   }
-  
-  .contents-pc .contents .content-text .text-item p strong{ 
+
+  .contents-pc .contents .content-text .text-item p strong{
     font-size: 0.70rem;
     line-height: 1.1rem;
     font-weight: 800;
   }
-  
-  .contents-pc .contents .content-text .text-item ul li .list-type h3{ 
+
+  .contents-pc .contents .content-text .text-item ul li .list-type h3{
     font-size: 0.76rem;
     line-height: 0.95rem;
     font-weight: 600;
-   
+
   }
-  
-  .contents-pc .contents .content-text .text-item ul li .list-type p{ 
+
+  .contents-pc .contents .content-text .text-item ul li .list-type p{
     font-size: 0.70rem;
     line-height: 1.1rem;
   }
@@ -591,45 +586,45 @@
   .contents-pc{
     width: 75%;
   }
-  
+
   .contents-pc .title{
     margin: 40px 0px 0px 0px;
   }
-  
-  .contents-pc .title h2{ 
+
+  .contents-pc .title h2{
     font-size: 2.2rem;
     font-weight: 900;
   }
-  
-  .contents-pc .contents .content-img{ 
+
+  .contents-pc .contents .content-img{
     display: none;
   }
-  .contents-pc .contents .content-text .text-item{ 
+  .contents-pc .contents .content-text .text-item{
     margin: 20px 0px;
   }
-  .contents-pc .contents .content-text .text-item h2{ 
+  .contents-pc .contents .content-text .text-item h2{
     font-size: 1.1rem;
     font-weight: 800;
     margin-bottom: 0px;
   }
-  
-  .contents-pc .contents .content-text .text-item p{ 
+
+  .contents-pc .contents .content-text .text-item p{
     font-size: 0.76rem;
     line-height: 1.2rem;
     font-weight: 300;
   }
-  
-  .contents-pc .contents .content-text .text-item p strong{ 
+
+  .contents-pc .contents .content-text .text-item p strong{
     font-size: 0.8rem;
     font-weight: 600;
   }
-  .contents-pc .contents .content-text .text-item ul li .list-type h3{ 
+  .contents-pc .contents .content-text .text-item ul li .list-type h3{
     font-size: 0.83rem;
     line-height: 0.90rem;
     font-weight: 600;
   }
 
-  .contents-pc .contents .content-text .text-item ul li .list-type p{ 
+  .contents-pc .contents .content-text .text-item ul li .list-type p{
     font-size: 0.76rem;
     list-style: none;
     line-height: 1.2rem;
@@ -715,45 +710,45 @@
   .contents-pc{
     width: 70%;
   }
-  
+
   .contents-pc .title{
     margin: 40px 0px 0px 0px;
   }
-  
-  .contents-pc .title h2{ 
+
+  .contents-pc .title h2{
     font-size: 2.3rem;
     font-weight: 900;
   }
-  
-  .contents-pc .contents .content-img{ 
+
+  .contents-pc .contents .content-img{
     display: none;
   }
-  .contents-pc .contents .content-text .text-item{ 
+  .contents-pc .contents .content-text .text-item{
     margin: 20px 0px;
   }
-  .contents-pc .contents .content-text .text-item h2{ 
+  .contents-pc .contents .content-text .text-item h2{
     font-size: 1.2rem;
     font-weight: 800;
     margin-bottom: 0px;
   }
-  
-  .contents-pc .contents .content-text .text-item p{ 
+
+  .contents-pc .contents .content-text .text-item p{
     font-size: 0.85rem;
     line-height: 1.35rem;
     font-weight: 300;
   }
-  
-  .contents-pc .contents .content-text .text-item p strong{ 
+
+  .contents-pc .contents .content-text .text-item p strong{
     font-size: 0.85rem;
     font-weight: 600;
   }
-  .contents-pc .contents .content-text .text-item ul li .list-type h3{ 
+  .contents-pc .contents .content-text .text-item ul li .list-type h3{
     font-size: 0.85rem;
     line-height: 0.99rem;
     font-weight: 600;
   }
 
-  .contents-pc .contents .content-text .text-item ul li .list-type p{ 
+  .contents-pc .contents .content-text .text-item ul li .list-type p{
     font-size: 0.85rem;
     line-height: 1.3rem;
   }
@@ -761,7 +756,7 @@
   .contents-pc .contents .content-text .text-item .dropdown h2{
     font-size: 1.0rem;
   }
-  
+
   .contents-pc .contents .content-text .text-item .dropdown-content p{
     font-size: 0.78rem;
   }
@@ -769,7 +764,7 @@
   .social-icons a {
     font-size: 18px;
   }
-  
+
   .social-icons .round_border{
     width: 35px;
     height: 35px;
@@ -786,13 +781,13 @@
   padding-top: 0px;
   }
 
-  
+
   .menu-overlay .close-btn {
     right: 60px;
     top: 0;
     font-size: 3.5rem;
   }
-  
+
   /* .menu-overlay ul li {
     margin: 1rem 0;
   }
@@ -803,7 +798,7 @@
   .menu-overlay ul li a:hover {
     font-size: 3.5rem;
   }
-  
+
 
 }
 
@@ -813,47 +808,47 @@
   .contents-pc{
     width: 70%;
   }
-  
+
   .contents-pc .title{
     margin: 100px 0px 0px 0px;
     width: 60%;
   }
-  
-  .contents-pc .title h2{ 
+
+  .contents-pc .title h2{
     font-size: 3.2rem;
     font-weight: 900;
     line-height: 3.2rem;
   }
-  
-  .contents-pc .contents .content-img{ 
+
+  .contents-pc .contents .content-img{
     display: none;
   }
-  .contents-pc .contents .content-text .text-item{ 
+  .contents-pc .contents .content-text .text-item{
     margin: 20px 0px;
   }
-  .contents-pc .contents .content-text .text-item h2{ 
+  .contents-pc .contents .content-text .text-item h2{
     font-size: .95rem;
     font-weight: 900;
     margin-bottom: 0px;
   }
-  
-  .contents-pc .contents .content-text .text-item p{ 
+
+  .contents-pc .contents .content-text .text-item p{
     font-size: 0.85rem;
     line-height:1.4rem ;
     font-weight: 300;
   }
-  
-  .contents-pc .contents .content-text .text-item p strong{ 
+
+  .contents-pc .contents .content-text .text-item p strong{
     font-size: 0.85rem;
     font-weight: 700;
   }
-  .contents-pc .contents .content-text .text-item ul li .list-type h3{ 
+  .contents-pc .contents .content-text .text-item ul li .list-type h3{
     font-size: 0.85rem;
     line-height: 1rem;
     font-weight: 600;
   }
 
-  .contents-pc .contents .content-text .text-item ul li .list-type p{ 
+  .contents-pc .contents .content-text .text-item ul li .list-type p{
     font-size: 0.85rem;
     line-height: 1.4rem;
   }
@@ -863,7 +858,7 @@
     font-weight: 700;
     margin-bottom: 10px;
   }
-  
+
   .contents-pc .contents .content-text .text-item .dropdown-content p{
     font-size: 0.78rem;
     line-height: 1.4rem;
@@ -912,7 +907,7 @@
 .menu-overlay ul li a:hover {
   font-size: 4rem;
 }
-  
+
 
 }
 

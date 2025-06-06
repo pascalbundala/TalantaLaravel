@@ -77,12 +77,6 @@
 
             <div class="media content-images">
                 <div class="grid-item images image-wrapper">
-                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography1.webp')}}" data-category="people" >
-                </div>
-                <div class="grid-item images image-wrapper">
-                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography2.webp')}}"  data-category="people" >
-                </div>
-                <div class="grid-item images image-wrapper">
                     <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography3.webp')}}" data-category="people">
                 </div>
                 <div class="grid-item images image-wrapper">

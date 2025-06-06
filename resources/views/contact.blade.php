@@ -23,7 +23,7 @@
 
     <section id="hero" class="hero">
         <video autoplay muted loop playsinline class="background-video">
-          <source src="{{asset('images/video.mp4')}}" type="video/mp4" />
+           <source src="{{asset('images/Talanta-Trust-People.mp4')}}" type="video/mp4"/>
           Your browser does not support the video tag.
         </video>
 
@@ -33,7 +33,7 @@
             <span>Our purpose</span>
           </h1>
 
-          <img src="images/down-arrow.svg" alt="">
+          <img src="{{asset('images/svg/talanta-trust-vector-01.svg')}}" alt="">
           <a href="#" class="btn">scroll to dive in</a>
         </div>
     </section>
