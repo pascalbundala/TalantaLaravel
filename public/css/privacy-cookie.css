@@ -37,8 +37,8 @@
 }
 
 .logo {
-    height: 10px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     font-weight: bold;
     color: white;
     position: relative;
@@ -51,10 +51,11 @@
   .logo img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
     margin: auto 0;
   }
+
 
   .social-icons {
     position: absolute;
@@ -76,9 +77,6 @@
   .social-icons .round_border{
     width: fit-content;
     height: fit-content;
-    /*         .menu-overlay ul li {
-        margin: 5rem 0;
-      } */
     border-radius: 50%;
     display: flex;
     flex-flow: column nowrap;
@@ -425,6 +423,7 @@
   object-fit: cover;
   display: block;
   margin: auto 0;
+  padding-top: 0px;
 }
 
 .hamburger {
@@ -536,6 +535,7 @@
 .logo {
   height: 60px;
   width: 90px;
+  padding-top: 0px;
 }
 
 .logo img{
@@ -657,10 +657,12 @@
   padding: 10px;
 }
 
-.logo {
-  height:70px;
-  width: 120px;
+.logo{
+height: 50px;
+width: 90px;
+padding-top: 0px;
 }
+
 
 .logo img{
   height: 100%;
@@ -765,8 +767,8 @@
   }
 
   .logo{
-  height: 60px;
-  width: 120px;
+  height: 55px;
+  width: 90px;
   padding-top: 0px;
   }
 
@@ -873,8 +875,8 @@
 }
 
 .logo {
-  height:70px;
-  width: 140px;
+  height:60px;
+  width: 110px;
 }
 
 .hamburger {
@@ -985,7 +987,7 @@
 }
 
 .logo {
-  height:120px;
+  height:100px;
   width: 200px;
 }
 
@@ -1094,12 +1096,12 @@
 }
 
 .logo {
-  height:180px;
-  width: 300px;
+  height:300px;
+  width: 400px;
 }
 
 .hamburger {
-  font-size: 60px;
+  font-size: 70px;
 }
 
 .menu-overlay .close-btn {

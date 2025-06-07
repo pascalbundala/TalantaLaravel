@@ -30,7 +30,7 @@
         <div class="hero-content">
           <h1>
             <span>Join</span>
-            <span>Our purpose</span>
+            <span style="color:#fabf28">Our purpose</span>
           </h1>
 
           <img src="{{asset('images/svg/talanta-trust-vector-01.svg')}}" alt="">

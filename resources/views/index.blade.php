@@ -32,7 +32,7 @@
         <h1>
             <span>Everyone</span>
             <span>has a story!</span>
-            <span>TalantaTrust</span>
+            <span>Talanta Trust</span>
         </h1>
 
         <img src="{{asset('images/svg/talanta-trust-vector-01.svg')}}" alt="">
@@ -131,7 +131,7 @@
     <section class="footer-section">
         <div class="content-footer">
             <div class="big-head">
-                <h1>Welcome To<br> <span>talantatrust</span></h1>
+                <h1>Welcome To<br> <span>Talanta Trust</span></h1>
                 <div class="social">
                     <div class="round_border" ><a href="https://web.facebook.com/talantatrust" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></div>
                     <div class="round_border" ><a href="https://x.com/talantatrust" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a></div>

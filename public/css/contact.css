@@ -30,7 +30,6 @@
     justify-content: space-between;
 }
 
-
 .form-holder{
     display: flex;
     flex-flow: column nowrap;
@@ -220,6 +219,7 @@
     font-size: 16px;
     color: #1f202a;
     border: none;
+    border-radius: 30px;
     font-weight: 600;
     outline: none;
     width: fit-content;
@@ -313,10 +313,10 @@
 }
 
 .content-form .forms .form-multiple h3{
-    font-size: 0.73rem;
-    line-height: 0.72rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
     margin-bottom: 10px;
-    font-weight: 500;
+    font-weight: 700;
 
 }
 
@@ -329,14 +329,14 @@
 }
 
 .content-form .forms .form-multiple .divs  .checkboxes .checkbox-label label{
-    font-size: 0.59rem;
+    font-size: 0.75rem;
     font-weight: 300;
 }
 
 .content-form .forms .form-multiple .divs  .checkboxes .checkbox-label label strong{
     margin-right: 2px;
-    font-size: 0.59rem;
-    font-weight: 300;
+    font-size: 0.75rem;
+    font-weight: 700;
 }
 
 .checkbox-label input[type="checkbox"] {
@@ -344,8 +344,8 @@
 }
 
 .checkmark {
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
     margin-right: 4px;
     padding: 2px;
 }
@@ -359,8 +359,9 @@
 }
 
 .content-form .forms .big-message{
-    font-size: 0.70rem;
+    font-size: 0.80rem;
     margin: 10px 0px 10px 0px;
+    font-weight: 700;
 }
 
 .content-form .forms  textarea{
@@ -374,8 +375,8 @@
     font-size: 13px;
     margin-top: 10px;
     width: 80%;
+    border-radius: 12px;
 }
-
 
 }
 
@@ -404,7 +405,7 @@
     }
 
     .content-form .maelezo h2{
-        font-size: 1.2rem;
+        font-size: 1.d;
         line-height: 1rem;
         font-weight: 600;
         width: 100%;
@@ -461,14 +462,14 @@
 }
 
 .content-form .forms .form-multiple .divs  .checkboxes .checkbox-label label{
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     font-weight: 300;
 }
 
 .content-form .forms .form-multiple .divs  .checkboxes .checkbox-label label strong{
     margin-right: 2px;
-    font-size: 0.73rem;
-    font-weight: 300;
+    font-size: 0.8rem;
+    font-weight: 700;
 }
 
 .checkbox-label input[type="checkbox"] {
@@ -476,8 +477,8 @@
 }
 
 .checkmark {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     margin-right: 10px;
     padding: 3px;
 }
@@ -507,6 +508,7 @@
     font-size: 14px;
     margin-top: 10px;
     width: 80%;
+    border-radius: 15px;
 }
 
 }
@@ -593,19 +595,19 @@
 }
 
 .content-form .forms .form-multiple .divs  .checkboxes .checkbox-label label{
-    font-size: 0.8rem;
+    font-size: 0.86rem;
     font-weight: 300;
 }
 
 .content-form .forms .form-multiple .divs  .checkboxes .checkbox-label label strong{
     margin-right: 2px;
-    font-size: .80rem;
-    font-weight: 300;
+    font-size: .86rem;
+    font-weight: 700;
 }
 
 .checkmark {
-    width: 20px;
-    height:20px;
+    width: 17px;
+    height:17px;
     margin-right: 15px;
 }
 
@@ -625,7 +627,7 @@
 
 .content-form .forms  textarea{
     height: 140px;
-    font-size: 14px;
+    font-size: 16px;
     padding: 8px;
     margin-bottom: 10px;
 }
@@ -670,7 +672,7 @@
     }
 
     .content-form .maelezo p{
-        font-size: 0.88rem;
+        font-size: 0.92rem;
         line-height: 1.1rem;
         width: 30%;
     }
@@ -719,14 +721,14 @@
 }
 
 .content-form .forms .form-multiple .divs  .checkboxes .checkbox-label label{
-    font-size: 0.9rem;
+    font-size: 0.92rem;
     font-weight: 300;
 }
 
 .content-form .forms .form-multiple .divs  .checkboxes .checkbox-label label strong{
     margin-right: 2px;
-    font-size: 0.9rem;
-    font-weight: 300;
+    font-size: 0.92rem;
+    font-weight: 700;
 }
 
 
@@ -751,8 +753,8 @@
 }
 
 .content-form .forms  textarea{
-    height: 150px;
-    font-size: 16px;
+    min-height: 200px;
+    font-size: 18px;
     padding: 4px;
 }
 
@@ -798,8 +800,8 @@
     }
 
     .content-form .maelezo p{
-        font-size: 0.90rem;
-        line-height: 1.2rem;
+        font-size: 0.95rem;
+        line-height: 1.3rem;
         width: 40%;
     }
 
@@ -847,14 +849,14 @@
 }
 
 .content-form .forms .form-multiple .divs  .checkboxes .checkbox-label label{
-    font-size: 0.90rem;
+    font-size: 0.95rem;
     font-weight: 300;
 }
 
 .content-form .forms .form-multiple .divs  .checkboxes .checkbox-label label strong{
     margin-right: 2px;
-    font-size: 0.90rem;
-    font-weight: 300;
+    font-size: 0.95rem;
+    font-weight: 700;
 }
 .checkmark {
     width: 20px;
@@ -871,7 +873,7 @@
 }
 
 .content-form .forms .big-message{
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 900;
     margin: 10px 0px 10px 0px;
 }
@@ -894,22 +896,256 @@
 
 @media only screen and (min-width:2560px)  {
     .contents{
-        padding: 120px 0px;
+        padding: 130px 0px;
     }
 
     .contents .titles{
         width: 85%;
     }
     .contents .titles h2{
-        font-size: 4.0rem;
-        line-height: 3.0rem;
+        font-size: 6rem;
+        line-height: 6rem;
     }
     .form-holder{
         width: 85%;
         margin: 30px auto 0px auto;
     }
+    .content-form .maelezo{
+        flex-flow: row nowrap;
+        width: 80%;
+        margin: 40px auto 20px auto;
+    }
+
+    .content-form .maelezo h2{
+        font-size: 3rem;
+        line-height: 3rem;
+        font-weight: 900;
+        width: 40%;
+        margin: 10px 0px;
+
+    }
+
+    .content-form .maelezo p{
+        font-size: 2rem;
+        line-height: 3.2rem
+    }
+
+
+.content-form .forms {
+    width: 80%;
+    padding-bottom: 25px;
+    margin: 100px auto;
+}
+
+.content-form .forms .form-input{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.content-form .forms .form-input .divs label{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.content-form .forms  .form-input .divs input[type="text"]{
+    padding: 15px 0;
+    font-size: 16px;
+    width: 80%;
+    margin: 10px 0px;
+}
+
+.content-form .forms .form-multiple{
+    margin:15px 0px;
+}
+
+.content-form .forms .form-multiple h3{
+    font-size: 2.2rem;
+    line-height: 3rem;
+    margin-bottom: 15px;
+    font-weight: 900;
+
+}
+
+.content-form .forms .form-multiple .divs  .checkboxes{
+    margin: 20px 0px 0px 0px;
+}
+
+.content-form .forms .form-multiple .divs  .checkboxes .checkbox-label{
+    margin-bottom: 30px;
+}
+
+.content-form .forms .form-multiple .divs  .checkboxes .checkbox-label label{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.content-form .forms .form-multiple .divs  .checkboxes .checkbox-label label strong{
+    margin-right: 20px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.checkmark {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.checkbox-label input[type="checkbox"]:checked + .checkmark::after {
+    left: 4px;
+    top: 1px;
+    width: 6px;
+    height: 10px;
+    border-width: 0 2px 4px 0;
+}
+
+.content-form .forms .big-message{
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin: 30px 0px 10px 0px;
+
+}
+
+.content-form .forms  textarea{
+    min-height: 400px;
+    font-size: 32px;
+    padding: 4px;
+    font-weight: 400;
+}
+
+.content-form .forms  input[type="submit"]{
+    padding: 30px 15px;
+    font-size: 30px;
+    margin-top: 30px;
+    width: 40%;
+    font-size: 2rem;
+}
 }
 
 @media only screen and (min-width:3840px)  {
+    .contents{
+        padding: 130px 0px;
+    }
 
+    .contents .titles{
+        width: 85%;
+    }
+    .contents .titles h2{
+        font-size: 10rem;
+        line-height: 13rem;
+    }
+    .form-holder{
+        width: 85%;
+        margin: 30px auto 0px auto;
+    }
+    .content-form .maelezo{
+        flex-flow: row nowrap;
+        width: 80%;
+        margin: 40px auto 20px auto;
+    }
+
+    .content-form .maelezo h2{
+        font-size: 6rem;
+        line-height: 9rem;
+        font-weight: 900;
+        width: 40%;
+        margin: 10px 0px;
+
+    }
+
+    .content-form .maelezo p{
+        font-size: 3.8rem;
+        line-height: 6rem
+    }
+
+
+.content-form .forms {
+    width: 80%;
+    padding-bottom: 25px;
+    margin: 130px auto;
+}
+
+.content-form .forms .form-input{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.content-form .forms .form-input .divs label{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.content-form .forms  .form-input .divs input[type="text"]{
+    padding: 15px 0;
+    font-size: 25px;
+    width: 80%;
+    margin: 40px 0px;
+}
+
+.content-form .forms .form-multiple{
+    margin:20px 0px;
+}
+
+.content-form .forms .form-multiple h3{
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 10px;
+    font-weight: 900;
+
+}
+
+.content-form .forms .form-multiple .divs  .checkboxes{
+    margin: 40px 0px 0px 0px;
+}
+
+.content-form .forms .form-multiple .divs  .checkboxes .checkbox-label{
+    margin-bottom: 50px;
+}
+
+.content-form .forms .form-multiple .divs  .checkboxes .checkbox-label label{
+    font-size: 3.4rem;
+    font-weight: 300;
+}
+
+.content-form .forms .form-multiple .divs  .checkboxes .checkbox-label label strong{
+    margin-right: 6px;
+    font-size: 3.7rem;
+    font-weight: 700;
+}
+.checkmark {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.checkbox-label input[type="checkbox"]:checked + .checkmark::after {
+    left: 4px;
+    top: 1px;
+    width: 6px;
+    height: 10px;
+    border-width: 0 2px 4px 0;
+}
+
+.content-form .forms .big-message{
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 70px 0px 10px 0px;
+
+}
+
+.content-form .forms  textarea{
+    min-height: 700px;
+    font-size: 60px;
+    padding: 20px;
+    font-weight: 400;
+}
+
+.content-form .forms  input[type="submit"]{
+    padding: 50px 15px;
+    font-size: 40px;
+    margin-top: 60px;
+    width: 40%;
+    font-size: 4rem;
+}
 }

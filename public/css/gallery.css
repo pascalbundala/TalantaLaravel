@@ -163,6 +163,23 @@
     align-items: center;
  }
 
+  .content .media .grid-item a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0;
+ }
+
+   .content .media .grid-item a img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+ }
+
+
  .videos{
    display: none;
  }
@@ -279,9 +296,7 @@
  }
 
  @media only screen and (min-width:1440px){
- .content .media .grid-item {
-    height: 300px;
- }
+
 
   .content .small-title .filters .filter-btn{
    font-size: 1.2rem;

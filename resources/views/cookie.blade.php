@@ -8,6 +8,7 @@
     <link rel="icon" href="{{asset('images/Talanta Trust official logo-11.png')}}" type="image/x-icon">
     <link rel="stylesheet" href="{{asset('css/privacy-cookie.css')}}">
     <link rel="stylesheet" href="{{asset('css/copyright.css')}}">
+     {{-- <link rel="stylesheet" href="{{asset('css/nav.css')}}"> --}}
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-...your-integrity-code..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">

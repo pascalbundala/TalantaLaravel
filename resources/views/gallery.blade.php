@@ -41,12 +41,15 @@
         <div class="content" id="video-holder">
             <div class="small-title"><h2>TalantTrust originals</h2></div>
             <div class="media">
+
+
+
                 <div class="grid-item videos">
-                    <img  src="{{asset('images/madogo-wanaoga.jpg')}}" alt="" srcset="">
+                   <a href="https://youtu.be/qcGEhwapFSA" target="_blank" rel="noopener noreferrer">
+                    <img src="https://img.youtube.com/vi/qcGEhwapFSA/hqdefault.jpg" alt="YouTube Video Thumbnail">
+                   </a>
                 </div>
-                <div class="grid-item videos">
-                    <img  src="{{asset('images/masaai.jpg')}}" alt="" srcset="">
-                </div>
+
                 <div class="grid-item videos">
                     <img  src="{{asset('images/ngombe.jpg')}}" alt="" srcset="">
                 </div>

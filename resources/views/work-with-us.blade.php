@@ -18,10 +18,30 @@
     <script src="{{asset('js/script.js')}}" defer></script>
     <style>
         .empty{
-            height: 20vh;
-            background-color: #1f202a;
+            height: fit-content;
+            background-color: #fff;
             width: 100%;
             display: block;
+        }
+
+        .empty img{
+            width: 100%;
+            height: fit-content;
+            display: block;
+            object-fit: cover;
+          }
+
+          .links-to-pages .image-with-links .divs{
+            height: 100%;
+            position: relative;
+            background-image: url('../images/FooterImages/work-with-us-Talanta-Trust13.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .links-to-pages .image-with-links .divs:nth-child(2){
+            background-image: url('../images/FooterImages/work-with-us-Talanta-Trust8.webp');
         }
     </style>
 
@@ -30,11 +50,12 @@
    @include('header')
 
       <div class="empty">
+        <img src="{{asset('images/FooterImages/HeaderTalantaTrustTanzania7.webp')}}" alt="">
       </div>
 
      <div class="contents">
         <div class="titles">
-            <h2>Share your <br>thoughts</h2>
+            <h2>Share your thoughts</h2>
         </div>
         <div class="content-form">
             <div class="form-holder">
