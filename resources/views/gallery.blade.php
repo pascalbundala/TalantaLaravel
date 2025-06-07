@@ -40,18 +40,25 @@
 
         <div class="content" id="video-holder">
             <div class="small-title"><h2>TalantTrust originals</h2></div>
-            <div class="media">
+            <div class="mediavideos">
+
+                   <a href="https://youtu.be/qcGEhwapFSA" target="_blank" rel="noopener noreferrer">
+                    <img class="link-video" src="https://img.youtube.com/vi/qcGEhwapFSA/hqdefault.jpg" alt="YouTube Video Thumbnail">
+                   </a>
+
+                                      <a href="https://youtu.be/qcGEhwapFSA" target="_blank" rel="noopener noreferrer">
+                    <img class="link-video" src="https://img.youtube.com/vi/qcGEhwapFSA/hqdefault.jpg" alt="YouTube Video Thumbnail">
+                   </a>
 
 
-
-                <div class="grid-item videos">
+                {{-- <div class="grid-item videos">
                    <a href="https://youtu.be/qcGEhwapFSA" target="_blank" rel="noopener noreferrer">
                     <img src="https://img.youtube.com/vi/qcGEhwapFSA/hqdefault.jpg" alt="YouTube Video Thumbnail">
                    </a>
                 </div>
 
                 <div class="grid-item videos">
-                    <img  src="{{asset('images/ngombe.jpg')}}" alt="" srcset="">
+                    <img  src="{{asset('images/FooterImages/AboutTalantaTrust9.webp')}}" alt="" srcset="">
                 </div>
                 <div class="grid-item videos">
                     <img src="{{asset('images/indian_small_image.jpg')}}" alt="" srcset="">
@@ -62,7 +69,7 @@
                 </div>
                 <div class="grid-item videos">
                     <img src="{{asset('images/indian_small_image.jpg')}}" alt="" srcset="">
-                </div>
+                </div> --}}
             </div>
             <button id="show-more-btn">Load More</button>
         </div>
