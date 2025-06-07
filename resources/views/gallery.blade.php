@@ -40,37 +40,27 @@
 
         <div class="content" id="video-holder">
             <div class="small-title"><h2>TalantTrust originals</h2></div>
-            <div class="mediavideos">
-
-                   <a href="https://youtu.be/qcGEhwapFSA" target="_blank" rel="noopener noreferrer">
-                    <img class="link-video" src="https://img.youtube.com/vi/qcGEhwapFSA/hqdefault.jpg" alt="YouTube Video Thumbnail">
-                   </a>
-
-                                      <a href="https://youtu.be/qcGEhwapFSA" target="_blank" rel="noopener noreferrer">
-                    <img class="link-video" src="https://img.youtube.com/vi/qcGEhwapFSA/hqdefault.jpg" alt="YouTube Video Thumbnail">
-                   </a>
-
-
-                {{-- <div class="grid-item videos">
-                   <a href="https://youtu.be/qcGEhwapFSA" target="_blank" rel="noopener noreferrer">
-                    <img src="https://img.youtube.com/vi/qcGEhwapFSA/hqdefault.jpg" alt="YouTube Video Thumbnail">
-                   </a>
+            <div class="media content-images">
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography3.webp')}}" >
                 </div>
-
-                <div class="grid-item videos">
-                    <img  src="{{asset('images/FooterImages/AboutTalantaTrust9.webp')}}" alt="" srcset="">
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography4.webp')}}" >
                 </div>
-                <div class="grid-item videos">
-                    <img src="{{asset('images/indian_small_image.jpg')}}" alt="" srcset="">
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography5.webp')}}" >
                 </div>
-
-                <div class="grid-item videos">
-                    <img  src="{{asset('images/ngombe.jpg')}}" alt="" srcset="">
+                <div class="grid-item images image-wrapper">
+                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography6.webp')}}">
                 </div>
-                <div class="grid-item videos">
-                    <img src="{{asset('images/indian_small_image.jpg')}}" alt="" srcset="">
-                </div> --}}
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography7.webp')}}">
+                </div>
+                <div class="grid-item images image-wrapper">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography8.webp')}}">
+                </div>
             </div>
+
             <button id="show-more-btn">Load More</button>
         </div>
 
@@ -229,14 +219,6 @@
                 <div class="grid-item images image-wrapper">
                     <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography47.webp')}}" data-category="people">
                 </div>
-
-
-
-
-
-
-
-
             </div>
             <button id="show-more-btn-images">Load More</button>
         </div>

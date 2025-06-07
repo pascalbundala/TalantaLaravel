@@ -18,17 +18,28 @@
     <script src="{{asset('js/script.js')}}" defer></script>
     <style>
         .empty{
-            height: fit-content;
-            background-color: #fff;
             width: 100%;
+            height: 50vh;
+            background-color: #fff;
+            background-image: url('images/FooterImages/HeaderTalantaTrustTanzania7.webp');
+            background-size: cover; /* or 'contain' */
+            background-position: center;
+            background-repeat: no-repeat;
             display: block;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
         }
 
         .empty img{
-            width: 100%;
-            height: fit-content;
-            display: block;
-            object-fit: cover;
+            height: auto;
+            width: 100%
+            max-width:100%
+            /* display: block;
+            object-fit: contain;
+            aspect-ratio:49/20; */
           }
 
           .links-to-pages .image-with-links .divs{
@@ -50,7 +61,7 @@
    @include('header')
 
       <div class="empty">
-        <img src="{{asset('images/FooterImages/HeaderTalantaTrustTanzania7.webp')}}" alt="">
+        {{-- <img src="{{asset('images/FooterImages/HeaderTalantaTrustTanzania7.webp')}}" alt=""> --}}
       </div>
 
      <div class="contents">

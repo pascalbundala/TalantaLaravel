@@ -59,7 +59,7 @@
 .content-form .maelezo p{
     font-size: 0.85rem;
     line-height: 1rem;
-    font-weight: 200;
+    font-weight: 300;
     width: 40%;
     font-family:"Poppins",sans-serif;
 }
@@ -642,7 +642,7 @@
 /* Desktops (1025px - 1200px): Cover standard desktop screens. */
 @media only screen and (min-width:1024px)  {
     .contents{
-        padding: 70px 0px;
+        padding: 40px 0px;
     }
 
     .contents .titles{
@@ -659,21 +659,21 @@
     .content-form .maelezo{
         flex-flow: row nowrap;
         width: 100%;
-        margin: 40px 0px 20px 0px;
+        margin: 10px 0px 20px 0px;
     }
 
     .content-form .maelezo h2{
         font-size: 1.6rem;
         line-height: 1.6rem;
-        font-weight: 600;
+        font-weight: 700;
         width: 40%;
         margin: 10px 0px;
 
     }
 
     .content-form .maelezo p{
-        font-size: 0.92rem;
-        line-height: 1.1rem;
+        font-size: 0.95rem;
+        line-height: 1.4rem;
         width: 30%;
     }
 
@@ -770,7 +770,7 @@
 @media only screen and (min-width:1440px)  {
 
     .contents{
-        padding: 100px 0px;
+        padding: 50px 0px;
     }
 
     .contents .titles{
@@ -787,11 +787,11 @@
     .content-form .maelezo{
         flex-flow: row nowrap;
         width: 80%;
-        margin: 40px auto 20px auto;
+        margin: 20px auto 20px auto;
     }
 
     .content-form .maelezo h2{
-        font-size: 1.6rem;
+        font-size: 1.7rem;
         line-height: 1.6rem;
         font-weight: 900;
         width: 40%;
@@ -801,7 +801,7 @@
 
     .content-form .maelezo p{
         font-size: 0.95rem;
-        line-height: 1.3rem;
+        line-height: 1.5rem;
         width: 40%;
     }
 
@@ -896,7 +896,7 @@
 
 @media only screen and (min-width:2560px)  {
     .contents{
-        padding: 130px 0px;
+        padding: 60px 0px;
     }
 
     .contents .titles{
@@ -1024,7 +1024,7 @@
 
 @media only screen and (min-width:3840px)  {
     .contents{
-        padding: 130px 0px;
+        padding: 70px 0px;
     }
 
     .contents .titles{
