@@ -4,11 +4,11 @@
  }
 .container{
     width: 100%;
-    height: fit-content;/*change to fit item content */
-    background-color: #1F202A;
+    height: fit-content;
+    background-color: #1f202a;
     display: flex;
     flex-flow: column;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
 }
 
 .container .title{
@@ -20,12 +20,13 @@
     flex-flow: row nowrap;
     color: white;
     font-family: "Anton",sans-serif;
-    margin: 10% auto 0 auto;
+    margin: 7% auto 0 auto;
 }
 .container .title h1{
     font-size: 6rem;
     font-weight: 900;
     font-family: "Anton",sans-serif;
+    line-height: 6rem;
 }
 
 .container .title .gallery_links{
@@ -60,15 +61,21 @@
     font-style: normal;
  }
 
+ .container .title .gallery_links .link_img a:hover{
+
+    color: #fbaf28;
+    cursor: pointer;
+ }
+
  .content{
     display: flex;
     flex-flow: column nowrap;
     width: 80%;
     height: fit-content;
-    margin: 20px auto;
+    margin: 0px auto 20px auto;
  }
  .content-images{
-   margin-top: 40px;
+   margin-top: 0px;
  }
 
  .content button{
@@ -94,7 +101,7 @@
     width: 100%;
     height: fit-content;
     text-align: start;
-    margin: 50px auto 30px auto;
+    margin: 10px auto 0px auto;
     display: flex;
     justify-content: space-between;
  }
@@ -106,6 +113,9 @@
     color: white;
  }
 
+  .content .small-title h2 span{
+   color: #fbaf28;
+ }
  .content .small-title .filters{
     width: fit-content;
     height: fit-content;
@@ -163,8 +173,6 @@
     align-items: center;
  }
 
-
-
  .mediavideos{
     display :flex;
     flex-flow: row wrap;
@@ -192,7 +200,6 @@
     margin: auto;
     border: 2px solid yellow;
  }
-
 
  .videos{
    display: none;
@@ -222,22 +229,21 @@
     transform: translateY(-5x);
  }
 
-   .links-to-pages .image-with-links .divs{
+    .links-to-pages .image-with-links .divs{
     height: 100%;
     position: relative;
     width: 50%;
-    background-image: url('../images/FooterImages/AboutTalantaTrust10.webp');
+    background-image: url('../images/FooterImages/TalantaTrustTanzania4.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
  }
 
   .links-to-pages .image-with-links .divs:nth-child(2){
-    background-image: url('../images/FooterImages/AboutTalantaTrust9.webp');
+    background-image: url('../images/FooterImages/TalantaTrustTanzania6.webp');
  }
 
  /* working with  responsive*/
-
  @media(max-width:768px) {
    .container{
       padding-bottom: 20px;

@@ -39,7 +39,7 @@
         </div>
 
         <div class="content" id="video-holder">
-            <div class="small-title"><h2>TalantTrust originals</h2></div>
+            <div class="small-title"><h2>Talanta Trust <span>originals</span></h2></div>
             <div class="media content-images">
                 <div class="grid-item images image-wrapper">
                     <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography3.webp')}}" >
@@ -65,7 +65,7 @@
         </div>
 
         <div class="content content-images" id="image-holder">
-            <div class="small-title"><h2>TalantTrust stories</h2>
+            <div class="small-title"><h2>Talanta Trust <span>stories</span></h2>
                 <div class="filters">
                     <button class="filter-btn active-filter" data-category="all">All</button>
                     <button class="filter-btn" data-category="nature">Nature</button>
@@ -243,52 +243,6 @@
     </section>
 
     @include('footer')
-
-    {{-- <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                const showMoreBtnVideos = document.getElementById('show-more-btn');
-                const showMoreBtnImages = document.getElementById('show-more-btn-images');
-                const videos = document.querySelectorAll('.videos');
-                const images = document.querySelectorAll('.images');
-
-                let vcurrentIndex = 0;
-                let icurrentIndex = 0;
-                const perClick = 4;
-
-                // Hide all initially
-                videos.forEach(video => video.style.display = 'none');
-                images.forEach(image => image.style.display = 'none');
-
-                // Show initial batch
-                showNextBatch(videos, vcurrentIndex, perClick);
-                showNextBatch(images, icurrentIndex, perClick);
-
-                vcurrentIndex += perClick;
-                icurrentIndex += perClick;
-
-                showMoreBtnVideos.addEventListener('click', () => {
-                    showNextBatch(videos, vcurrentIndex, perClick);
-                    vcurrentIndex += perClick;
-                    if (vcurrentIndex >= videos.length) {
-                        showMoreBtnVideos.style.display = 'none';
-                    }
-                });
-
-                showMoreBtnImages.addEventListener('click', () => {
-                    showNextBatch(images, icurrentIndex, perClick);
-                    icurrentIndex += perClick;
-                    if (icurrentIndex >= images.length) {
-                        showMoreBtnImages.style.display = 'none';
-                    }
-                });
-
-                function showNextBatch(elements, startIndex, count) {
-                    for (let i = startIndex; i < startIndex + count && i < elements.length; i++) {
-                        elements[i].style.display = 'flex';
-                    }
-                }
-            });
-    </script> --}}
 
     {{-- display more images --}}
     <script>
