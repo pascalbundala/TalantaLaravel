@@ -6,6 +6,7 @@
     <title>About-talantatrust</title>
     <link rel="icon" href="{{asset('images/Talanta Trust official logo-11.png')}}" type="image/x-icon">
     <link rel="stylesheet" href="{{asset('css/nav.css')}}">
+     <link rel="stylesheet" href="{{asset('css/nav-constant.css')}}">
     <link rel="stylesheet" href="{{asset('css/gallery.css')}}">
     <link rel="stylesheet" href="{{asset('css/links-to-pages.css')}}">
     <link rel="stylesheet" href="{{asset('css/hero.css')}}">

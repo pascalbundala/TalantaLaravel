@@ -18,7 +18,7 @@
         <ul>
             <li><a href="{{route('index')}}">Home</a></li>
             <li><a href="{{route('gallery')}}">Gallery</a></li>
-            <li><a href="{{route('about-us')}}">About</a></li>
+            <li><a href="{{route('about-us')}}">About Us</a></li>
 
         </ul>
     </div>

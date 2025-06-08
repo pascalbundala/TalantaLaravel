@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="{{asset('css/gallery.css')}}">
 
     <link rel="stylesheet" href="{{asset('css/nav.css')}}">
+    <link rel="stylesheet" href="{{asset('css/nav-constant.css')}}">
     <link rel="stylesheet" href="{{asset('css/links-to-pages.css')}}">
     <link rel="stylesheet" href="{{asset('css/copyright.css')}}">
-
+     <link rel="stylesheet" href="{{asset('css/nav-constant.css')}}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-...your-integrity-code..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,24 +42,41 @@
         <div class="content" id="video-holder">
             <div class="small-title"><h2>Talanta Trust <span>originals</span></h2></div>
             <div class="media content-images">
+
                 <div class="grid-item images image-wrapper">
-                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography3.webp')}}" >
+                    <a href="https://youtu.be/qcGEhwapFSA" target="_blank">
+                       <img  src="{{asset('images/VideoThumbnail/Talanta-Trust-Videos1.webp')}}" >
+                    </a>
+                </div>
+
+
+                <div class="grid-item images image-wrapper">
+                    <a href="https://youtu.be/XlfFeom5uYI?si=pTFPrQogp8iJU3cG" target="_blank">
+                       <img  src="{{asset('images/VideoThumbnail/Talanta-Trust-Videos2.webp')}}" >
+                    </a>
                 </div>
                 <div class="grid-item images image-wrapper">
-                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography4.webp')}}" >
+                    <a href="https://youtu.be/QzA3Xcskw6U?si=MH57prf8zHndfAYX" target="_blank">
+                       <img  src="{{asset('images/VideoThumbnail/Talanta-Trust-Videos3.webp')}}">
+                    </a>
                 </div>
                 <div class="grid-item images image-wrapper">
-                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography5.webp')}}" >
+                    <a href="https://youtu.be/fxwXTG-Z1FE?si=VWKP8njZbS7w0Oa-" target="_blank">
+                       <img  src="{{asset('images/VideoThumbnail/Talanta-Trust-Videos4.webp')}}">
+                    </a>
                 </div>
                 <div class="grid-item images image-wrapper">
-                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography6.webp')}}">
+                    <a href="https://youtu.be/C7DFStZ18wY?si=E9G_e-46VMhTgDEP" target="_blank">
+                       <img  src="{{asset('images/VideoThumbnail/Talanta-Trust-Videos5.webp')}}">
+                    </a>
                 </div>
                 <div class="grid-item images image-wrapper">
-                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography7.webp')}}">
+                    <a href="https://youtu.be/vf0H8YZdyyY?si=Uy8wTR7Q2wMKGdiu" target="_blank">
+                      <img  src="{{asset('images/VideoThumbnail/Talanta-Trust-Videos6.webp')}}">
+                    </a>
                 </div>
-                <div class="grid-item images image-wrapper">
-                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography8.webp')}}">
-                </div>
+
+
             </div>
 
             <button id="show-more-btn">Load More</button>

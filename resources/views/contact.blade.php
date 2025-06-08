@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="{{asset('css/contact.css')}}">
     <link rel="stylesheet" href="{{asset('css/hero.css')}}">
+     <link rel="stylesheet" href="{{asset('css/nav-constant.css')}}">
     <link rel="stylesheet" href="{{asset('css/nav.css')}}">
     <link rel="stylesheet" href="{{asset('css/links-to-pages.css')}}">
     <link rel="stylesheet" href="{{asset('css/copyright.css')}}">

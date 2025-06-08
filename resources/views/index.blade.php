@@ -6,6 +6,7 @@
   <title>Home-TalantTrust| this company deals with helping NGOs to thrive in digital World</title>
   <link rel="icon" href="{{asset('images/Talanta Trust official logo-11.png')}}" type="image/x-icon">
   <link rel="stylesheet" href="{{asset('css/nav.css')}}">
+   <link rel="stylesheet" href="{{asset('css/nav-constant.css')}}">
   <link rel="stylesheet" href="{{asset('css/hero.css')}}"/>
   <link rel="stylesheet" href="{{asset('css/second.css')}}"/>
   <link rel="stylesheet" href="{{asset('css/secondextra.css')}}"/>

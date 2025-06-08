@@ -35,119 +35,20 @@
   box-shadow: 1px 1px 4px rgba(16, 16, 16, 0.134);
   position: fixed;
 }
-
-.logo {
-    height: 40px;
-    width: 40px;
-    font-weight: bold;
-    color: white;
-    position: relative;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
+  .hamburger {
+    color: #1F202A;
   }
 
-  .logo img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    display: block;
-    margin: auto 0;
-  }
-
-
-  .social-icons {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+  .social-icons .round_border{
+    border: 1px solid #1F202A;
   }
 
   .social-icons a {
     color: #1F202A;
-    font-size: 18px;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
+}
 
-  .social-icons .round_border{
-    width: fit-content;
-    height: fit-content;
-    border-radius: 50%;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-  }
 
-  .social-icons a:hover {
-    color: orange;
-  }
 
-  .hamburger {
-    font-size: 24px;
-    color: #1F202A;
-    cursor: pointer;
-  }
-
-  .menu-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background: white;
-    color: #1F202A;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    padding-left: 10%;
-    flex-direction: column;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 1000;
-  }
-  .menu-overlay .close-btn {
-    position: absolute;
-    top: 20px;
-    right: 50px;
-    font-size: 4rem;
-    cursor: pointer;
-  }
-
-  .menu-overlay ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  .menu-overlay ul li {
-    margin: 0.3rem 0;
-    padding: 0;
-  }
-
-  .menu-overlay ul li a {
-    text-decoration: none;
-    font-size: 4rem;
-    font-weight: 900;
-    color: #1F202A;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    padding: 0;
-  }
-
-  .menu-overlay ul li a:hover {
-    color: #fbaf28;
-  }
-
-  .menu-overlay.active {
-    opacity: 1;
-    visibility: visible;
-  }
 
 /* content */
 .contents-pc{
@@ -404,44 +305,6 @@
   font-weight: 300;
 }
 
-#navbar {
-  padding:0px 7%;
-}
-
-.social-icons {
-  display: none;
-}
-
-.logo {
-  height: 50px;
-  width: 80px;
-}
-
-.logo img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  display: block;
-  margin: auto 0;
-  padding-top: 0px;
-}
-
-.hamburger {
-  font-size: 18px;
-}
-
-.menu-overlay .close-btn {
-  right: 30px;
-  font-size: 2.5rem;
-}
-
-.menu-overlay ul li {
-  margin: 1rem 0;
-}
-
-.menu-overlay ul li a {
-  font-size: 2.5rem;
-}
 
 
        .contents-pc .contents .content-text .text-item .dropdown .plus-minus i{
@@ -524,45 +387,6 @@
   line-height: 1.4rem;
 }
 
-#navbar {
-  padding:0px 7%;
-}
-
-.social-icons {
-  display: none;
-}
-
-.logo {
-  height: 60px;
-  width: 90px;
-  padding-top: 0px;
-}
-
-.logo img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  display: block;
-  margin: auto 0;
-}
-
-.hamburger {
-  font-size: 18px;
-}
-
-.menu-overlay .close-btn {
-  right: 30px;
-  font-size: 2.5rem;
-}
-
-.menu-overlay ul li {
-  margin: 0.1rem 0;
-}
-
-.menu-overlay ul li a {
-  font-size: 2.2rem;
-}
-
 }
 
 /* medium devices and tablets */
@@ -638,57 +462,6 @@
   line-height: 1.5rem;
 }
 
-#navbar {
-  padding:0px 7%;
-  height: 85px;
-}
-
-.social-icons {
-  display: flex;
-}
-
-.social-icons a {
-  font-size: 17px;
-}
-
-.social-icons .round_border{
-  width: 32px;
-  height: 32px;
-  padding: 10px;
-}
-
-.logo{
-height: 50px;
-width: 90px;
-padding-top: 0px;
-}
-
-
-.logo img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  display: block;
-  margin: auto 0;
-}
-
-.hamburger {
-  font-size: 18px;
-}
-
-.menu-overlay .close-btn {
-  right: 30px;
-  font-size: 3rem;
-}
-
-.menu-overlay ul li {
-  margin: 0.5rem 0;
-}
-
-.menu-overlay ul li a {
-  font-size: 3rem;
-  line-height: 4rem;
-}
 
 }
 
@@ -752,40 +525,7 @@ padding-top: 0px;
     font-size: 0.78rem;
   }
 
-  .social-icons a {
-    font-size: 18px;
-  }
 
-  .social-icons .round_border{
-    width: 35px;
-    height: 35px;
-    padding: 10px;
-  }
-
-  .hamburger {
-    font-size: 18px;
-  }
-
-  .logo{
-  height: 55px;
-  width: 90px;
-  padding-top: 0px;
-  }
-
-
-  .menu-overlay .close-btn {
-    right: 60px;
-    top: 0;
-    font-size: 3.5rem;
-  }
-
-  /* .menu-overlay ul li {
-    margin: 1rem 0;
-  }
-   */
-  .menu-overlay ul li a {
-    font-size: 3.5rem;
-  }
 
 }
 
@@ -854,49 +594,6 @@ padding-top: 0px;
     font-size: 0.78rem;
     line-height: 1.4rem;
   }
-
- #navbar {
-  padding:0px 7%;
-  height: fit-content;
-}
-
-.social-icons {
-  display: flex;
-}
-
-.social-icons a {
-  color: #1F202A;
-  font-size: 18px;
-}
-
-.social-icons .round_border{
-  width: 35px;
-  height: 35px;
-}
-
-.logo {
-  height:60px;
-  width: 110px;
-}
-
-.hamburger {
-  font-size: 25px;
-}
-
-.menu-overlay .close-btn {
-  right: 30px;
-  font-size: 2.8rem;
-}
-
-/* .menu-overlay ul li {
-  margin: 1rem 0;
-} */
-
-.menu-overlay ul li a {
-  font-size:4rem;
-}
-
-
 }
 
 @media only screen and (min-width:2560px){
@@ -966,48 +663,6 @@ padding-top: 0px;
     line-height:2.5rem ;
     font-weight: 300;
   }
-
- #navbar {
-  padding:0px 7%;
-  height: fit-content;
-}
-
-.social-icons {
-  display: flex;
-}
-
-.social-icons a {
-  color: #1F202A;
-  font-size: 30px;
-}
-
-.social-icons .round_border{
-  width: 70px;
-  height: 70px;
-}
-
-.logo {
-  height:100px;
-  width: 200px;
-}
-
-.hamburger {
-  font-size: 35px;
-}
-
-.menu-overlay .close-btn {
-  right: 7%;
-  top: 60px;
-  font-size: 6rem;
-}
-
-.menu-overlay ul li a {
-  font-size:4rem;
-  line-height: 6rem;
-}
-
-
-
 }
 
 @media only screen and (min-width:3840px){
@@ -1075,50 +730,4 @@ padding-top: 0px;
     line-height:5rem ;
     font-weight: 300;
   }
-
- #navbar {
-  padding:0px 7%;
-  height: fit-content;
-}
-
-.social-icons {
-  display: flex;
-}
-
-.social-icons a {
-  color: #1F202A;
-  font-size: 60px;
-}
-
-.social-icons .round_border{
-  width: 130px;
-  height: 160px;
-}
-
-.logo {
-  height:300px;
-  width: 400px;
-}
-
-.hamburger {
-  font-size: 70px;
-}
-
-.menu-overlay .close-btn {
-  right: 7%;
-  top: 90px;
-  font-size: 8rem;
-}
-
-      .menu-overlay ul li a {
-        font-size: 10rem;
-        line-height: 9rem;
-      }
-
-              .menu-overlay ul li {
-        margin: 5rem 0;
-      }
-
-
-
 }
