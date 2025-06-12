@@ -147,6 +147,7 @@
                     <li><a href="{{route('work-with-us')}}">work with us</a></li>
                     <li><a href="{{route('contact')}}">contact</a></li>
                     <li><a href="{{route('about-us')}}">About us</a></li>
+                    <li><a href="{{route('our-project')}}">Project</a></li>
                     <li><a href="{{route('faq')}}">FAQ</a></li>
                     <li>
                     <div class="social">
