@@ -33,7 +33,7 @@
                 </div>
 
                 <div class="link_img">
-                    <a href="#image-holder">stories</a>
+                    <a href="#image-holder">eyes</a>
                    <img src="{{asset('images/svg/talanta-trust-vector-01.svg')}}" alt="">
                 </div>
             </div>
@@ -83,23 +83,32 @@
         </div>
 
         <div class="content content-images" id="image-holder">
-            <div class="small-title"><h2>Talanta Trust <span>stories</span></h2>
+            <div class="small-title"><h2>Talanta Trust <span>Eyes</span></h2>
                 <div class="filters">
                     <button class="filter-btn active-filter" data-category="all">All</button>
-                    <button class="filter-btn" data-category="nature">Nature</button>
-                    <button class="filter-btn" data-category="culture">Culture</button>
-                    <button class="filter-btn" data-category="people">People</button>
                     <button class="filter-btn" data-category="wildlife">Wildlife</button>
+                    <button class="filter-btn" data-category="culture">Culture</button>
+                     <button class="filter-btn" data-category="nature">Nature</button>
+                    <button class="filter-btn" data-category="people">People</button>
+
                </div>
            </div>
 
             <div class="media content-images">
+                <div class="grid-item images image-wrapper">
+                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography46.webp')}}" data-category="people">
+                </div>
+
                 <div class="grid-item images image-wrapper">
                     <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography3.webp')}}" data-category="people">
                 </div>
                 <div class="grid-item images image-wrapper">
                     <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography4.webp')}}"  data-category="people">
                 </div>
+                <div class="grid-item images image-wrapper">
+                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography12.webp')}}" data-category="people">
+                </div>
+
                 <div class="grid-item images image-wrapper">
                     <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography5.webp')}}" data-category="wildlife">
                 </div>
@@ -121,17 +130,15 @@
                 <div class="grid-item images image-wrapper">
                     <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography11.webp')}}" data-category="wildlife">
                 </div>
+
                 <div class="grid-item images image-wrapper">
-                    <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography12.webp')}}" data-category="culture">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography13.webp')}}" data-category="people">
                 </div>
                 <div class="grid-item images image-wrapper">
-                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography13.webp')}}" data-category="culture">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography14.webp')}}"  data-category="people">
                 </div>
                 <div class="grid-item images image-wrapper">
-                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography14.webp')}}"  data-category="culture">
-                </div>
-                <div class="grid-item images image-wrapper">
-                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography15.webp')}}" data-category="culture">
+                    <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography15.webp')}}" data-category="people">
                 </div>
                 <div class="grid-item images image-wrapper">
                     <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography16.webp')}}"  data-category="wildlife">
@@ -181,6 +188,7 @@
                 <div class="grid-item images image-wrapper">
                     <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography30.webp')}}"  data-category="culture">
                 </div>
+
                 <div class="grid-item images image-wrapper">
                     <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography31.webp')}}" data-category="culture">
                 </div>
@@ -202,9 +210,10 @@
                 <div class="grid-item images image-wrapper">
                     <img  src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography37.webp')}}" data-category="people">
                 </div>
-                <div class="grid-item images image-wrapper">
+                                <div class="grid-item images image-wrapper">
                     <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography38.webp')}}" data-category="people">
                 </div>
+
 
                 <div class="grid-item images image-wrapper">
                     <img src="{{asset('images/GalleryWEBp/Talanta-Trust-Photography39.webp')}}" data-category="nature">
