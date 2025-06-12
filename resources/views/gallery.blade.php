@@ -79,7 +79,7 @@
 
             </div>
 
-            <button id="show-more-btn">Load More</button>
+            {{-- <button id="show-more-btn">Load More</button> --}}
         </div>
 
         <div class="content content-images" id="image-holder">
@@ -283,7 +283,20 @@
             });
             showMoreImagesBtn.style.display = 'none';
         });
+    </script>
 
+    {{-- display more videos --}}
+    <script>
+        const videos = document.querySelectorAll('.videos');
+        const showMoreBtn = document.getElementById('show-more-btn');
+        showMoreBtn.addEventListener('click', () => {
+            videos.forEach(element => {
+               if(element.style.display !== 'block'){
+                element.style.display ='block';
+               }
+            });
+            showMoreBtn.style.display = 'none';
+        });
     </script>
 
     <script>

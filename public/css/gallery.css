@@ -162,6 +162,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    border-bottom: 10px;
  }
 
  .content .media .grid-item {
@@ -171,6 +172,7 @@
     position: relative;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
  }
 
  .link-video{
@@ -185,7 +187,7 @@
  .videos{
    display: none;
  }
- .videos:nth-child(n+1):nth-child(-n+4) {
+ .videos:nth-child(n+1):nth-child(-n+6) {
    display: block;
  }
  .images{
