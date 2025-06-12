@@ -61,3 +61,23 @@ year.textContent = currentYear;
             menuItems.forEach(i => i.classList.remove('open'));
           }
         });
+
+          // Disable right-click
+  document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  });
+
+  // Disable copy
+  document.addEventListener('copy', function(e) {
+    e.preventDefault();
+  });
+
+  // Disable paste
+  document.addEventListener('paste', function(e) {
+    e.preventDefault();
+  });
+
+  // Disable cut
+  document.addEventListener('cut', function(e) {
+    e.preventDefault();
+  });

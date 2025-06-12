@@ -36,6 +36,9 @@ Route::get('/workwithus', function () {
     return view('work-with-us');
 })->name('work-with-us');
 
+Route::get('/our-project', function () {
+    return view('project');
+})->name('our-project');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

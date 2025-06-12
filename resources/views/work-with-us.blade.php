@@ -62,7 +62,6 @@
    @include('header')
 
       <div class="empty">
-        {{-- <img src="{{asset('images/FooterImages/HeaderTalantaTrustTanzania7.webp')}}" alt=""> --}}
       </div>
 
      <div class="contents">
@@ -131,7 +130,7 @@
                                 <label class="checkbox-label">
                                     <input type="checkbox" id="Documentary" name="Documentary" >
                                     <span class="checkmark"></span>
-                                    <label for="vehicle1"><strong>Documentary & Storytelling</strong> (Creating Inspiring Documentaries and more and more)</label>
+                                    <label for="vehicle1"><strong>Documentary & Storytelling</strong> (Creating Inspiring Documentaries and more)</label>
                                 </label>
 
                                 <label class="checkbox-label">
