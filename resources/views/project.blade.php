@@ -83,8 +83,7 @@
 
             <div class="card">
                 <h3 class="txt-heading">02.What We Want to Achieve</h3>
-                <p>
-Our goal is to empower children in Moshi and Arusha with the digital skills they need to thrive in today’s world. Through engaging, hands-on training, we help them learn how to operate computers and tablets, use the internet safely, and unlock their creativity with tools like graphic design, coding, animation, web development, and basic AI. We also support teachers with up-to-date tech skills so they can confidently guide students even after our programme ends. By nurturing curiosity and building confidence, we aim to inspire the next generation of innovators, problem solvers, and digital leaders, right from the heart of Tanzania.</p>
+                <p>Our goal is to empower children in Moshi and Arusha with the digital skills they need to thrive in today’s world. Through engaging, hands-on training, we help them learn how to operate computers and tablets, use the internet safely, and unlock their creativity with tools like graphic design, coding, animation, web development, and basic AI. We also support teachers with up-to-date tech skills so they can confidently guide students even after our programme ends. By nurturing curiosity and building confidence, we aim to inspire the next generation of innovators, problem solvers, and digital leaders, right from the heart of Tanzania.</p>
             </div>
             <div class="card">
                 <h3 class="txt-heading">03.Where We Work & What We Do</h3>
@@ -97,7 +96,7 @@ Our goal is to empower children in Moshi and Arusha with the digital skills they
         </div>
     </section>
 
-    <section class="project-title greens">
+    <section class="project-title greens xx">
         <h1>Every Service Supports the Mission</h1>
         <p>When you hire Talanta Trust for content creation, branding, web development, or any of our creative and consultancy services, you are also investing in a child’s digital future. We proudly commit 15% of all service income directly to funding the Watoto Connect Project, our initiative bringing tech skills to children in rural Moshi and Arusha.</p>
     </section>
