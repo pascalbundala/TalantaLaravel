@@ -133,8 +133,7 @@
     font-size: 0.82rem;
     line-height: 1.3rem;
     margin-bottom: 20px;
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
 }
 
 .image-container {
@@ -228,6 +227,8 @@
         }
         .text-description {
         margin-top: 10px;
+        width: 84%;
+
         }
 
         .text-description h2 {
@@ -316,6 +317,7 @@
         }
         .text-description {
         margin-top: 10px;
+        width: 81%;
         }
 
         .text-description h2 {
@@ -396,15 +398,15 @@
 
 @media only screen and (min-width:768px) {
 
-            .how-we-work {
+        .how-we-work {
         padding: 0px 10px 10px 0px;
         width: 100%;
         margin: 0 auto;
         }
         .text-description {
         margin-top: 10px;
+        width: 81%;
         }
-
         .text-description h2 {
         font-size: 1.3rem;
         margin: 0;
@@ -435,8 +437,6 @@
             font-size: 0.84rem;
             line-height: 1.6rem;
         }
-
-
 
         .project-title h1 {
         font-size: 2.4rem;
@@ -485,6 +485,10 @@
        .text-description h2 {
             font-size: 1.3rem;
             margin: 0;
+        }
+        .text-description {
+            width: 71%;
+            /* max-width: 400px; */
         }
         .text-description p {
             width: 100%;
@@ -551,6 +555,10 @@
 }
 
 @media only screen and (min-width:1440px) {
+
+        .text-description {
+            width: 84%;
+        }
 
         .text-description h2 {
             font-size: 1.3rem;
@@ -621,9 +629,12 @@
 
 @media only screen and (min-width:2560px) {
 
-    .text-description h2 {
+       .text-description h2 {
             font-size: 1.3rem;
             margin: 0;
+        }
+       .text-description {
+            width: 84%;
         }
         .text-description p {
             width: 100%;
