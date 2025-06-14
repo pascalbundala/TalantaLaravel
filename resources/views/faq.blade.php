@@ -90,14 +90,14 @@
                 </div>
                 <div class="text-item">
                     <div class="dropdown">
-                        <h2>Q.6. How can I reach Talanta Trust?</h2>
+                        <h2>Q.6. How can I get in touch with Talanta Trust?</h2>
                        <div class="plus-minus">
                             <i class="fa-solid fa-plus"></i>
                             <i class="fa-solid fa-minus"></i>
                         </div>
                     </div>
                     <div class="dropdown-content" id="content">
-                        <p>We're excited to hear from you! Contact us via email at info@talantatrust.org, Call us at <strong>+255 697 489 369</strong>, Email us <a href="https://mail.google.com/mail/?view=cm&to=info@talantatrust.org" target="_blank" rel="noopener noreferrer">info@talantatrust.org</a> or <a href="https://mail.google.com/mail/?view=cm&to=asktalantatrust@gmail.com" target="_blank" rel="noopener noreferrer">asktalantatrust@gmail.com</a> or visit our  website www.talantatrust.org. You can also connect with us on Instagram, Facebook, Twitter, and LinkedIn.</p>
+                        <p>We're excited to hear from you! Contact us via email at info@talantatrust.org, Call us at <strong>+255 697 489 369</strong>, Email us <a href="https://mail.google.com/mail/?view=cm&to=info@talantatrust.org" target="_blank" rel="noopener noreferrer">info@talantatrust.org</a> or <a href="https://mail.google.com/mail/?view=cm&to=asktalantatrust@gmail.com" target="_blank" rel="noopener noreferrer">asktalantatrust@gmail.com</a> or visit our  website www.talantatrust.org. You can also connect with us on Instagram, Facebook, X formerly known as Twitter, and LinkedIn.</p>
                     </div>
                 </div>
 

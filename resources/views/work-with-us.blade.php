@@ -60,6 +60,17 @@
 </head>
 <body>
    @include('header')
+    @if(session('success'))
+        <div id="success-alert" style="padding: 15px; background-color: #90be41; color: #fff; border: 1px solid #c3e6cb; border-radius: 5px; margin-bottom: 20px; position: absolute;left:25%;top:0; z-index:100101001;width:50%;margin:0 auto">
+            {{ session('success') }}
+        </div>
+
+        <script>
+            setTimeout(function () {
+                document.getElementById('success-alert').style.display = 'none';
+            }, 5000); // hides after 5 seconds
+        </script>
+    @endif
 
       <div class="empty">
       </div>
