@@ -1,7 +1,7 @@
 @font-face {
    font-family: 'mcharazo';
    src: url('../TalantaFonts/MR-PUDIDI-DECORATIVE-FONT/MRPUDIDI.ttf') format('truetype');
- }
+}
 .container{
     width: 100%;
     height: fit-content;
@@ -74,6 +74,11 @@
     height: fit-content;
     margin: 0px auto 20px auto;
  }
+
+  .content:nth-child(2){
+    margin: 0px auto 50px auto;
+ }
+
  .content-images{
    margin-top: 0px;
  }
@@ -159,6 +164,13 @@
  }
 
  .content .content-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    border-bottom: 10px;
+ }
+
+  .content .content-videos{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;

@@ -17,13 +17,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script src="{{asset('js/script.js')}}" defer></script>
+
 </head>
 <body>
     @include('header')
 
     <section id="hero" class="hero">
-        <video autoplay muted loop playsinline class="background-video">
+        <video autoplay muted loop playsinline preload="none" class="background-video" poster="{{asset('images/TalantaTrustContactUs.webp')}}" id="hero-video">
            <source src="{{asset('images/Talanta-Trust-Contact.mp4')}}" type="video/mp4"/>
           Your browser does not support the video tag.
         </video>
@@ -102,6 +102,15 @@
         </div>
     </section>
 
-@include('footer')
+   @include('footer')
+   <script src="{{asset('js/script.js')}}"></script>
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+        const video = document.getElementById("hero-video");
+        const source = video.querySelector("source");
+        source.setAttribute("src", "{{asset('images/Talanta-Trust-Introduction.mp4')}}");
+        video.load();
+       });
+    </script>
 </body>
 </html>

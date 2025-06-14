@@ -41,14 +41,12 @@
 
         <div class="content" id="video-holder">
             <div class="small-title"><h2>Talanta Trust <span>originals</span></h2></div>
-            <div class="media content-images">
-
+            <div class="media content-videos">
                 <div class="grid-item images image-wrapper">
                     <a href="https://youtu.be/qcGEhwapFSA" target="_blank">
                        <img  src="{{asset('images/VideoThumbnail/Talanta-Trust-Videos1.webp')}}" >
                     </a>
                 </div>
-
 
                 <div class="grid-item images image-wrapper">
                     <a href="https://youtu.be/XlfFeom5uYI?si=pTFPrQogp8iJU3cG" target="_blank">
@@ -75,14 +73,10 @@
                       <img  src="{{asset('images/VideoThumbnail/Talanta-Trust-Videos6.webp')}}">
                     </a>
                 </div>
-
-
             </div>
-
-            {{-- <button id="show-more-btn">Load More</button> --}}
         </div>
 
-        <div class="content content-images" id="image-holder">
+        <div class="content" id="image-holder">
             <div class="small-title"><h2>Talanta Trust <span>Eyes</span></h2>
                 <div class="filters">
                     <button class="filter-btn active-filter" data-category="all">All</button>
@@ -92,7 +86,7 @@
                     <button class="filter-btn" data-category="people">People</button>
 
                </div>
-           </div>
+            </div>
 
             <div class="media content-images">
                 <div class="grid-item images image-wrapper">

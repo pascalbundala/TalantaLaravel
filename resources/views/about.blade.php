@@ -24,7 +24,7 @@
     @include('header')
 
     <section id="hero" class="hero">
-        <video autoplay muted loop playsinline class="background-video">
+        <video autoplay muted loop playsinline preload="none" class="background-video" poster="{{asset('images/TalantaTrustAboutUs.webp')}}" id="hero-video">
           <source src="{{asset('images/Talanta-Trust-People.mp4')}}" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -126,5 +126,14 @@
 
     @include('footer')
     <script src="{{asset('js/script.js')}}"></script>
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+        const video = document.getElementById("hero-video");
+        const source = video.querySelector("source");
+        source.setAttribute("src", "{{asset('images/Talanta-Trust-Introduction.mp4')}}");
+        video.load();
+       });
+    </script>
+
 </body>
 </html>
