@@ -77,7 +77,7 @@
 
      <div class="contents">
         <div class="titles">
-            <h2>Share your thoughts</h2>
+            <h2>Create impact with us</h2>
         </div>
         <div class="content-form">
             <div class="form-holder">
