@@ -97,7 +97,7 @@
                         </div>
                     </div>
                     <div class="dropdown-content" id="content">
-                        <p>We're excited to hear from you! Contact us via email at info@talantatrust.org, call us at +255 752 183 424, or visit our website www.talantatrust.org. You can also connect with us on Instagram, Facebook, Twitter, and LinkedIn.</p>
+                        <p>We're excited to hear from you! Contact us via email at info@talantatrust.org, Call us at <strong>+255 697 489 369</strong>, Email us <a href="https://mail.google.com/mail/?view=cm&to=info@talantatrust.org" target="_blank" rel="noopener noreferrer">info@talantatrust.org</a> or <a href="https://mail.google.com/mail/?view=cm&to=asktalantatrust@gmail.com" target="_blank" rel="noopener noreferrer">asktalantatrust@gmail.com</a> or visit our  website www.talantatrust.org. You can also connect with us on Instagram, Facebook, Twitter, and LinkedIn.</p>
                     </div>
                 </div>
 

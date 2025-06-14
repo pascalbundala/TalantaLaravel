@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use TCG\Voyager\Facades\Voyager;
+use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     return view('index');
@@ -43,3 +44,6 @@ Route::get('/our-project', function () {
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+Route::post('/workwithus', [ContactController::class, 'send'])->name('workwithus.send');
+Route::post('/contactus', [ContactController::class, 'contact'])->name('contactus.contact');

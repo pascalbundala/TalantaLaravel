@@ -107,6 +107,20 @@
     cursor: pointer;
 }
 
+.big-impact .btn-email a{
+    font-size: 0.96rem;
+    color: #1A202a;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.big-impact .btn-email a:hover{
+    font-size: 0.96rem;
+    color: blue;
+    cursor: pointer;
+    font-weight: 900;
+}
+
 .how-we-work {
     padding: 50px 20px;
     display: flex;

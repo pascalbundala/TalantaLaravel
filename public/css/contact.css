@@ -213,7 +213,7 @@
     padding: 10px;
 }
 
-.content-form .forms  input[type="submit"]{
+.content-form .forms button{
     background-color: #fbaf28;
     padding: 8px 15px;
     font-size: 16px;
@@ -228,7 +228,7 @@
     font-family: "Poppins",sans-serif;
 }
 
-.content-form .forms  input[type="submit"]:hover{
+.content-form .forms button:hover{
     cursor: pointer;
     background-color: orange;
     color: #1f202a;
@@ -370,7 +370,7 @@
     padding: 2px;
 }
 
-.content-form .forms  input[type="submit"]{
+.content-form .forms button{
     padding: 4px 15px;
     font-size: 13px;
     margin-top: 10px;
@@ -503,7 +503,7 @@
     padding: 4px;
 }
 
-.content-form .forms  input[type="submit"]{
+.content-form .forms button{
     padding: 8px 15px;
     font-size: 14px;
     margin-top: 10px;
@@ -632,7 +632,7 @@
     margin-bottom: 10px;
 }
 
-.content-form .forms  input[type="submit"]{
+.content-form .forms button{
     padding: 10px 18px;
     font-size: 14px;
     margin-top: 20px;
@@ -758,7 +758,7 @@
     padding: 4px;
 }
 
-.content-form .forms  input[type="submit"]{
+.content-form .forms button{
     padding: 8px 15px;
     font-size: 17px;
     margin-top: 15px;
@@ -885,7 +885,7 @@
     font-weight: 400;
 }
 
-.content-form .forms  input[type="submit"]{
+.content-form .forms button{
     padding: 12px 15px;
     font-size: 20px;
     margin-top: 15px;
@@ -1013,7 +1013,7 @@
     font-weight: 400;
 }
 
-.content-form .forms  input[type="submit"]{
+.content-form .forms button{
     padding: 30px 15px;
     font-size: 30px;
     margin-top: 30px;
@@ -1141,7 +1141,7 @@
     font-weight: 400;
 }
 
-.content-form .forms  input[type="submit"]{
+.content-form .forms button{
     padding: 50px 15px;
     font-size: 40px;
     margin-top: 60px;

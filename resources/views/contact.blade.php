@@ -49,12 +49,12 @@
                     <h2>let us know more about you</h2>
                     <p>We are excited to collaborate with you! Please fill out the form below so we can tailor our services to meet your needs.</p>
                 </div>
-                <div class="forms">
-
+                <form class="forms" action="{{ route('contactus.contact') }}" method="POST">
+                    @csrf
                     <div class="form-input">
                         <div class="divs">
                             <label for="name">Firstname is*</label>
-                            <input type="text" name="names" id="name">
+                            <input type="text" name="firstname" id="name">
                         </div>
 
                         <div class="divs">
@@ -76,11 +76,11 @@
                     </div>
 
                     <label class="big-message" for="message">Tell us your story*</label>
-                    <textarea id="textArea" name="textArea" rows="4" cols="50" placeholder="Write us your message....."></textarea>
+                    <textarea id="textArea" name="message" rows="4" cols="50" placeholder="Write us your message....."></textarea>
 
-                    <input type="submit" name="submit" id="submit">
+                    <button type="submit"  id="submit">submit</button>
 
-                </div>
+                </form>
             </div>
         </div>
     </div>

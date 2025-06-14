@@ -74,8 +74,8 @@
                     <h2>How you would like to be part of Talanta Trust?</h2>
                     <p>We are excited to collaborate with you! Please fill out the form below so we can tailor our services to meet your needs.</p>
                 </div>
-                <div class="forms">
-
+                <form class="forms" action="{{ route('workwithus.send') }}" method="POST">
+                    @csrf
                     <div class="form-input">
                         <div class="divs">
                             <label for="name">Full Name*</label>
@@ -110,46 +110,46 @@
                             <div class="checkboxes">
 
                                 <label class="checkbox-label">
-                                    <input type="checkbox" id="contentCreation" name="contentCreation" >
+                                    <input type="checkbox" id="contentCreation" name="services[]" value="contentCreation">
                                     <span class="checkmark"></span>
                                     <label for=""><strong>Content Creation</strong> (Copywriting, Content Strategy, SEO Optimization and more)</label>
                                 </label>
 
                                 <label class="checkbox-label">
-                                    <input type="checkbox" id="Photography" name="Photography" >
+                                    <input type="checkbox" id="Photography" name="services[]" value="Photography">
                                     <span class="checkmark"></span>
                                     <label for="vehicle1"><strong>Photography & Videography </strong>(Field activities, Interviews, Events and more)</label>
                                 </label>
 
                                 <label class="checkbox-label">
-                                    <input type="checkbox" id="branding" name="branding" >
+                                    <input type="checkbox" id="branding" name="services[]" value="branding">
                                     <span class="checkmark"></span>
                                     <label for="vehicle1"><strong>Branding and Graphic Design </strong>(Logo Design, Brand Guidelines, Visual Identity and more)</label>
                                 </label>
 
                                 <label class="checkbox-label">
-                                    <input type="checkbox" id="Documentary" name="Documentary" >
+                                    <input type="checkbox" id="Documentary" name="services[]" name="services[]" value="Documentary">
                                     <span class="checkmark"></span>
                                     <label for="vehicle1"><strong>Documentary & Storytelling</strong> (Creating Inspiring Documentaries and more)</label>
                                 </label>
 
                                 <label class="checkbox-label">
-                                    <input type="checkbox" id="writing" name="writing">
+                                    <input type="checkbox" id="writing" name="services[]" value="writing">
                                     <span class="checkmark"></span>
                                     <label for="vehicle1"><strong>Writing Services</strong> (Grant Proposals, Annual Reports and more)</label>
                                 </label>
                                 <label class="checkbox-label">
-                                    <input type="checkbox" id="Printing" name="Printing" >
+                                    <input type="checkbox" id="Printing" name="services[]" value="Printing">
                                     <span class="checkmark"></span>
                                     <label for="vehicle1"><strong>Printing Solutions</strong> (Brochures, Flyers, Banners, Reports and more)</label>
                                 </label>
                                 <label class="checkbox-label">
-                                    <input type="checkbox" id="social" name="social" >
+                                    <input type="checkbox" id="social" name="services[]" value="social">
                                     <span class="checkmark"></span>
                                     <label for="vehicle1"><strong>Social Media Management</strong> (Content Creation, Engagement, Posting and more)</label>
                                 </label>
                                 <label class="checkbox-label">
-                                    <input type="checkbox" id="NGO" name="NGO" >
+                                    <input type="checkbox" id="NGO" name="services[]" value="NGO">
                                     <span class="checkmark"></span>
                                     <label for="vehicle1"><strong>NGO Consultancy</strong> (Strategic Planning, Project Management, Capacity Building and more)</label>
                                 </label>
@@ -159,14 +159,21 @@
                     </div>
 
                     <label class="big-message" for="message">Project Description</label>
-                    <textarea id="textArea" name="textArea" rows="4" cols="50" placeholder="Write us your message....."></textarea>
+                    <textarea id="textArea" name="project" rows="4" cols="50" placeholder="Write us your message....."></textarea>
 
                     <label class="big-message" for="message">Additional Information or Questions</label>
-                    <textarea id="textArea" name="textArea" rows="4" cols="50" placeholder="Write us your message....."></textarea>
+                    <textarea id="textArea" name="additional" rows="4" cols="50" placeholder="Write us your message....."></textarea>
 
-                    <input type="submit" name="submit" id="submit">
+                    <button type="submit"  id="submit">Submit</button>
+                </form>
 
-                </div>
+                {{-- <form action="{{ route('contact.send') }}" method="POST">
+                    @csrf
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form> --}}
 
             </div>
 

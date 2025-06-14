@@ -120,7 +120,7 @@
         </div>
 
         <button class="btn-email">
-           Email us today at watoto@talantatrust.org
+           Email us today at <a href="https://mail.google.com/mail/?view=cm&to=watoto@talantatrust.org" target="_blank" rel="noopener noreferrer">watoto@talantatrust.org</a>
         </button>
 
 
