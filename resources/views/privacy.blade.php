@@ -103,7 +103,7 @@
 
                     <div class="text-item">
                         <h2>Contact Us</h2>
-                        <p>If you have any questions about our use of cookies or this Cookie Policy, please contact us at: <strong>asktalantatrust@gmail.com</strong>  </p>
+                        <p>If you have any questions about our use of cookies or this Cookie Policy, please contact us at: <strong>asktalantatrust@gmail.com</strong> or <strong>info@talantatrust.org</strong>  </p>
                     </div>
                 </div>
 
