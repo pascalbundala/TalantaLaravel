@@ -1,8 +1,10 @@
+
 <?php
 
 use Illuminate\Support\Facades\Route;
-use TCG\Voyager\Facades\Voyager;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\BloagReadController;
 
 Route::get('/', function () {
     return view('index');
@@ -41,9 +43,15 @@ Route::get('/our-project', function () {
     return view('project');
 })->name('our-project');
 
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
-});
+Route::get('/blog', [BloagReadController::class, 'index'])->name('blog');
+Route::get('/blog-details/{id}',[BloagReadController::class,'show'])->name('blog-detail');
+
+Route::get('/dashboard', function () {
+    return view('admin.blog.create');
+})->name('admin');
+
+Route::resource('blogs', BlogController::class)->names('blogsdata');
+
 
 Route::post('/workwithus', [ContactController::class, 'send'])->name('workwithus.send');
 Route::post('/contactus', [ContactController::class, 'contact'])->name('contactus.contact');

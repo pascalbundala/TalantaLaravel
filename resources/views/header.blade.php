@@ -20,6 +20,7 @@
             <li><a href="{{route('gallery')}}">Gallery</a></li>
             <li><a href="{{route('about-us')}}">About Us</a></li>
             <li><a href="{{route('our-project')}}">Our Project</a></li>
+            <li><a href="{{route('blog')}}">News & Stories</a></li>
 
         </ul>
     </div>

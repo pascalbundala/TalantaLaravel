@@ -1,0 +1,752 @@
+.start{
+    text-align: start;
+    font-family: 'Anton', sans-serif;
+    font-size: 3.8rem;
+    line-height: 4.5rem;
+    padding: 2px 0px;
+    font-weight: 900;
+    color: #1A202a;
+    width: 100%;
+}
+
+.start img{
+    width: 90px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.blog-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 15%;
+}
+
+
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+}
+
+.pagination a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    color: #1A202a;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.pagination a.active{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1rem;
+    color: #F15B27;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.blog-post{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0px;
+    margin: 5px 0px;
+
+}
+
+.blog-post img{
+    width: 20%;
+    aspect-ratio: 1;
+    background-color: #E2E8F0;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+
+.blog-post .post-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 80%;
+    margin-left: 20px;
+    border-bottom: 1px solid #1a202a53;
+}
+.blog-post .post-description h2{
+    font-family: 'Anton', sans-serif;
+    text-transform: capitalize;
+    margin: 15px 0px 0px 0px;
+}
+
+.blog-post .post-description .title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    color: #F15B27;
+}
+
+.blog-post .post-description .subtitle{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: #1A202a;
+    font-weight: 500;
+}
+.blog-post .post-description .author{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+    color: #1A202a;
+    font-weight: 300;
+    font-style: italic;
+}
+.blog-post .post-description p{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.90rem;
+    line-height: 1.4rem;
+    color: #1A202a;
+    margin: 10px 0px 0px 0px;
+}
+.blog-post .post-description a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    background-color: #F15B27;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-self: flex-end;
+    margin-right: 10%;
+    width: fit-content;
+}
+.blog-post .post-description a:hover{
+    background-color: #90BE41;
+
+}
+
+.logo-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;;
+    width: 100%;
+    padding: 10px 15% 10px 15%;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.logo-text img{
+    width: fit-content;
+    height: 40px;
+    padding: 0;
+}
+.logo-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.90rem;
+    line-height: 1.4rem;
+    color: #1A202a;
+    margin: 10px 0px 0px 0px;}
+
+@media only screen and (max-width:480px) {
+
+    .start{
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    margin:10px auto;
+    text-align: start;
+    width: 80%;
+    padding: 0;
+    }
+
+    .start img{
+    width: 70px;
+    height: 30px;
+    margin:0px 10px 0px 0px;
+    vertical-align: middle;
+}
+
+    .blog-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto 0px auto;
+    padding: 0;
+}
+
+.blog-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+
+.blog-post img{
+    width: 100%;
+    aspect-ratio: 1.7;
+    background-color: #E2E8F0;
+    border-radius: 20px;
+}
+
+.blog-post .post-description h2{
+    margin: 8px 0px 0px 0px;
+}
+
+.blog-post .post-description{
+    width: 100%;
+    margin-left: 0px;
+}
+
+.blog-post .post-description a{
+    font-size: 0.8rem;
+    line-height: 1rem;
+    padding: 5px 10px;
+    align-self: flex-start;
+}
+
+.logo-text{
+    width: 80%;
+    padding: 0px 0% 5px 0%;
+    margin: 10px auto;
+}
+
+.logo-text img{
+    height: 30px;
+}
+.logo-text p{
+    font-size:0.8rem;
+    line-height: 1.2rem;
+}
+
+.blog-post .post-description .title{
+    font-size: 0.90rem;
+    line-height: 1rem;
+}
+
+.blog-post .post-description .subtitle{
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+}
+.blog-post .post-description .author{
+    font-size: 0.7em;
+    line-height: 0.7rem;
+}
+.blog-post .post-description p{
+    font-size:0.8rem;
+    line-height: 1.2rem;
+}
+
+}
+
+@media only screen and (min-width:480px) {
+    .start{
+    font-size: 2.3rem;
+    line-height: 2.3rem;
+    margin:10px auto;
+    text-align: start;
+    width: 80%;
+    }
+
+    .start img{
+    width: 80px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+    .blog-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto 0px auto;
+    padding: 0;
+}
+
+.blog-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+
+.blog-post img{
+    width: 100%;
+    aspect-ratio: 1.9;
+    background-color: #E2E8F0;
+    border-radius: 20px;
+}
+
+.blog-post .post-description h2{
+    margin: 8px 0px 0px 0px;
+}
+
+.blog-post .post-description{
+    width: 100%;
+    margin-left: 0px;
+}
+
+.blog-post .post-description a{
+    font-size: 0.85rem;
+    line-height: 1rem;
+    padding: 5px 10px;
+    align-self: flex-start;
+}
+
+.logo-text{
+    width: 80%;
+    padding: 5px 0% 5px 0%;
+    margin: 20px auto;
+}
+
+.logo-text img{
+    height: 30px;
+}
+.logo-text p{
+    font-size:0.85rem;
+    line-height: 1.25rem;
+}
+
+.blog-post .post-description .title{
+    font-size: 0.90rem;
+    line-height: 1rem;
+}
+
+.blog-post .post-description .subtitle{
+    font-size: 1.25rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+}
+.blog-post .post-description .author{
+    font-size: 0.75em;
+    line-height: 0.75rem;
+}
+.blog-post .post-description p{
+    font-size:0.85rem;
+    line-height: 1.25rem;
+}
+}
+
+@media only screen and (min-width:768px) {
+  .start{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    text-align: start;
+    width: 100%;
+    margin: 15px 15% 0px 15%;
+    }
+
+    .start img{
+    width: 90px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+    }
+
+
+    .blog-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0px auto 0px auto;
+    padding: 3px 15%;
+   }
+
+.blog-post{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.blog-post img{
+    width: 20%;
+    aspect-ratio: 1;
+    background-color: #E2E8F0;
+    border-radius: 20px;
+}
+
+.blog-post .post-description h2{
+    margin: 8px 0px 0px 0px;
+}
+
+.blog-post .post-description{
+    width: 80%;
+    margin-left: 20px;
+}
+
+.blog-post .post-description a{
+    font-size: 0.9rem;
+    line-height: 1rem;
+    padding: 8px 15px;
+    align-self: flex-end;
+}
+
+.logo-text{
+    width: 100%;
+    padding: 0px 0% 5px 0%;
+    margin: 0px 15% 20px 15%;
+}
+
+.logo-text p{
+    font-size:0.85rem;
+    line-height: 1.25rem;
+    width: 75%;
+}
+
+.blog-post .post-description .title{
+    font-size: 0.90rem;
+    line-height: 1rem;
+}
+
+.blog-post .post-description .subtitle{
+    font-size: 1.25rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+}
+.blog-post .post-description .author{
+    font-size: 0.75em;
+    line-height: 0.75rem;
+}
+.blog-post .post-description p{
+    font-size:0.85rem;
+    line-height: 1.25rem;
+}
+
+.pagination{
+    margin: 10px 0px;
+}
+
+}
+
+@media only screen and (min-width:1024px) {
+ .start {
+    font-size: 2.7rem;
+    line-height: 2.7rem;
+    margin:15px 15%;
+  }
+
+  .start img{
+    width: 90px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.blog-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0px auto 0px auto;
+    padding: 0px 15%;
+}
+
+.blog-post{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.blog-post img{
+    width: 20%;
+    aspect-ratio: 1;
+    background-color: #E2E8F0;
+    border-radius: 20px;
+}
+
+.blog-post .post-description h2{
+    margin: 8px 0px 0px 0px;
+}
+
+.blog-post .post-description{
+    width: 80%;
+    margin-left: 20px;
+}
+
+.blog-post .post-description a{
+    font-size: 0.95rem;
+    line-height: 1rem;
+    padding: 8px 15px;
+    align-self: flex-end;
+}
+
+.logo-text{
+    width: 100%;
+    padding: 5px 0% 5px 0%;
+    margin: 0px 15% 20px 15%;
+}
+
+.logo-text img{
+    height: 40px;
+}
+.logo-text p{
+    font-size:0.9rem;
+    line-height: 1.3rem;
+    width: 75%;
+}
+
+.blog-post .post-description .title{
+    font-size: 0.95rem;
+    line-height: 1rem;
+}
+
+.blog-post .post-description .subtitle{
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+}
+.blog-post .post-description .author{
+    font-size: 0.85em;
+    line-height: 0.85rem;
+}
+.blog-post .post-description p{
+    font-size:0.85rem;
+    line-height: 1.4rem;
+    margin-top: 20px;
+}
+
+}
+
+@media only screen and (min-width:1440px) {
+
+.start {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin:10px 15%;
+  }
+
+  .start img{
+    width: 120px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.blog-post .post-description h2{
+    margin: 15px 0px 0px 0px;
+}
+
+.blog-post .post-description .title{
+    font-size: 1.3rem;
+}
+
+.blog-post .post-description .subtitle{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.blog-post .post-description .author{
+    font-size: 1.1em;
+    line-height: 1rem;
+}
+.blog-post .post-description p{
+    font-size:1.2rem;
+    line-height: 1.7rem;
+    margin-top: 30px;
+}
+.logo-text p{
+    font-size:1.2rem;
+    line-height: 1.7rem;
+    width: 75%;
+}
+
+.blog-post .post-description a{
+    font-size: 1.2rem;
+    padding: 15px 20px;
+}
+.logo-text img{
+    height: 60px;
+}
+
+.pagination a{
+    font-size: 1.1rem;
+    margin-right: 12px;
+}
+
+.pagination a.active{
+    font-size: 1.4rem;
+
+}
+}
+@media only screen and (min-width:2560px) {
+
+.start {
+    font-size: 6rem;
+    line-height:6rem;
+    margin:10px 15%;
+}
+
+.start img{
+    width: 200px;
+    height: 160px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.blog-post .post-description{
+    margin-left: 40px;
+}
+.blog-post .post-description h2{
+    margin: 40px 0px 0px 0px;
+}
+
+.blog-post .post-description .title{
+    font-size: 2.2rem;
+}
+
+.blog-post .post-description .subtitle{
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+.blog-post .post-description .author{
+    font-size: 2.2em;
+    line-height: 2rem;
+}
+.blog-post .post-description p{
+    font-size:2.2rem;
+    line-height:3.5rem;
+    margin-top: 60px;
+}
+.logo-text p{
+    font-size:2.2rem;
+    line-height: 3.5rem;
+    width: 75%;
+}
+
+.blog-post .post-description a{
+    font-size: 2.2rem;
+    padding:30px 40px;
+}
+
+.logo-text{
+    width: 100%;
+    padding: 10px 0% 10px 0%;
+    margin: 30px 15% 40px 15%;
+}
+
+.logo-text img{
+    height: 120px;
+}
+
+.pagination a{
+    font-size: 2.2rem;
+    margin-right: 20px;
+}
+
+.pagination a.active{
+    font-size: 2.5rem;
+
+}
+
+
+
+}
+
+@media only screen and (min-width:4096px) {
+    .start {
+    font-size:8rem;
+    line-height: 11rem;
+    margin:20px 15%;
+}
+
+.start img{
+    width: 280px;
+    height: 170px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.blog-post{
+    margin: 60px 0px;
+
+}
+
+.blog-post img{
+    width: 25%;
+    border-radius: 60px;
+}
+
+.blog-post .post-description{
+    margin-left: 60px;
+}
+
+.blog-post .post-description h2{
+    margin: 80px 0px 0px 0px;
+}
+
+.blog-post .post-description .title{
+    font-size: 4rem;
+}
+
+.blog-post .post-description .subtitle{
+    font-size: 6rem;
+    font-weight: 500;
+}
+.blog-post .post-description .author{
+    font-size: 4rem;
+    line-height: 4rem;
+}
+.blog-post .post-description p{
+    font-size:3.7rem;
+    line-height:6rem;
+    margin-top: 120px;
+}
+.logo-text p{
+    font-size:3.7rem;
+    line-height: 6rem;
+    width: 75%;
+}
+
+.blog-post .post-description a{
+    font-size:4rem;
+    padding:60px 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.logo-text{
+    width: 100%;
+    padding: 10px 0% 10px 0%;
+    margin: 60px 15% 40px 15%;
+}
+
+.logo-text img{
+    height: 170px;
+}
+
+.pagination a{
+    font-size: 3.7rem;
+    margin-right: 40px;
+}
+
+.pagination a.active{
+    font-size: 4rem;
+
+}
+
+}
+

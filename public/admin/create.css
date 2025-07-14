@@ -1,0 +1,176 @@
+        /* <div class="form-group">
+            <label for="title">Blog title:</label>
+            <input type="text" id="title" name="title" class="form-control" required>
+        </div> */
+
+ h1 {
+    text-align: center;
+    color: #222526;
+    margin-top: 20px;
+}
+
+ form{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+
+.form-group  {
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #00000030;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 3px #00000005;
+    padding: 5px 0px;
+    border-radius: 10px;
+}
+
+.form-group label,h3 {
+    font-weight: 700;
+    margin:0px 10px;
+    color: #222526;
+    width:14%;
+    font-size: 14px;
+}
+
+.form-group input[type="text"]{
+    display: flex;
+    padding: 10px;
+    background-color: #ffffff;
+    border: none;
+    border-left: 1px solid #00000014;
+    width: 90%;
+    font-size: 16px;
+    color: #222526;
+
+}
+
+.form-group input[type="text"]:focus{
+    outline: none;
+}
+
+.form-group input[type="file"]{
+    display: flex;
+    padding: 8px;
+    border: none;
+    background-color: #ffffff;
+    border-left: 1px solid #00000014;
+    width: 90%;
+}
+
+.form-group textarea{
+    display: flex;
+    padding: 5px;
+    margin: 0px 0px;
+    border: none;
+    background-color: #ffffff;
+    border-left: 1px solid #00000014;
+    width: 90%;
+    min-height: 100px;
+    font-size: 16px;
+    color: #222526;
+}
+
+.form-group textarea:focus{
+    outline: none;
+}
+
+ .btn-save{
+    display: block;
+    border: none;
+    background-color: green;
+    color: #fff;
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add{
+    display: block;
+    border: none;
+    background-color: #dfdfdf;
+    border: 1px solid #cacaca;
+    color: #000000;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 30px;
+    border-radius: 0px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 14px;
+    box-shadow: 2px 2px 4px #00000026;
+
+}
+#paragraph-wrapper {
+    margin: 20px 0px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.paragraph{
+    width: 95%;
+    background-color: #f6f6f6;
+    height: fit-content;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row;
+    box-shadow: 2px 2px 3px #00000005;
+    border: 1px solid #ebebeb99;
+    padding:5px 20px 10px 25px;
+}
+
+.paragraph h1{
+    color: #2225269e;
+    height: fit-content;
+    font-size: 14px;
+    text-align: start;
+    font-weight: 300;
+    margin-right: 30px;
+    margin: 0px 10px;
+}
+
+.paragraph .inside{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.paragraph .inside label{
+    color: #222526;
+    height: fit-content;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.paragraph .inside input[type="text"]{
+    color: #222526;
+    height: fit-content;
+    font-weight: 300;
+    border: 1px solid #00000010;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.paragraph .inside textarea{
+    color: #222526;
+    height: fit-content;
+    font-weight: 300;
+    border: 1px solid #00000010;
+    margin-bottom: 0px;
+}
+
+

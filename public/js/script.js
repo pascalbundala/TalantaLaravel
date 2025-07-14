@@ -83,3 +83,15 @@ year.textContent = currentYear;
   });
 
 
+//   arrange image in blog detailpage
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const container = document.querySelector(".text-with-image");
+    const items = container.querySelectorAll(".blog-word");
+    const image = container.querySelector(".images-feature");
+
+    if (items.length > 2 && image) {
+      items[1].insertAdjacentElement('afterend', image);
+    }
+  });
+

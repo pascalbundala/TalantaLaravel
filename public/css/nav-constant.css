@@ -128,15 +128,17 @@
 
       .menu-overlay .close-btn {
         right: 30px;
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
 
       .menu-overlay ul li {
-        margin: 0.7rem 0;
+        margin: 10px 0;
       }
 
       .menu-overlay ul li a {
-        font-size: 2.5rem;
+        font-size: 1.7rem;
+        line-height: 2rem;
+        font-weight: 900;
       }
 
     }
@@ -166,12 +168,14 @@
         font-size: 2.5rem;
       }
 
-      .menu-overlay ul li {
-        margin: 0.1rem 0;
+    .menu-overlay ul li {
+        margin: 10px 0;
       }
 
       .menu-overlay ul li a {
-        font-size: 2.6rem;
+        font-size: 1.7rem;
+        line-height: 2rem;
+        font-weight: 900;
       }
 
     }
@@ -221,8 +225,8 @@
       }
 
       .menu-overlay ul li a {
-        font-size: 2.4rem;
-        line-height: 2.4rem;
+        font-size: 2.2rem;
+        line-height: 2.2rem;
       }
 
 
