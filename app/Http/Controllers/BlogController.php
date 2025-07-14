@@ -49,14 +49,29 @@ class BlogController extends Controller
             dd($e->errors());
         }
 
+            $destinationPath = public_path('images/blogs');
+            // Create the directory if it doesn't exist
+            if (!file_exists($destinationPath)) {
+                mkdir($destinationPath, 0755, true);
+            }
+
         if ($request->hasFile('cover_image')) {
-            $coverImagePath = $request->file('cover_image')->store('blogs', 'public');
-            $validated['cover_image'] = $coverImagePath;
+            // $coverImagePath = $request->file('cover_image')->store('blogs', 'public');
+            $filename = time() . '_' . $request->file('cover_image')->getClientOriginalName();
+            $request->file('cover_image')->move($destinationPath, $filename);
+            $storedImagePath = 'images/blogs/' . $filename;
+            // $validated['cover_image'] = $coverImagePath;
+            $validated['cover_image'] = $storedImagePath;
         }
 
         if ($request->hasFile('large_image')) {
-            $largeImagePath = $request->file('large_image')->store('blogs', 'public');
-            $validated['large_image'] = $largeImagePath;
+            // $largeImagePath = $request->file('large_image')->store('blogs', 'public');
+            // $validated['large_image'] = $largeImagePath;
+            $filename = time() . '_' . $request->file('large_image')->getClientOriginalName();
+            $request->file('large_image')->move($destinationPath, $filename);
+            $storedImagePath = 'images/blogs/' . $filename;
+            // $validated['cover_image'] = $coverImagePath;
+            $validated['large_image'] = $storedImagePath;
         }
 
         $blog=Blog::create($validated);
@@ -64,7 +79,10 @@ class BlogController extends Controller
        // Handle multiple images
        if ($request->hasFile('feature_image')) {
         foreach ($request->file('feature_image') as $image) {
-            $path = $image->store('blog_images', 'public');
+            // $path = $image->store('blog_images', 'public');
+            $filename = time() . '_' . $image->getClientOriginalName();
+            $image->move($destinationPath, $filename);
+            $path = 'images/blogs/' . $filename;
             // Save to blog_images table
             $blog->images()->create([
                 'image_path' => $path

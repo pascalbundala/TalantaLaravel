@@ -99,7 +99,7 @@
         <?php $__currentLoopData = $blogs; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $blog): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 
          <div class="blog-post">
-            <img  src="<?php echo e(asset('storage/' . $blog->cover_image)); ?>" alt="post1">
+            <img  src="<?php echo e(asset(''. $blog->cover_image)); ?>" alt="post1">
             <div class="post-description">
                 <h2 class="title"><?php echo e($blog->title); ?></h2>
                 <h2 class="subtitle"><?php echo e($blog->subtitle); ?></h2>

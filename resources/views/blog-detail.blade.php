@@ -29,7 +29,7 @@
                 </div>
             </div>
 
-            <img src="{{ asset('storage/' . $blog->large_image) }}"  alt="" class="large-image">
+            <img src="{{asset(''. $blog->large_image) }}"  alt="" class="large-image">
 
             @foreach ( $blog->paragraphs as $paragraph )
                 <div class="blog-word">
@@ -40,7 +40,7 @@
 
             <div class="images-feature">
                @foreach ($blog->images as $image )
-                 <img src="{{asset('storage/'.$image->image_path)}}" alt="">
+                 <img src="{{asset(''.$image->image_path)}}" alt="">
                @endforeach
             </div>
 
@@ -59,7 +59,7 @@
         <div class="content-related">
             @forelse($relatedblogs as $related)
                 <div class="blog-card">
-                    <img src="{{ asset('storage/' . $blog->cover_image)}}" alt="Post1">
+                    <img src="{{ asset('' . $blog->cover_image)}}" alt="Post1">
                     <div class="text-clmn">
                         <h2 class="title">{{ $related->title }}</h2>
                         <h2 class="subtitle">{{ $related->subtitle }}</h2>

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'mcharazo';
-  src: url('../TalantaFonts/MR-PUDIDI-DECORATIVE-FONT/MRPUDIDI.ttf') format('truetype');
+  src: url('../Fonts/MR-PUDIDI-DECORATIVE-FONT/MRPUDIDI.ttf') format('truetype');
 }
 .join-section{
     display: flex;

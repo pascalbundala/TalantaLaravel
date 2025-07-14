@@ -29,7 +29,7 @@
                 </div>
             </div>
 
-            <img src="<?php echo e(asset('storage/' . $blog->large_image)); ?>"  alt="" class="large-image">
+            <img src="<?php echo e(asset(''. $blog->large_image)); ?>"  alt="" class="large-image">
 
             <?php $__currentLoopData = $blog->paragraphs; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $paragraph): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                 <div class="blog-word">
@@ -40,7 +40,7 @@
 
             <div class="images-feature">
                <?php $__currentLoopData = $blog->images; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $image): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                 <img src="<?php echo e(asset('storage/'.$image->image_path)); ?>" alt="">
+                 <img src="<?php echo e(asset(''.$image->image_path)); ?>" alt="">
                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             </div>
 
@@ -59,7 +59,7 @@
         <div class="content-related">
             <?php $__empty_1 = true; $__currentLoopData = $relatedblogs; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $related): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); $__empty_1 = false; ?>
                 <div class="blog-card">
-                    <img src="<?php echo e(asset('storage/' . $blog->cover_image)); ?>" alt="Post1">
+                    <img src="<?php echo e(asset('' . $blog->cover_image)); ?>" alt="Post1">
                     <div class="text-clmn">
                         <h2 class="title"><?php echo e($related->title); ?></h2>
                         <h2 class="subtitle"><?php echo e($related->subtitle); ?></h2>

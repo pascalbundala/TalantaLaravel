@@ -99,7 +99,7 @@
         @foreach ($blogs as $blog )
 
          <div class="blog-post">
-            <img  src="{{ asset('storage/' . $blog->cover_image) }}" alt="post1">
+            <img  src="{{ asset(''. $blog->cover_image) }}" alt="post1">
             <div class="post-description">
                 <h2 class="title">{{$blog->title}}</h2>
                 <h2 class="subtitle">{{$blog->subtitle}}</h2>
