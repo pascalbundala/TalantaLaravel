@@ -96,7 +96,7 @@
     <h1 class="start"><img src="{{asset('images/TALANTA-TRUST-BLOGO-ARROW.svg')}}" alt="" srcset=""> Blog</h1>
 
     <section class="blog-container">
-        @foreach ($blogs as $blog )
+        @forelse ($blogs as $blog )
 
          <div class="blog-post">
             <img  src="{{ asset(''. $blog->cover_image) }}" alt="post1">
@@ -108,8 +108,10 @@
                 <a href="{{route('blog-detail',$blog->id)}}" class="read-more">Read More</a>
             </div>
         </div>
+        @empty
+            <h3>No blogs found!!</h3>
 
-        @endforeach
+        @endforelse
 
         <div class="pagination">
             {{ $blogs->links('pagination::default') }}

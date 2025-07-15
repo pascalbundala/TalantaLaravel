@@ -25,6 +25,14 @@
     padding: 20px 15%;
 }
 
+.blog-container .subtitle{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: #1A202a;
+    font-weight: 500;
+}
+
 
 
 .pagination{

@@ -2120,3 +2120,36 @@ Stack trace:
 #18 /home/p/Desktop/PROJECT/Talanta/TalantaWebsite/artisan(13): Illuminate\\Foundation\\Application->handleCommand()
 #19 {main}
 "} 
+[2025-07-14 20:21:08] local.ERROR: Command "config:clear~" is not defined.
+
+Did you mean one of these?
+    cache:clear
+    config:cache
+    config:clear
+    config:publish
+    config:show
+    event:clear
+    optimize:clear
+    queue:clear
+    route:clear
+    view:clear {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"config:clear~\" is not defined.
+
+Did you mean one of these?
+    cache:clear
+    config:cache
+    config:clear
+    config:publish
+    config:show
+    event:clear
+    optimize:clear
+    queue:clear
+    route:clear
+    view:clear at /home/p/Desktop/PROJECT/Talanta/TalantaWebsite/vendor/symfony/console/Application.php:726)
+[stacktrace]
+#0 /home/p/Desktop/PROJECT/Talanta/TalantaWebsite/vendor/symfony/console/Application.php(284): Symfony\\Component\\Console\\Application->find()
+#1 /home/p/Desktop/PROJECT/Talanta/TalantaWebsite/vendor/symfony/console/Application.php(193): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/p/Desktop/PROJECT/Talanta/TalantaWebsite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run()
+#3 /home/p/Desktop/PROJECT/Talanta/TalantaWebsite/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle()
+#4 /home/p/Desktop/PROJECT/Talanta/TalantaWebsite/artisan(13): Illuminate\\Foundation\\Application->handleCommand()
+#5 {main}
+"} 
