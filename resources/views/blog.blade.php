@@ -22,7 +22,7 @@
             width: 100%;
             height: 50vh;
             background-color: #fff;
-            background-image: url('images/FooterImages/TalantaTrustProject2.webp');
+            background-image: url('images/FooterImages/TalantaTrustProjectLargeBlog.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -99,13 +99,13 @@
         @forelse ($blogs as $blog )
 
          <div class="blog-post">
-            <img  src="{{ asset(''. $blog->cover_image) }}" alt="post1">
+            <img  src="{{ asset('public/'. $blog->cover_image) }}" alt="post1">
             <div class="post-description">
                 <h2 class="title">{{$blog->title}}</h2>
                 <h2 class="subtitle">{{$blog->subtitle}}</h2>
                 <h2 class="author">{{$blog->author_name}}</h2>
                 <p>{{$blog->preview_text}}</p>
-                <a href="{{route('blog-detail',$blog->id)}}" class="read-more">Read More</a>
+                <a href="{{route('blog-detail',$blog->id)}}" class="read-more">Read More <i class="fa-solid fa-angle-right"></i></a>
             </div>
         </div>
         @empty
@@ -121,8 +121,6 @@
     <section class="logo-text">
             <p>
                 Welcome to the storytelling space of Talanta Trust, where real impact meets real voices. Here, we share meaningful moments, updates, and reflections from the field. From community voices and project updates to inspiring journeys and powerful visuals, this is where you will find the stories that shape our mission. Whether it’s the success of a grassroots initiative or the evolution of a new campaign, our stories celebrate changemakers making a difference every day.
-
-                Explore by tag: Our Stories, authentic narratives that reflect real journeys; News and Updates, the latest milestones, launches, and achievements; Community Voices, perspectives from the people we serve; Project Updates, progress, lessons, and behind-the-scenes moments.
             </p>
     </section>
 

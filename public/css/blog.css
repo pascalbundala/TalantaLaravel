@@ -25,12 +25,14 @@
     padding: 20px 15%;
 }
 
-.blog-container .subtitle{
+.blog-container h3{
     font-family: 'Anton', sans-serif;
     font-size: 1.6rem;
     line-height: 1.6rem;
     color: #1A202a;
     font-weight: 500;
+    text-align: start;
+    width: 100%;
 }
 
 
@@ -391,8 +393,8 @@
 }
 
 .blog-post img{
-    width: 20%;
-    aspect-ratio: 1;
+    width: 25%;
+    aspect-ratio: 0.7;
     background-color: #E2E8F0;
     border-radius: 20px;
 }
@@ -537,7 +539,7 @@
 .blog-post .post-description p{
     font-size:0.85rem;
     line-height: 1.4rem;
-    margin-top: 20px;
+    margin-top: 6px;
 }
 
 }
@@ -575,7 +577,7 @@
 .blog-post .post-description p{
     font-size:1.2rem;
     line-height: 1.7rem;
-    margin-top: 30px;
+    margin-top: 6px;
 }
 .logo-text p{
     font-size:1.2rem;
@@ -637,7 +639,7 @@
 .blog-post .post-description p{
     font-size:2.2rem;
     line-height:3.5rem;
-    margin-top: 60px;
+    margin-top: 10px;
 }
 .logo-text p{
     font-size:2.2rem;
@@ -721,7 +723,7 @@
 .blog-post .post-description p{
     font-size:3.7rem;
     line-height:6rem;
-    margin-top: 120px;
+    margin-top: 24px;
 }
 .logo-text p{
     font-size:3.7rem;

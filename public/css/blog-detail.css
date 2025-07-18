@@ -121,12 +121,8 @@
     border-radius: 20px;
 }
 
-
-
-
-
-
 /* cta done */
+
 .main-content .content-cta {
     width: 100%;
     height: auto;
@@ -136,7 +132,7 @@
     margin: 20px 0px;
 }
 
-.main-content .content-cta  button{
+.main-content .content-cta  .button{
     font-size: 1.1rem;
     font-weight: 600;
     color: #fff;
@@ -144,53 +140,26 @@
     border: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    text-align: center;
+    width:fit-content;
+    padding: 10px 20px;
+
 }
 
-.main-content .content-cta  button:hover{
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.26);
-    transform: scale(1.05);
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-}
 
-.main-content .content-cta  button:nth-child(1){
+.main-content .content-cta  .button:nth-child(1){
     background-color: #F15B27;
-    padding: 10px 20px 10px 5px;
-    width: 100px;
-}
-
-.main-content .content-cta  button:nth-child(1):hover{
-    color: #fff;
-    background-color: #732F40;
-    padding: 10px 20px 10px 5px;
-    width: 100px;
-    z-index: 5;
 }
 
 
-.main-content .content-cta  button:nth-child(2){
+.main-content .content-cta  .button:nth-child(2){
     background-color: #90BE41;
-    margin-left: -35px;
-    padding: 10px 20px 10px 5px;
-    z-index: 1;
-    width: 120px;
-}
-.main-content .content-cta  button:nth-child(3){
-    background-color: #FBAF28;
-    margin-left: -35px;
-    padding: 10px 20px 10px 5px;
-    z-index: 2;
+    margin-left: 13px;
 }
 
-.main-content .content-cta  button:nth-child(2):hover{
-    color: #fff;
+.main-content .content-cta  .button:nth-child(1):hover,.main-content .content-cta  .button:nth-child(2):hover{
     background-color: #732F40;
-    z-index: 5;
-}
-.main-content .content-cta  button:nth-child(3):hover{
-    color: #fff;
-    background-color: #732F40;
-    z-index: 5;
 }
 
 
@@ -221,6 +190,8 @@
     align-items: center;
     width: 100%;
     padding: 0px;
+    border-bottom: 1px solid #1a202a53;
+
 }
 
 .main-content .content-related h3{
@@ -748,9 +719,14 @@
         font-size: 6.7rem;
         border-radius: 60px;
         padding: 50px 100px 30px 0px;
-
     }
 
+        .main-content .content-cta  a{
+        font-size: 6.7rem;
+        border-radius: 60px;
+        padding: 50px 100px 30px 0px;
+        text-decoration: none;
+    }
     .main-content .content-cta  button:nth-child(1){
         width: 450px;
     }
@@ -759,10 +735,10 @@
         z-index: 1;
         width: 550px;
     }
-    .main-content .content-cta  button:nth-child(3){
+    /* .main-content .content-cta  button:nth-child(3){
         margin-left: -100px;
         z-index: 2;
         width: 600px;
-    }
+    } */
 
 }

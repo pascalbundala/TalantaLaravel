@@ -12,8 +12,9 @@ class BlogController extends Controller
      */
     public function index()
     {
-        $blogs = Blog::with(['paragraphs', 'images'])->get();
-        return view('admin.blog', compact('blogs'));
+        $blogs = Blog::with(['paragraphs', 'images'])->latest()->paginate();
+        $total = $blogs->count();
+        return view('admin.blog.index', compact('blogs', 'total'));
     }
 
     /**
@@ -21,7 +22,7 @@ class BlogController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.blog.create');
     }
 
     /**
@@ -35,42 +36,36 @@ class BlogController extends Controller
             'title' => 'required|string|max:255',
             'subtitle' => 'nullable|string',
             'author_name' => 'required|string|max:255',
-            'preview_text' => 'required|string|max:255',
+            'preview_text' => 'required|string',
             'publication_date' => 'required|date',
             'paragraphs.*.title' => 'required|string',
             'paragraphs.*.content' => 'required|string',
             'tags' => 'required|string',
             'comments' => 'nullable|string',
-            'cover_image' => 'required|image',
-            'large_image' => 'nullable|image',
-            'feature_image.*' => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
+            'cover_image' => 'required|image|mimes:jpg,jpeg,png,webp,gif,bmp,svg|max:5120',
+            'large_image' => 'nullable|image|mimes:jpg,jpeg,png,webp,gif,bmp,svg|max:5120',
+            'feature_image.*' => 'nullable|file|mimes:jpg,jpeg,png,webp,gif,bmp,svg|max:5120',
             ]);
                 }catch (\Illuminate\Validation\ValidationException $e) {
             dd($e->errors());
         }
 
             $destinationPath = public_path('images/blogs');
-            // Create the directory if it doesn't exist
             if (!file_exists($destinationPath)) {
                 mkdir($destinationPath, 0755, true);
             }
 
         if ($request->hasFile('cover_image')) {
-            // $coverImagePath = $request->file('cover_image')->store('blogs', 'public');
             $filename = time() . '_' . $request->file('cover_image')->getClientOriginalName();
             $request->file('cover_image')->move($destinationPath, $filename);
             $storedImagePath = 'images/blogs/' . $filename;
-            // $validated['cover_image'] = $coverImagePath;
             $validated['cover_image'] = $storedImagePath;
         }
 
         if ($request->hasFile('large_image')) {
-            // $largeImagePath = $request->file('large_image')->store('blogs', 'public');
-            // $validated['large_image'] = $largeImagePath;
             $filename = time() . '_' . $request->file('large_image')->getClientOriginalName();
             $request->file('large_image')->move($destinationPath, $filename);
             $storedImagePath = 'images/blogs/' . $filename;
-            // $validated['cover_image'] = $coverImagePath;
             $validated['large_image'] = $storedImagePath;
         }
 
@@ -79,11 +74,9 @@ class BlogController extends Controller
        // Handle multiple images
        if ($request->hasFile('feature_image')) {
         foreach ($request->file('feature_image') as $image) {
-            // $path = $image->store('blog_images', 'public');
             $filename = time() . '_' . $image->getClientOriginalName();
             $image->move($destinationPath, $filename);
             $path = 'images/blogs/' . $filename;
-            // Save to blog_images table
             $blog->images()->create([
                 'image_path' => $path
             ]);
@@ -98,7 +91,7 @@ class BlogController extends Controller
         ]);
        }
 
-        return redirect()->route('admin')->with('success', 'Blog created!');
+        return redirect()->route('blogsdata.index')->with('success', 'Blog created!');
     }
 
     /**
@@ -114,7 +107,9 @@ class BlogController extends Controller
      */
     public function edit(string $id)
     {
-        //
+
+        $blogs = Blog::with(['paragraphs', 'images'])->findOrFail($id);
+        return view('admin.blog.edit', compact('blogs'));
     }
 
     /**
@@ -122,7 +117,68 @@ class BlogController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+                try {
+           $validated = $request->validate([
+            'title' => 'required|string|max:255',
+            'subtitle' => 'nullable|string',
+            'author_name' => 'required|string|max:255',
+            'preview_text' => 'required|string',
+            'publication_date' => 'required|date',
+            'paragraphs.*.title' => 'required|string',
+            'paragraphs.*.content' => 'required|string',
+            'tags' => 'required|string',
+            'comments' => 'nullable|string',
+            'cover_image' => 'required|image|mimes:jpg,jpeg,png,webp,gif,bmp,svg|max:5120',
+            'large_image' => 'nullable|image|mimes:jpg,jpeg,png,webp,gif,bmp,svg|max:5120',
+            'feature_image.*' => 'nullable|file|mimes:jpg,jpeg,png,webp,gif,bmp,svg|max:5120',
+            ]);
+                }catch (\Illuminate\Validation\ValidationException $e) {
+            dd($e->errors());
+        }
+
+            $destinationPath = public_path('images/blogs');
+            if (!file_exists($destinationPath)) {
+                mkdir($destinationPath, 0755, true);
+            }
+
+        if ($request->hasFile('cover_image')) {
+            $filename = time() . '_' . $request->file('cover_image')->getClientOriginalName();
+            $request->file('cover_image')->move($destinationPath, $filename);
+            $storedImagePath = 'images/blogs/' . $filename;
+            $validated['cover_image'] = $storedImagePath;
+        }
+
+        if ($request->hasFile('large_image')) {
+            $filename = time() . '_' . $request->file('large_image')->getClientOriginalName();
+            $request->file('large_image')->move($destinationPath, $filename);
+            $storedImagePath = 'images/blogs/' . $filename;
+            $validated['large_image'] = $storedImagePath;
+        }
+
+        $blog = Blog::findOrFail($id);
+        $blog->update($validated);
+
+       // Handle multiple images
+       if ($request->hasFile('feature_image')) {
+        foreach ($request->file('feature_image') as $image) {
+            $filename = time() . '_' . $image->getClientOriginalName();
+            $image->move($destinationPath, $filename);
+            $path = 'images/blogs/' . $filename;
+            $blog->images()->update([
+                'image_path' => $path
+            ]);
+        }
+       }
+
+        // Save paragraphs
+        foreach ($request->paragraphs as $p) {
+        $blog->paragraphs()->update([
+            'title' => $p['title'],
+            'content' => $p['content'],
+        ]);
+       }
+
+        return redirect()->route('blogsdata.index')->with('success', 'Blog update!');
     }
 
     /**
@@ -130,6 +186,10 @@ class BlogController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $blog = Blog::findOrFail($id);
+        $blog->delete();
+
+        return redirect()->route('blogsdata.index')
+            ->with('success', 'Blog deleted successfully!');
     }
 }

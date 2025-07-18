@@ -29,7 +29,7 @@
                 </div>
             </div>
 
-            <img src="{{asset(''. $blog->large_image) }}"  alt="" class="large-image">
+            <img src="{{asset('public/'. $blog->large_image) }}"  alt="" class="large-image">
 
             @foreach ( $blog->paragraphs as $paragraph )
                 <div class="blog-word">
@@ -47,9 +47,8 @@
         </div>
 
         <div class="content-cta">
-            <button class="cta-like">like</button>
-            <button class="cta-share">share</button>
-            <button class="cta-subscribe">subscribe</button>
+            <button class="cta-share button" onclick="share()" >share</button>
+            <a class="cta-subscribe button" href="{{route('contact')}}">subscribe</a>
         </div>
 
         <div class="content-related-title">
@@ -59,11 +58,11 @@
         <div class="content-related">
             @forelse($relatedblogs as $related)
                 <div class="blog-card">
-                    <img src="{{ asset('' . $blog->cover_image)}}" alt="Post1">
+                    <img src="{{ asset('public/' . $blog->cover_image)}}" alt="Post1">
                     <div class="text-clmn">
                         <h2 class="title">{{ $related->title }}</h2>
                         <h2 class="subtitle">{{ $related->subtitle }}</h2>
-                        <a href="{{route('blog-detail',$blog->id)}}" class="read-more">Read More</a>
+                         <a href="{{route('blog-detail',$blog->id)}}" class="read-more">Read More <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                 </div>
 
@@ -77,8 +76,6 @@
     <section class="logo-text">
             <p>
                 Welcome to the storytelling space of Talanta Trust, where real impact meets real voices. Here, we share meaningful moments, updates, and reflections from the field. From community voices and project updates to inspiring journeys and powerful visuals, this is where you will find the stories that shape our mission. Whether it’s the success of a grassroots initiative or the evolution of a new campaign, our stories celebrate changemakers making a difference every day.
-
-                Explore by tag: Our Stories, authentic narratives that reflect real journeys; News and Updates, the latest milestones, launches, and achievements; Community Voices, perspectives from the people we serve; Project Updates, progress, lessons, and behind-the-scenes moments.
             </p>
     </section>
     @include('footer')

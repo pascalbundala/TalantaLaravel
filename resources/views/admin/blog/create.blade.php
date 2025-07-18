@@ -1,7 +1,10 @@
 @extends('admin.admintemplate')
 
 @section('content')
-    <h1>Blog Post Entry Form</h1>
+   <div class="header-title">
+    <h1>Create Blog</h1>
+    <a href="{{route('blogsdata.index')}}">back</a>
+</div>
     <form action="{{route('blogsdata.store')}}" method="post" enctype="multipart/form-data">
         @csrf
         <div class="form-group">
@@ -18,7 +21,7 @@
         </div>
         <div class="form-group">
             <label for="date">Date of Publication</label>
-            <input type="text" id="date"  name="publication_date"  required>
+            <input type="date" id="date"  name="publication_date"  required>
         </div>
 
         <div class="form-group">
@@ -30,11 +33,14 @@
         <div id="paragraph-wrapper"></div>
         <button type="button" class="add" onclick="addParagraph()">Add Content</button><br><br>
 
-
-
         <div class="form-group">
             <label for="tags">Tags</label>
-            <input type="text"  id="tags" name="tags">
+            <select name="tags" id="tags">
+                <option value="Our stories">Our stories</option>
+                <option value="News & updates">News & updates</option>
+                <option value="Community voices">Community voices</option>
+                <option value="Project highlights">Project highlights</option>
+            </select>
         </div>
 
         <div class="form-group">

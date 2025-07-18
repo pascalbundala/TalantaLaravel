@@ -5,18 +5,16 @@
 
  h1 {
     text-align: center;
-    color: #222526;
+    color: #222526d1;
     margin-top: 20px;
+    text-transform: capitalize;
 }
 
  form{
-    width: 80%;
     margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+
  }
 
 .form-group  {
@@ -25,9 +23,10 @@
     align-items: center;
     border: 1px solid #00000030;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     box-shadow: 2px 2px 3px #00000005;
-    padding: 5px 0px;
+    font-family: "Poppins", sans-serif;
+    padding: px 0px;
     border-radius: 10px;
 }
 
@@ -42,17 +41,15 @@
 .form-group input[type="text"]{
     display: flex;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #fff;
     border: none;
     border-left: 1px solid #00000014;
-    width: 90%;
-    font-size: 16px;
+    width: 85%;
+    font-size: 14px;
     color: #222526;
+    font-family: "Poppins", sans-serif;
+    border-radius:0px  10px 10px 0px
 
-}
-
-.form-group input[type="text"]:focus{
-    outline: none;
 }
 
 .form-group input[type="file"]{
@@ -61,20 +58,64 @@
     border: none;
     background-color: #ffffff;
     border-left: 1px solid #00000014;
-    width: 90%;
+    width: 86%;
+    border-radius:0px  10px 10px 0px;
+    font-size: 14px;
+    color: #222526;
+    font-family: "Poppins", sans-serif;
 }
+
+.form-group input[type="date"]{
+    display: flex;
+    padding: 8px;
+    border: none;
+    background-color: #ffffff;
+    border-left: 1px solid #00000014;
+    color: #222526;
+    width: 86%;
+    border-radius:0px  10px 10px 0px;
+    outline: none;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.form-group select{
+    display: flex;
+    padding: 10px;
+    background-color: #ffffff;
+    border: none;
+    border-left: 1px solid #00000014;
+    width: 86%;
+    border-radius:0px  10px 10px 0px;
+    color: #222526;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+.form-group select:focus{
+    outline: none;
+}
+
+
+.form-group input[type="text"]:focus{
+    outline: none;
+}
+
+
 
 .form-group textarea{
     display: flex;
     padding: 5px;
     margin: 0px 0px;
     border: none;
-    background-color: #ffffff;
+    background-color: #fff;
     border-left: 1px solid #00000014;
-    width: 90%;
+    width: 86%;
     min-height: 100px;
-    font-size: 16px;
+    font-size: 14px;
     color: #222526;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+     border-radius:0px  10px 10px 0px
 }
 
 .form-group textarea:focus{
@@ -84,9 +125,9 @@
  .btn-save{
     display: block;
     border: none;
-    background-color: green;
+    background-color:#007bff ;
     color: #fff;
-    width: 80%;
+    width: 100%;
     margin: 20px auto;
     padding: 15px;
     border-radius: 10px;
@@ -98,13 +139,13 @@
 .add{
     display: block;
     border: none;
-    background-color: #dfdfdf;
+    background-color: #007bff;
     border: 1px solid #cacaca;
-    color: #000000;
+    color: #fff;
     width: fit-content;
     margin: 20px auto;
     padding: 10px 30px;
-    border-radius: 0px;
+    border-radius: 10px;
     text-align: center;
     cursor: pointer;
     font-weight: 900;
@@ -121,15 +162,16 @@
 }
 
 .paragraph{
-    width: 95%;
-    background-color: #f6f6f6;
+    width: 100%;
+    background-color: #f4f4f4;
     height: fit-content;
     margin-bottom: 10px;
     display: flex;
     flex-flow: row;
     box-shadow: 2px 2px 3px #00000005;
-    border: 1px solid #ebebeb99;
+    border: 1px solid #00000031;
     padding:5px 20px 10px 25px;
+    border-radius: 10px;
 }
 
 .paragraph h1{
@@ -137,9 +179,10 @@
     height: fit-content;
     font-size: 14px;
     text-align: start;
-    font-weight: 300;
+    font-weight: 500;
     margin-right: 30px;
     margin: 0px 10px;
+    border-radius: 10px;
 }
 
 .paragraph .inside{
@@ -152,25 +195,35 @@
 .paragraph .inside label{
     color: #222526;
     height: fit-content;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 13px;
 }
 
 .paragraph .inside input[type="text"]{
-    color: #222526;
     height: fit-content;
     font-weight: 300;
-    border: 1px solid #00000010;
+    border: 1px solid #00000026;
     margin-bottom: 5px;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #222526;
+    font-family: "Poppins", sans-serif;
+    outline: none;
 }
 
 .paragraph .inside textarea{
+    font-size: 14px;
     color: #222526;
+    font-family: "Poppins", sans-serif;
     height: fit-content;
     font-weight: 300;
-    border: 1px solid #00000010;
+    border: 1px solid #00000026;
     margin-bottom: 0px;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
 }
 
 

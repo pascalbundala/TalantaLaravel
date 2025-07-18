@@ -65,29 +65,29 @@
                     @csrf
                     <div class="form-input">
                         <div class="divs">
-                            <label for="name">Firstname is*</label>
+                            <label for="name" class="required">Firstname is</label>
                             <input type="text" name="firstname" id="name">
                         </div>
 
                         <div class="divs">
-                            <label for="lastname">Surname is*</label>
+                            <label for="lastname" class="required">Surname is*</label>
                             <input type="text" name="lastname" id="lastname">
                         </div>
                     </div>
 
                     <div class="form-input">
                         <div class="divs">
-                            <label for="email">Email is*</label>
+                            <label for="email" class="required">Email is*</label>
                             <input type="text" name="email" id="email">
                         </div>
 
                         <div class="divs">
-                            <label for="phone">Phone is*</label>
+                            <label for="phone" class="required">Phone is*</label>
                             <input type="text" name="phone" id="phone">
                         </div>
                     </div>
 
-                    <label class="big-message" for="message">Tell us your story*</label>
+                    <label class="big-message" for="message" class="required">Tell us your story*</label>
                     <textarea id="textArea" name="message" rows="4" cols="50" placeholder="Write us your message....."></textarea>
 
                     <button type="submit"  id="submit">submit</button>
@@ -116,13 +116,5 @@
 
    @include('footer')
    <script src="{{asset('js/script.js')}}"></script>
-    {{-- <script>
-        window.addEventListener("DOMContentLoaded", () => {
-        const video = document.getElementById("hero-video");
-        const source = video.querySelector("source");
-        source.setAttribute("src", "{{asset('images/Talanta-Trust-Introduction.mp4')}}");
-        video.load();
-       });
-    </script> --}}
 </body>
 </html>

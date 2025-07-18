@@ -89,21 +89,21 @@
                     @csrf
                     <div class="form-input">
                         <div class="divs">
-                            <label for="name">Full Name*</label>
+                            <label for="name" class="required">Full Name</label>
                             <input type="text" name="names" id="name">
                         </div>
                     </div>
 
                     <div class="form-input">
                         <div class="divs">
-                            <label for="email">Email Address*</label>
+                            <label for="email" class="required">Email Address</label>
                             <input type="text" name="email" id="email">
                         </div>
                     </div>
 
                     <div class="form-input">
                         <div class="divs">
-                            <label for="phone">Phone Number*</label>
+                            <label for="phone" class="required">Phone Number</label>
                             <input type="text" name="phone" id="phone">
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                     </div>
 
                     <div class="form-multiple">
-                        <h3 for="Service">Type of Service Needed</h3>
+                        <h3 for="Service" class="required">Type of Service Needed</h3>
                         <div class="divs">
                             <div class="checkboxes">
 
@@ -169,7 +169,7 @@
                         </div>
                     </div>
 
-                    <label class="big-message" for="message">Project Description</label>
+                    <label class="big-message" for="message" class="required">Project Description</label>
                     <textarea id="textArea" name="project" rows="4" cols="50" placeholder="Write us your message....."></textarea>
 
                     <label class="big-message" for="message">Additional Information or Questions</label>

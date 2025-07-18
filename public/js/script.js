@@ -95,3 +95,15 @@ year.textContent = currentYear;
     }
   });
 
+  function share() {
+    if (navigator.share) {
+        navigator.share({
+            title: 'Blog Title',
+            text: 'Check out this blog!',
+            url: window.location.href
+        });
+    } else {
+        // fallback to custom share modal or dropdown
+        alert("Browser doesn't support direct sharing. Please copy the link or use social icons.");
+    }
+}

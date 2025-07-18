@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\BloagReadController;
+use App\Http\Controllers\AuthController;
 
 Route::get('/', function () {
     return view('index');
@@ -44,14 +45,21 @@ Route::get('/our-project', function () {
 })->name('our-project');
 
 Route::get('/blog', [BloagReadController::class, 'index'])->name('blog');
-Route::get('/blog-details/{id}',[BloagReadController::class,'show'])->name('blog-detail');
+Route::get('/blog-post/{id}',[BloagReadController::class,'show'])->name('blog-detail');
 
-Route::get('/dashboard', function () {
-    return view('admin.blog.create');
-})->name('admin');
-
-Route::resource('blogs', BlogController::class)->names('blogsdata');
-
+Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [AuthController::class, 'login'])->name('login.submit');
+Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+Route::get('/register', [AuthController::class, 'showRegisterForm'])->name('register');
+Route::post('/register', [AuthController::class, 'register']);
+// Admin panel route (protected)
+Route::middleware('auth')->group(function () {
+    Route::get('/dashboard', function () {
+        return view('admin.dashboard');
+    })->name('admin.dashboard');
+    Route::resource('blogs', BlogController::class)->names('blogsdata');
+    Route::resource('settings', BlogController::class)->names('settings');
+});
 
 Route::post('/workwithus', [ContactController::class, 'send'])->name('workwithus.send');
 Route::post('/contactus', [ContactController::class, 'contact'])->name('contactus.contact');
