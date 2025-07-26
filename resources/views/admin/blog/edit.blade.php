@@ -31,14 +31,20 @@
         </div>
 
         <h3>Blog Content</h3>
-        @foreach ($blogs->paragraphs as $paragraph)
+
+        @foreach($blogs->paragraphs as $index => $paragraph)
             <div class="paragraph">
-                <h1>{{ $loop->iteration }}</h1>
+                <div class="p-action">
+                    <h1>Paragraph {{ $loop->iteration }}</h1>
+                    <button class="remove-button" type="button" onclick="removeParagraph(this)"><i class="fa-solid fa-trash"></i></button>
+                </div>
+
                 <div class="inside">
-                    <label>Title</label>
-                    <input type="text" name="paragraphs[{{ $loop->index }}][title]" value="{{ $paragraph->title }}" required>
-                    <label>Content</label>
-                    <textarea name="paragraphs[{{ $loop->index }}][content]" rows="10" required>{{ $paragraph->content }}</textarea>
+                        <input type="hidden" name="paragraphs[{{ $index }}][id]" value="{{ $paragraph->id }}">
+                        <label>Title</label>
+                        <input type="text" name="paragraphs[{{ $index }}][title]" value="{{ old("paragraphs.$index.title", $paragraph->title) }}" required>
+                        <label>Content</label>
+                        <textarea name="paragraphs[{{ $index }}][content]" rows="10" required>{{ old("paragraphs.$index.content", $paragraph->content) }}</textarea>
                 </div>
             </div>
         @endforeach
@@ -63,16 +69,21 @@
         <div class="form-group">
             <label for="">Cover Image</label>
             <input type="file"  name="cover_image" >
+            <img src="{{asset(''.$blogs->cover_image)}}" alt="">
         </div>
 
         <div class="form-group">
             <label for="">Large Image</label>
             <input type="file"  name="large_image" >
+            <img src="{{asset(''.$blogs->large_image)}}" alt="">
         </div>
 
         <div class="form-group">
             <label for="">Featured Image</label>
             <input type="file"  name="feature_image[]" multiple >
+            @foreach ($blogs->images as $image )
+                <img src="{{asset(''.$image->image_path)}}" alt="">
+            @endforeach
         </div>
 
         <button type="submit" class="btn-save">Submit</button>

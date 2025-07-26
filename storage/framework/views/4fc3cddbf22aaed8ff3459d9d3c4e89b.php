@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Project-talanta trust</title>
-    <link rel="icon" href="{{asset('images/Talanta Trust official logo-11.png')}}" type="image/x-icon">
-    <link rel="stylesheet" href="{{asset('css/nav.css')}}">
-    <link rel="stylesheet" href="{{asset('css/nav-constant.css')}}">
-    <link rel="stylesheet" href="{{asset('css/copyright.css')}}">
-    <link rel="stylesheet" href="{{asset('css/links-to-pages.css')}}">
-    <link rel="stylesheet" href="{{asset('css/project.css')}}"/>
-    <link rel="stylesheet" href="{{asset('css/blog.css')}}"/>
+    <link rel="icon" href="<?php echo e(asset('images/Talanta Trust official logo-11.png')); ?>" type="image/x-icon">
+    <link rel="stylesheet" href="<?php echo e(asset('css/nav.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset('css/nav-constant.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset('css/copyright.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset('css/links-to-pages.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset('css/project.css')); ?>"/>
+    <link rel="stylesheet" href="<?php echo e(asset('css/blog.css')); ?>"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-...your-integrity-code..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -81,7 +81,7 @@
     </style>
 </head>
 <body>
-    @include('header')
+    <?php echo $__env->make('header', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
     <div class="empty">
     </div>
     <section class="project-title">
@@ -92,28 +92,29 @@
         <h1>Welcome to the Talanta Trust updates</h1>
     </section>
 
-    <h1 class="start"><img src="{{asset('images/TALANTA-TRUST-BLOGO-ARROW.svg')}}" alt="" srcset=""> Blog</h1>
+    <h1 class="start"><img src="<?php echo e(asset('images/TALANTA-TRUST-BLOGO-ARROW.svg')); ?>" alt="" srcset=""> Blog</h1>
 
     <section class="blog-container">
-        @forelse ($blogs as $blog )
+        <?php $__empty_1 = true; $__currentLoopData = $blogs; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $blog): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); $__empty_1 = false; ?>
 
          <div class="blog-post">
-            <img  src="{{ asset(''. $blog->cover_image) }}" alt="post1">
+            <img  src="<?php echo e(asset(''. $blog->cover_image)); ?>" alt="post1">
             <div class="post-description">
-                <h2 class="subtitle">{{$blog->subtitle}}</h2>
-                <h2 class="title">{{$blog->title}}</h2>
-                <h2 class="author">{{$blog->author_name}}</h2>
-                <p>{{$blog->preview_text}}</p>
-                <a href="{{route('blog-detail',$blog->id)}}" class="read-more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                <h2 class="subtitle"><?php echo e($blog->subtitle); ?></h2>
+                <h2 class="title"><?php echo e($blog->title); ?></h2>
+                <h2 class="author"><?php echo e($blog->author_name); ?></h2>
+                <p><?php echo e($blog->preview_text); ?></p>
+                <a href="<?php echo e(route('blog-detail',$blog->id)); ?>" class="read-more">Read More <i class="fa-solid fa-angle-right"></i></a>
             </div>
         </div>
-        @empty
+        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); if ($__empty_1): ?>
             <h3>No blogs found!!</h3>
 
-        @endforelse
+        <?php endif; ?>
 
         <div class="pagination">
-            {{ $blogs->links('pagination::default') }}
+            <?php echo e($blogs->links('pagination::default')); ?>
+
         </div>
     </section>
 
@@ -123,7 +124,8 @@
             </p>
     </section>
 
-    @include('footer')
-    <script src="{{asset('js/script.js')}}"></script>
+    <?php echo $__env->make('footer', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+    <script src="<?php echo e(asset('js/script.js')); ?>"></script>
 </body>
 </html>
+<?php /**PATH /home/p/Desktop/PROJECT/Talanta/TalantaWebsite/resources/views/blog.blade.php ENDPATH**/ ?>

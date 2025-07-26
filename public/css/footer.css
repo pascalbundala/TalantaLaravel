@@ -75,7 +75,7 @@
     transform:translateY(-5px);
   } */
 
-  .other-data ul li:hover a{
+  .other-data ul li:hover .links-page{
     color: #fff;
     font-weight: 900;
 

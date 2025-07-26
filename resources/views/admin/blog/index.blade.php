@@ -18,6 +18,7 @@
                 <th>Subtitle</th>
                 <th>Author</th>
                 <th>Date</th>
+                <th>Tags</th>
                 <th>Preview Text</th>
                 <th>Actions</th>
             </tr>
@@ -30,6 +31,7 @@
                     <td>{{ $blog->subtitle }}</td>
                     <td>{{ $blog->author_name }}</td>
                     <td>{{ $blog->publication_date }}</td>
+                    <td>{{ $blog->tags }}</td>
                     <td>{{ $blog->preview_text }}</td>
                     <td class="actions">
                         {{-- <a href="{{ route('blogsdata.show', $blog->id) }}">View</a> --}}
@@ -40,6 +42,7 @@
                             <button type="submit" onclick="return confirm('Are you sure?')"> Delete</button>
                         </form>
                     </td>
+
                 </tr>
             @endforeach
         </tbody>

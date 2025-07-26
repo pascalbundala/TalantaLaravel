@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin-Talantatrust</title>
-  <link rel="stylesheet" href="{{asset('admin/admintemplate.css')}}">
-  <link rel="stylesheet" href="{{asset('admin/create.css')}}">
-  <link rel="icon" href="{{asset('images/Talanta Trust official logo-11.png')}}" type="image/x-icon">
+  <link rel="stylesheet" href="<?php echo e(asset('admin/admintemplate.css')); ?>">
+  <link rel="stylesheet" href="<?php echo e(asset('admin/create.css')); ?>">
+  <link rel="icon" href="<?php echo e(asset('images/Talanta Trust official logo-11.png')); ?>" type="image/x-icon">
 
     <!-- common links to everypage -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-...your-integrity-code..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -19,17 +19,17 @@
 <body>
 
    <div class="sidebar">
-      <div class="logo"><img src="{{asset('images/Talanta Trust official logo-01.png')}}" alt="" srcset=""></div>
+      <div class="logo"><img src="<?php echo e(asset('images/Talanta Trust official logo-01.png')); ?>" alt="" srcset=""></div>
         <ul>
-            <li class="{{ request()->is('dashboard') ? 'active' : '' }}">
-                <a href="{{ url('/dashboard') }}">Dashboard</a>
+            <li class="<?php echo e(request()->is('dashboard') ? 'active' : ''); ?>">
+                <a href="<?php echo e(url('/dashboard')); ?>">Dashboard</a>
             </li>
 
-            <li class="{{ request()->is('blogs*') ? 'active' : '' }}">
-                <a href="{{ route('blogsdata.index') }}">Blogs</a>
+            <li class="<?php echo e(request()->is('blogs*') ? 'active' : ''); ?>">
+                <a href="<?php echo e(route('blogsdata.index')); ?>">Blogs</a>
             </li>
-            <li class="{{ request()->is('settings') ? 'active' : '' }}">
-                <a href="{{ route('settings.index') }}">Settings</a>
+            <li class="<?php echo e(request()->is('settings') ? 'active' : ''); ?>">
+                <a href="<?php echo e(route('settings.index')); ?>">Settings</a>
             </li>
         </ul>
 
@@ -37,14 +37,14 @@
 
     <div class="main-content">
         <div class="navbar">
-                <p> <i class="fa-solid fa-user" style="margin-right:10px"></i>  {{ auth()->user()->email }}</p>
-                <form method="POST" action="{{ route('logout') }}" class="logout-form">
-                    @csrf
+                <p> <i class="fa-solid fa-user" style="margin-right:10px"></i>  <?php echo e(auth()->user()->email); ?></p>
+                <form method="POST" action="<?php echo e(route('logout')); ?>" class="logout-form">
+                    <?php echo csrf_field(); ?>
                     <button type="submit"> <i class="fa-solid fa-power-off" style="color:red"></i> Logout</button>
                 </form>
         </div>
         <div class="main">
-            @yield('content')
+            <?php echo $__env->yieldContent('content'); ?>
         </div>
     </div>
     <script>
@@ -97,3 +97,4 @@
 
 </body>
 </html>
+<?php /**PATH /home/p/Desktop/PROJECT/Talanta/TalantaWebsite/resources/views/admin/admintemplate.blade.php ENDPATH**/ ?>

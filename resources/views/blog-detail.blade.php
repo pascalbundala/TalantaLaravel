@@ -24,12 +24,12 @@
             <div class="titles">
                 <span></span>
                 <div class="holder-t">
-                    <h2 class="title">{{$blog->title}}</h2>
                     <h2 class="subtitle">{{$blog->subtitle}}</h2>
+                    <h2 class="title">{{$blog->title}}</h2>
                 </div>
             </div>
 
-            <img src="{{asset('public/'. $blog->large_image) }}"  alt="" class="large-image">
+            <img src="{{asset(''. $blog->large_image) }}"  alt="" class="large-image">
 
             @foreach ( $blog->paragraphs as $paragraph )
                 <div class="blog-word">
@@ -78,6 +78,7 @@
                 Welcome to the storytelling space of Talanta Trust, where real impact meets real voices. Here, we share meaningful moments, updates, and reflections from the field. From community voices and project updates to inspiring journeys and powerful visuals, this is where you will find the stories that shape our mission. Whether it’s the success of a grassroots initiative or the evolution of a new campaign, our stories celebrate changemakers making a difference every day.
             </p>
     </section>
+
     @include('footer')
     <script src="{{asset('js/script.js')}}"></script>
 </body>

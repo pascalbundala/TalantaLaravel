@@ -45,14 +45,14 @@
     flex-direction: column;
 }
 
-.main-content .text-with-image .titles .holder-t .title{
+.main-content .text-with-image .titles .holder-t .subtitle{
     font-size: 1.2rem;
     font-family: "Poppins",sans-serif;
     color: #F15B27;
     text-transform: capitalize;
 }
 
-.main-content .text-with-image .titles .holder-t  .subtitle{
+.main-content .text-with-image .titles .holder-t  .title{
     font-size: 1.7rem;
     font-family: "Anton",sans-serif;
     color: #1A202a;
@@ -234,7 +234,7 @@
     font-family: "Anton", sans-serif;
 }
 
-.main-content .content-related .blog-card .text-clmn .title{
+.main-content .content-related .blog-card .text-clmn .subtitle{
     font-size: 0.90rem;
     font-weight: 600;
     color: #F15B27;
@@ -242,7 +242,7 @@
     text-transform: capitalize;
 }
 
-.main-content .content-related .blog-card .text-clmn .subtitle{
+.main-content .content-related .blog-card .text-clmn .title{
     font-size: 1.2rem;
     line-height: 1.2rem;
     font-weight: 500;
@@ -296,11 +296,11 @@
     margin: 0 auto;
 }
 
-.main-content .text-with-image .titles .holder-t .title{
+.main-content .text-with-image .titles .holder-t .subtitle{
     font-size: 0.90rem;
 }
 
-.main-content .text-with-image .titles .holder-t  .subtitle{
+.main-content .text-with-image .titles .holder-t  .title{
     font-size: 1.2rem;
     text-transform: uppercase;
 }
@@ -330,12 +330,12 @@
     line-height: 1.5rem;
 }
 
-.main-content .content-related .blog-card .text-clmn .title{
+.main-content .content-related .blog-card .text-clmn .subtitle{
     font-size: 0.65rem;
     font-weight: 600;
 }
 
-.main-content .content-related .blog-card .text-clmn .subtitle{
+.main-content .content-related .blog-card .text-clmn .title{
     font-size: 0.90rem;
     line-height: 0.9rem;
     margin: 5px 0px 5px 0px;
@@ -404,11 +404,11 @@
 }
 
 
-.main-content .content-related .blog-card .title{
+.main-content .content-related .blog-card .subtitle{
     font-size: 1.3rem;
 }
 
-.main-content .content-related .blog-card .subtitle{
+.main-content .content-related .blog-card .title{
     font-size: 1.4rem;
 }
 
@@ -444,13 +444,13 @@
     font-size: 1.3rem;
 }
 
-    .main-content .content-related .blog-card .text-clmn .title{
+    .main-content .content-related .blog-card .text-clmn .subtitle{
         font-size: 1.3rem;
         line-height: 1rem;
         font-weight: 600;
     }
 
-    .main-content .content-related .blog-card .text-clmn .subtitle{
+    .main-content .content-related .blog-card .text-clmn .title{
         font-size: 1.4rem;
         line-height: 1.5rem;
         margin: 10px 0px 10px 0px;
@@ -483,11 +483,11 @@
         font-size: 1.4rem;
     }
 
-    .main-content .text-with-image .titles .holder-t .title{
+    .main-content .text-with-image .titles .holder-t .subtitle{
         font-size: 1.4rem;
     }
 
-    .main-content .text-with-image .titles .holder-t  .subtitle{
+    .main-content .text-with-image .titles .holder-t  .title{
         font-size: 2rem;
     }
 
@@ -545,13 +545,13 @@
         margin-right: 0px;
     }
 
-    .main-content .content-related .blog-card .text-clmn .title{
+    .main-content .content-related .blog-card .text-clmn .subtitle{
         font-size: 2rem;
         line-height: 1.8rem;
         font-weight: 600;
     }
 
-    .main-content .content-related .blog-card .text-clmn .subtitle{
+    .main-content .content-related .blog-card .text-clmn .title{
         font-size: 2.5rem;
         line-height: 2.5rem;
         margin: 20px 0px 20px 0px;
@@ -582,11 +582,11 @@
         font-size: 2.4rem;
     }
 
-    .main-content .text-with-image .titles .holder-t .title{
+    .main-content .text-with-image .titles .holder-t .subtitle{
         font-size: 2.8rem;
     }
 
-    .main-content .text-with-image .titles .holder-t  .subtitle{
+    .main-content .text-with-image .titles .holder-t  .title{
         font-size: 4rem;
     }
 
@@ -658,13 +658,13 @@
         width: 50%;
     }
 
-    .main-content .content-related .blog-card .text-clmn .title{
+    .main-content .content-related .blog-card .text-clmn .subtitle{
         font-size: 4.2rem;
         line-height:4.5rem;
         font-weight: 600;
     }
 
-    .main-content .content-related .blog-card .text-clmn .subtitle{
+    .main-content .content-related .blog-card .text-clmn .title{
         font-size: 5.5rem;
         line-height: 5.5rem;
         margin: 40px 0px 40px 0px;
@@ -707,11 +707,11 @@
     }
 
 
-    .main-content .text-with-image .titles .holder-t .title{
+    .main-content .text-with-image .titles .holder-t .subtitle{
         font-size: 5.6rem;
     }
 
-    .main-content .text-with-image .titles .holder-t  .subtitle{
+    .main-content .text-with-image .titles .holder-t  .title{
         font-size: 8rem;
     }
 

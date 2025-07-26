@@ -6,6 +6,36 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\BloagReadController;
 use App\Http\Controllers\AuthController;
+use Spatie\Sitemap\Sitemap;
+use Spatie\Sitemap\Tags\Url;
+
+use App\Models\Blog;
+
+Route::get('/generate-sitemap', function () {
+    $sitemap = Sitemap::create()
+        ->add(Url::create('/'))
+        ->add(Url::create('/about'))
+        ->add(Url::create('/contact'))
+        ->add(Url::create('/cookie'))
+        ->add(Url::create('/privacy'))
+        ->add(Url::create('/faq'))
+        ->add(Url::create('/gallery'))
+        ->add(Url::create('/our-project'))
+        ->add(Url::create('/work-with-us'))
+        ->add(Url::create('/blog'));
+
+    // Add dynamic blog post URLs using ID
+    // Blog::where('is_active', true)->get()->each(function ($blog) use ($sitemap) {
+    //     $sitemap->add(
+    //         Url::create("/blog-post/{$blog->id}")->setLastModificationDate($blog->updated_at)
+    //     );
+    // });
+
+    $sitemap->writeToFile(public_path('sitemap.xml'));
+
+    return 'Sitemap generated!';
+});
+
 
 Route::get('/', function () {
     return view('index');

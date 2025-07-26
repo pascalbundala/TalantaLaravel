@@ -4,36 +4,33 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Home-TalantTrust| this company deals with helping NGOs to thrive in digital World</title>
-  <link rel="icon" href="{{asset('images/Talanta Trust official logo-11.png')}}" type="image/x-icon">
-  <link rel="stylesheet" href="{{asset('css/nav.css')}}">
-   <link rel="stylesheet" href="{{asset('css/nav-constant.css')}}">
-  <link rel="stylesheet" href="{{asset('css/hero.css')}}"/>
-  <link rel="stylesheet" href="{{asset('css/second.css')}}"/>
-  <link rel="stylesheet" href="{{asset('css/secondextra.css')}}"/>
-  <link rel="stylesheet" href="{{asset('css/slider.css')}}" />
-  <link rel="stylesheet" href="{{asset('css/join.css')}}" />
-  <link rel="stylesheet" href="{{asset('css/footer.css')}}" />
-  <link rel="stylesheet" href="{{asset('css/copyright.css')}}">
- {{-- font icons --}}
+  <link rel="icon" href="<?php echo e(asset('images/Talanta Trust official logo-11.png')); ?>" type="image/x-icon">
+  <link rel="stylesheet" href="<?php echo e(asset('css/nav.css')); ?>">
+   <link rel="stylesheet" href="<?php echo e(asset('css/nav-constant.css')); ?>">
+  <link rel="stylesheet" href="<?php echo e(asset('css/hero.css')); ?>"/>
+  <link rel="stylesheet" href="<?php echo e(asset('css/second.css')); ?>"/>
+  <link rel="stylesheet" href="<?php echo e(asset('css/secondextra.css')); ?>"/>
+  <link rel="stylesheet" href="<?php echo e(asset('css/slider.css')); ?>" />
+  <link rel="stylesheet" href="<?php echo e(asset('css/join.css')); ?>" />
+  <link rel="stylesheet" href="<?php echo e(asset('css/footer.css')); ?>" />
+  <link rel="stylesheet" href="<?php echo e(asset('css/copyright.css')); ?>">
+ 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-...your-integrity-code..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
-  {{-- font  --}}
+  
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    @include('header')
+    <?php echo $__env->make('header', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
     <section id="hero" class="hero">
         <video autoplay muted loop  playsinline preload="none" class="background-video"  id="hero-video">
-            {{-- poster="{{asset('images/TalantaTrustHome.webp')}}" --}}
-        <source src="{{asset('images/Talanta-Trust-Introduction.mp4')}}" type="video/mp4" />
+            
+        <source src="<?php echo e(asset('images/Talanta-Trust-Introduction.mp4')); ?>" type="video/mp4" />
         Your browser does not support the video tag.
         </video>
 
-        {{-- <video autoplay muted playsinline preload="none" poster="preview.jpg" id="hero-video">
-        <source src="video.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-        </video> --}}
+        
 
         <div class="hero-content">
         <h1>
@@ -42,7 +39,7 @@
             <span>Talanta Trust</span>
         </h1>
 
-        <img src="{{asset('images/svg/talanta-trust-vector-01.svg')}}" alt="">
+        <img src="<?php echo e(asset('images/svg/talanta-trust-vector-01.svg')); ?>" alt="">
         <a href="#" class="btn">Scroll to dive in</a>
         </div>
     </section>
@@ -99,26 +96,26 @@
     <section class="multi-slider">
         <div class="slider-track" id="sliderTrack">
 
-            <img src="{{asset('images/home-gallery/Talanta-trust-culture1.webp')}}"  alt="Talanta Trust Image culture">
-            <img src="{{asset('images/home-gallery/Talanta-trust-nature4.webp')}}"  alt="Talanta Trust Image nature ">
-            <img src="{{asset('images/home-gallery/Talanta-trust-people9.webp')}}"  alt="Talanta Trust Image people ">
-            <img src="{{asset('images/home-gallery/Talanta-trust-wildlife12.webp')}}"  alt="Talanta Trust Image wildlife">
-            <img src="{{asset('images/home-gallery/Talanta-trust-nature5.webp')}}" alt="Talanta Trust Image 14">
-            <img src="{{asset('images/home-gallery/Talanta-trust-people10.webp')}}"  alt="Talanta Trust Image 4">
-            <img src="{{asset('images/home-gallery/Talanta-trust-wildlife13.webp')}}" alt="Talanta Trust Image 16">
-            <img src="{{asset('images/home-gallery/Talanta-trust-culture3.webp')}}"  alt="Talanta Trust Image 7">
-            <img src="{{asset('images/home-gallery/Talanta-trust-nature6.webp')}}" alt="Talanta Trust Image 17">
-            <img src="{{asset('images/home-gallery/Talanta-trust-people11.webp')}}"  alt="Talanta Trust Image 8">
-            <img src="{{asset('images/home-gallery/Talanta-trust-wildlife14.webp')}}" alt="Talanta Trust Image 18">
-            <img src="{{asset('images/home-gallery/Talanta-trust-nature7.webp')}}"  alt="Talanta Trust Image 9">
-            <img src="{{asset('images/home-gallery/Talanta-trust-wildlife15.webp')}}" alt="Talanta Trust Image 19">
-            <img src="{{asset('images/home-gallery/Talanta-trust-nature8.webp')}}" alt="Talanta Trust Image 10">
-            <img src="{{asset('images/home-gallery/Talanta-trust-wildlife16.webp')}}" alt="Talanta Trust Image 20">
-            <img src="{{asset('images/home-gallery/Talanta-trust-wildlife17.webp')}}" alt="Talanta Trust Image 11">
+            <img src="<?php echo e(asset('images/home-gallery/Talanta-trust-culture1.webp')); ?>"  alt="Talanta Trust Image culture">
+            <img src="<?php echo e(asset('images/home-gallery/Talanta-trust-nature4.webp')); ?>"  alt="Talanta Trust Image nature ">
+            <img src="<?php echo e(asset('images/home-gallery/Talanta-trust-people9.webp')); ?>"  alt="Talanta Trust Image people ">
+            <img src="<?php echo e(asset('images/home-gallery/Talanta-trust-wildlife12.webp')); ?>"  alt="Talanta Trust Image wildlife">
+            <img src="<?php echo e(asset('images/home-gallery/Talanta-trust-nature5.webp')); ?>" alt="Talanta Trust Image 14">
+            <img src="<?php echo e(asset('images/home-gallery/Talanta-trust-people10.webp')); ?>"  alt="Talanta Trust Image 4">
+            <img src="<?php echo e(asset('images/home-gallery/Talanta-trust-wildlife13.webp')); ?>" alt="Talanta Trust Image 16">
+            <img src="<?php echo e(asset('images/home-gallery/Talanta-trust-culture3.webp')); ?>"  alt="Talanta Trust Image 7">
+            <img src="<?php echo e(asset('images/home-gallery/Talanta-trust-nature6.webp')); ?>" alt="Talanta Trust Image 17">
+            <img src="<?php echo e(asset('images/home-gallery/Talanta-trust-people11.webp')); ?>"  alt="Talanta Trust Image 8">
+            <img src="<?php echo e(asset('images/home-gallery/Talanta-trust-wildlife14.webp')); ?>" alt="Talanta Trust Image 18">
+            <img src="<?php echo e(asset('images/home-gallery/Talanta-trust-nature7.webp')); ?>"  alt="Talanta Trust Image 9">
+            <img src="<?php echo e(asset('images/home-gallery/Talanta-trust-wildlife15.webp')); ?>" alt="Talanta Trust Image 19">
+            <img src="<?php echo e(asset('images/home-gallery/Talanta-trust-nature8.webp')); ?>" alt="Talanta Trust Image 10">
+            <img src="<?php echo e(asset('images/home-gallery/Talanta-trust-wildlife16.webp')); ?>" alt="Talanta Trust Image 20">
+            <img src="<?php echo e(asset('images/home-gallery/Talanta-trust-wildlife17.webp')); ?>" alt="Talanta Trust Image 11">
 
         </div>
         <h1>We are <span>Storytellers</span></h1>
-        <a href="{{route('gallery')}}">Visit our gallery</a>
+        <a href="<?php echo e(route('gallery')); ?>">Visit our gallery</a>
     </section>
 
     <section class="join-section">
@@ -130,7 +127,7 @@
                 Boards, and Individuals Across Industries
                 Ready to Collaborate with Us.</p>
 
-            <a href="{{route('work-with-us')}}">Connect with Us Today!</a>
+            <a href="<?php echo e(route('work-with-us')); ?>">Connect with Us Today!</a>
         </div>
         </div>
     </section>
@@ -150,12 +147,12 @@
             <div class="other-data">
                 <ul>
 
-                    <li><a class="links-page" href="{{route('work-with-us')}}">work with us</a></li>
-                    <li><a class="links-page" href="{{route('contact')}}">contact</a></li>
-                    <li><a class="links-page" href="{{route('about-us')}}">About us</a></li>
-                    <li><a class="links-page" href="{{route('our-project')}}">Our Project</a></li>
-                    <li><a class="links-page"  href="{{route('blog')}}">News & Stories</a></li>
-                    <li><a class="links-page" href="{{route('faq')}}">FAQ</a></li>
+                    <li><a class="links-page" href="<?php echo e(route('work-with-us')); ?>">work with us</a></li>
+                    <li><a class="links-page" href="<?php echo e(route('contact')); ?>">contact</a></li>
+                    <li><a class="links-page" href="<?php echo e(route('about-us')); ?>">About us</a></li>
+                    <li><a class="links-page" href="<?php echo e(route('our-project')); ?>">Our Project</a></li>
+                    <li><a class="links-page"  href="<?php echo e(route('blog')); ?>">News & Stories</a></li>
+                    <li><a class="links-page" href="<?php echo e(route('faq')); ?>">FAQ</a></li>
                     <li>
                     <div class="social">
                         <div class="round_border" ><a href="https://web.facebook.com/talantatrust" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></div>
@@ -171,9 +168,9 @@
           </div>
     </section>
 
-    @include('footer')
+    <?php echo $__env->make('footer', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
 
-    <script src="{{asset('js/script.js')}}"></script>
+    <script src="<?php echo e(asset('js/script.js')); ?>"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
@@ -188,15 +185,9 @@
         });
     </script>
 
-    {{-- <script>
-        window.addEventListener("DOMContentLoaded", () => {
-        const video = document.getElementById("hero-video");
-        const source = video.querySelector("source");
-        source.setAttribute("src", "{{asset('images/Talanta-Trust-Introduction.mp4')}}");
-        video.load();
-       });
-    </script> --}}
+    
 
 
 </body>
 </html>
+<?php /**PATH /home/p/Desktop/PROJECT/Talanta/TalantaWebsite/resources/views/index.blade.php ENDPATH**/ ?>

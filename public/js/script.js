@@ -83,9 +83,8 @@ year.textContent = currentYear;
   });
 
 
-//   arrange image in blog detailpage
-
-  document.addEventListener("DOMContentLoaded", function () {
+//arrange image in blog detailpage
+ document.addEventListener("DOMContentLoaded", function () {
     const container = document.querySelector(".text-with-image");
     const items = container.querySelectorAll(".blog-word");
     const image = container.querySelector(".images-feature");
@@ -95,6 +94,7 @@ year.textContent = currentYear;
     }
   });
 
+//share blogs
   function share() {
     if (navigator.share) {
         navigator.share({
@@ -103,7 +103,6 @@ year.textContent = currentYear;
             url: window.location.href
         });
     } else {
-        // fallback to custom share modal or dropdown
         alert("Browser doesn't support direct sharing. Please copy the link or use social icons.");
     }
 }
